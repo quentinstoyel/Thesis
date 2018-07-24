@@ -1,0 +1,85 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\graphicspath{{Images/}}
+\usepackage{textcomp} %for the copywrite symbol
+\linespread{1.6} %sets lines to 1.5 spacing.  1.6 would be double spaced
+\usepackage[margin=1.0in]{geometry}
+\usepackage[semicolon,round,sort&compress,sectionbib,numbers]{natbib}  
+\usepackage{chapterbib}  
+\usepackage{amsmath}
+\usepackage{subcaption}
+
+
+\usepackage{hyperref} %make stuff clickable
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+
+\usepackage{physics}  %for bras and kets!
+\newcommand{\angstrom}{\mbox{\normalfont\AA }} %makes \angstrom do its thing!
+ 
+\begin{document}
+
+
+
+
+
+\input{Additional_files/title_page.tex}
+
+
+
+
+
+
+
+
+\chapter*{Abstract}
+\renewcommand{\thepage}{\roman{page}}% Roman numerals for page counter
+
+\addcontentsline{toc}{section}{Abstract}
+
+A new method of calculating the magnitude of the core hole screening in the case of lithium materials is developed and implemented for the accurate simulation of Energy Loss Near Edge Structure (ELNES).  ELNES is calculated for Li, $\mathrm{Li_2O}$, and LiF with marked improvements in agreement between calculation and experiment, as well as superior quantitative and predictive abilities.   The technique uses linear response theory to relate the electron density to the core hole shielding contribution from the valence electrons in a molecule.  This contribution is then implemented via a non integer core hole in final state rule calculations. 
+\\
+Abstract in French too
+
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{section}{Acknowledgements}
+To all those useful folks
+
+\chapter*{Contribution to Original Knowledge}
+\addcontentsline{toc}{section}{Contribution to Original Knowledge}
+A new method of investigating Lithium materials was developed.  Density functional theory results are used to simulate Electron energy loss fine structure.  The core hole approximation ex
+
+
+
+\tableofcontents
+
+\chapter{Introduction}
+\renewcommand{\thepage}{\arabic{page}}% Arabic numerals for page counter
+\setcounter{page}{1}% sets page number
+
+\input{Chapters/introduction.tex}
+
+
+\chapter{Literature Review}
+\input{Chapters/EELS.tex}
+\section{Density Functional Theory}
+\input{Chapters/DFT.tex}
+\section{EELS Calculations}
+\input{Chapters/EELScalculations.tex}
+
+\chapter{Shielding Calculations}
+\input{Chapters/method.tex}
+
+
+
+\chapter{Applications}
+\input{Chapters/Results.tex}
+
+
+\end{document}

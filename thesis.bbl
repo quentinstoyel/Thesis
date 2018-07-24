@@ -1,0 +1,376 @@
+\begin{thebibliography}{10}
+
+\bibitem{etacheri_challenges_2011}
+Vinodkumar Etacheri, Rotem Marom, Ran Elazari, Gregory Salitra, and Doron
+  Aurbach.
+\newblock Challenges in the development of advanced {Li}-ion batteries: a
+  review.
+\newblock {\em Energy \& Environmental Science}, 4(9):3243--3262, 2011.
+
+\bibitem{inkson_2_2016}
+B.~J. Inkson.
+\newblock Scanning electron microscopy (sem) and transmission electron
+  microscopy (tem) for materials characterization.
+\newblock In Gerhard Hübschen, Iris Altpeter, Ralf Tschuncky, and Hans-Georg
+  Herrmann, editors, {\em Materials Characterization Using Nondestructive
+  Evaluation (NDE) Methods}, pages 17--43. Woodhead Publishing, 2016.
+
+\bibitem{Egerton}
+RF~Egerton.
+\newblock Eels in the electron microscope.
+\newblock {\em Springer, New York p}, 226, 1986.
+
+\bibitem{ks_1965}
+W.~Kohn and L.~J. Sham.
+\newblock Self-{Consistent} {Equations} {Including} {Exchange} and
+  {Correlation} {Effects}.
+\newblock {\em Physical Review}, 140(4A):A1133--A1138, 1965.
+
+\bibitem{goldstein_electron_2003}
+Joseph~I. Goldstein, Dale~E. Newbury, Patrick Echlin, David~C. Joy, Charles~E.
+  Lyman, Eric Lifshin, Linda Sawyer, and Joseph~R. Michael.
+\newblock {\em Scanning Electron Microscopy and X-ray Microanalysis}.
+\newblock Springer, Boston, MA, 2003.
+
+\bibitem{rust_sub-diffraction-limit_2006}
+Michael~J. Rust, Mark Bates, and Xiaowei Zhuang.
+\newblock Sub-diffraction-limit imaging by stochastic optical reconstruction
+  microscopy (storm).
+\newblock {\em Nature Methods}, 3(10):793--796, 2006.
+
+\bibitem{hecht}
+Eugene Hecht.
+\newblock Optics.
+\newblock {\em Addison Wesley}, 997:213--214, 1998.
+
+\bibitem{williams_transmission_2008}
+David~B. Williams and C.~Barry Carter.
+\newblock {\em Transmission electron microscopy: a textbook for materials
+  science}.
+\newblock Springer, New York, 2nd ed edition, 2008.
+
+\bibitem{reimer_electron_1998}
+Ludwig Reimer.
+\newblock Electron optics of a scanning electron microscope.
+\newblock In {\em Scanning Electron Microscopy}, Springer Series in Optical
+  Sciences, pages 13--56. Springer, Berlin, Heidelberg, 1998.
+
+\bibitem{varela_stem-eels_2012}
+Maria Varela, Jaume Gazquez, and Stephen~J. Pennycook.
+\newblock Stem-eels imaging of complex oxides and interfaces.
+\newblock {\em MRS Bulletin}, 37(1):29--35, 2012.
+
+\bibitem{colliex_illustrated_1985}
+Christian Colliex.
+\newblock An illustrated review of various factors governing the high spatial
+  resolution capabilities in eels microanalysis.
+\newblock {\em Ultramicroscopy}, 18(1):131--150, 1985.
+
+\bibitem{malis_eels_1988}
+T.~Malis, S.~C. Cheng, and R.~F. Egerton.
+\newblock Eels log-ratio technique for specimen-thickness measurement in the
+  tem.
+\newblock {\em Journal of Electron Microscopy Technique}, 8(2):193--200, 1988.
+
+\bibitem{nelayah_mapping_2007}
+Jaysen Nelayah, Mathieu Kociak, Odile Stéphan, F.~Javier García~de Abajo,
+  Marcel Tencé, Luc Henrard, Dario Taverna, Isabel Pastoriza-Santos, Luis~M.
+  Liz-Marzán, and Christian Colliex.
+\newblock Mapping surface plasmons on a single metallic nanoparticle.
+\newblock {\em Nature Physics}, 3(5):348--353, 2007.
+
+\bibitem{hamon_elnes_2004}
+Ann-Lenaig Hamon, Jo~Verbeeck, Dominique Schryvers, Jan Benedikt, and Richard
+  M. C. M. v~d Sanden.
+\newblock Elnes study of carbon k-edge spectra of plasma deposited carbon
+  films.
+\newblock {\em Journal of Materials Chemistry}, 14(13):2030--2035, 2004.
+
+\bibitem{new_bg}
+H.~Tenailleau and J.~M. Martin.
+\newblock A new background subtraction for low-energy eels core edges.
+\newblock {\em Journal of Microscopy}, 166(3):297--306, 1992.
+
+\bibitem{richardson_lucy}
+A.~Gloter, A.~Douiri, M.~Tencé, and C.~Colliex.
+\newblock Improving energy resolution of eels spectra: an alternative to the
+  monochromator solution.
+\newblock {\em Ultramicroscopy}, 96(3):385--400, 2003.
+
+\bibitem{hubble}
+J.~E. Krist.
+\newblock Deconvolution of hubble space telescope images using simulated point
+  spread functions.
+\newblock {\em Astronomical Data Analysis Software and Systems I, A.S.P.
+  Conference Series}, 25:226--227, 1992.
+
+\bibitem{groot_high-resolution_2001}
+Frank~de Groot.
+\newblock High-resolution x-ray emission and x-ray absorption spectroscopy,
+  2001.
+
+\bibitem{sholl_density_2009}
+David~S Sholl and Janice~A Steckel.
+\newblock {\em Density functional theory: a practical introduction}.
+\newblock Wiley, Hoboken, N.J., 2009.
+\newblock OCLC: 441874984.
+
+\bibitem{tddft}
+E.~K.~U. Gross and K.~Burke.
+\newblock {\em Time-{Dependent} {Density} {Functional} {Theory}}.
+\newblock Lecture {Notes} in {Physics}. Springer, Berlin, Heidelberg, 2006.
+
+\bibitem{graff_direct_1980}
+G.~Gräff, H.~Kalinowsky, and J.~Traut.
+\newblock A direct determination of the proton electron mass ratio.
+\newblock {\em Zeitschrift für Physik A Atoms and Nuclei}, 297(1):35--39,
+  1980.
+
+\bibitem{hohenberg_inhomogeneous_1964}
+P.~Hohenberg and W.~Kohn.
+\newblock Inhomogeneous electron gas.
+\newblock {\em Physical Review}, 136(3B):B864--B871, 1964.
+
+\bibitem{parr_density_1983}
+R~G Parr.
+\newblock Density {Functional} {Theory}.
+\newblock {\em Annual Review of Physical Chemistry}, 34(1):631--656, 1983.
+
+\bibitem{tao_climbing_2003}
+Jianmin Tao, John~P. Perdew, Viktor~N. Staroverov, and Gustavo~E. Scuseria.
+\newblock Climbing the {Density} {Functional} {Ladder}: {Nonempirical}
+  {Meta}--{Generalized} {Gradient} {Approximation} {Designed} for {Molecules}
+  and {Solids}.
+\newblock {\em Physical Review Letters}, 91(14):146401, 2003.
+
+\bibitem{perdew_wang}
+John~P. Perdew, Kieron Burke, and Yue Wang.
+\newblock Generalized gradient approximation for the exchange-correlation hole
+  of a many-electron system.
+\newblock {\em Physical Review B}, 54(23):16533--16539, 1996.
+
+\bibitem{bj_pot}
+Axel~D. Becke and Erin~R. Johnson.
+\newblock A simple effective potential for exchange.
+\newblock {\em The Journal of Chemical Physics}, 124(22):221101, 2006.
+
+\bibitem{g16}
+M.~J.~Frisch et~al.
+\newblock Gaussian˜16 {R}evision {B}.01, 2016.
+\newblock Gaussian Inc. Wallingford CT.
+
+\bibitem{griffiths}
+David~J. Griffiths.
+\newblock {\em Introduction to quantum mechanics}.
+\newblock Pearson Prentice Hall, Upper Saddle River, NJ, 2005.
+
+\bibitem{qe}
+Paolo Giannozzi and Baroni.
+\newblock {QUANTUM} {ESPRESSO}: a modular and open-source software project for
+  quantum simulations of materials.
+\newblock {\em Journal of Physics: Condensed Matter}, 21(39):395502, 2009.
+
+\bibitem{vasp}
+Jürgen Hafner.
+\newblock Ab-initio simulations of materials using {VASP}: {Density}-functional
+  theory and beyond.
+\newblock {\em Journal of Computational Chemistry}, 29(13):2044--2078, 2009.
+
+\bibitem{wien2k}
+K.~Schwarz, P.~Blaha, and G.~K.~H. Madsen.
+\newblock Electronic structure calculations of solids using the {WIEN}2k
+  package for material sciences.
+\newblock {\em Computer Physics Communications}, 147(1):71--76, 2002.
+
+\bibitem{mauchamp_ab_2006}
+V.~Mauchamp, F.~Boucher, G.~Ouvrard, and P.~Moreau.
+\newblock Ab initio simulation of the electron energy-loss near-edge structures
+  at the lik edge in li, li2o, and limn2o4.
+\newblock {\em Physical Review B}, 74(11):115106, 2006.
+\newblock WOS:000240872300038.
+
+\bibitem{bader}
+Richard F.~W. Bader.
+\newblock Atoms in {Molecules}.
+\newblock In {\em Encyclopedia of {Computational} {Chemistry}}. American Cancer
+  Society, 2002.
+
+\bibitem{bader_quantum_1991}
+Richard F.~W. Bader.
+\newblock A quantum theory of molecular structure and its applications.
+\newblock {\em Chemical Reviews}, 91(5):893--928, 1991.
+
+\bibitem{critic2}
+A.~Otero-de-la Roza, Erin~R. Johnson, and Víctor Luaña.
+\newblock Critic2: {A} program for real-space analysis of quantum chemical
+  interactions in solids.
+\newblock {\em Computer Physics Communications}, 185(3):1007--1018, 2014.
+
+\bibitem{optic}
+Claudia Ambrosch-Draxl and Jorge~O. Sofo.
+\newblock Linear optical properties of solids within the full-potential
+  linearized augmented planewave method.
+\newblock {\em Computer Physics Communications}, 175(1):1--14, 2006.
+
+\bibitem{adler_quantum_1962}
+Stephen~L. Adler.
+\newblock Quantum {Theory} of the {Dielectric} {Constant} in {Real} {Solids}.
+\newblock {\em Physical Review}, 126:413--420, 1962.
+
+\bibitem{exciting}
+Andris Gulans, Stefan Kontur, Christian Meisenbichler, Dmitrii Nabok, Pasquale
+  Pavone, {Santiago Rigamonti}, Stephan Sagmeister, Ute Werner, and Claudia
+  Draxl.
+\newblock exciting: a full-potential all-electron package implementing
+  density-functional theory and many-body perturbation theory.
+\newblock {\em Journal of Physics: Condensed Matter}, 26(36):363202, 2014.
+
+\bibitem{mauchamp_local_2008}
+V.~Mauchamp, P.~Moreau, G.~Ouvrard, and F.~Boucher.
+\newblock Local field effects at {Li} {K} edges in electron energy-loss spectra
+  of {Li},
+  \$\{{\textbackslash}mathrm\{{Li}\}\}\_\{2\}{\textbackslash}mathrm\{{O}\}\$
+  and {LiF}.
+\newblock {\em Physical Review B}, 77(4):045117, January 2008.
+
+\bibitem{hebert_practical_2007}
+C.~Hebert.
+\newblock Practical aspects of running the {WIEN}2k code for electron
+  spectroscopy.
+\newblock {\em Micron}, 38(1):12--28, 2007.
+\newblock WOS:000241994700002.
+
+\bibitem{ankudinov_real-space_1998}
+A.~L. Ankudinov, B.~Ravel, J.~J. Rehr, and S.~D. Conradson.
+\newblock Real-space multiple-scattering calculation and interpretation of
+  x-ray-absorption near-edge structure.
+\newblock {\em Physical Review B}, 58(12):7565--7576, 1998.
+
+\bibitem{salpeter_relativistic_1951}
+E.~E. Salpeter and H.~A. Bethe.
+\newblock A {Relativistic} {Equation} for {Bound}-{State} {Problems}.
+\newblock {\em Physical Review}, 84(6):1232--1242, 1951.
+
+\bibitem{draxl_bse_2009}
+Stephan Sagmeister and Claudia Ambrosch-Draxl.
+\newblock Time-dependent density functional theory versus {Bethe}–{Salpeter}
+  equation: an all-electron study.
+\newblock {\em Physical Chemistry Chemical Physics}, 11(22):4451--4457, 2009.
+
+\bibitem{lee_new_1977}
+P.~A. Lee and G.~Beni.
+\newblock New method for the calculation of atomic phase shifts: {Application}
+  to extended x-ray absorption fine structure ({EXAFS}) in molecules and
+  crystals.
+\newblock {\em Physical Review B}, 15(6):2862--2883, 1977.
+
+\bibitem{luitz_partial_2001}
+J.~Luitz, M.~Maier, C.~Hébert, P.~Schattschneider, P.~Blaha, K.~Schwarz, and
+  B.~Jouffrey.
+\newblock Partial core hole screening in the {Cu} {L}3 edge.
+\newblock {\em The European Physical Journal B}, 21(3):363--367, 2001.
+
+\bibitem{hebert_improvement_2003}
+C.~Hebert, J.~Luitz, and P.~Schattschneider.
+\newblock Improvement of energy loss near edge structure calculation using
+  {Wien}2k.
+\newblock {\em Micron}, 34(3-5):219--225, 2003.
+\newblock WOS:000184846600012.
+
+\bibitem{brydson_further_1988}
+R.~Brydson, J.~Bruley, and J.~M. Thomas.
+\newblock Further evidence for core-hole effects in the near-edge structures of
+  light-element {K}-edges.
+\newblock {\em Chemical Physics Letters}, 149(4):343--347, 1988.
+
+\bibitem{hardcastle_robust_2017}
+T.~P. Hardcastle, C.~R. Seabourne, D.~M. Kepaptsoglou, T.~Susi, R.~J. Nicholls,
+  R.~M.~D. Brydson, A.~J. Scott, and Q.~M. Ramasse.
+\newblock Robust theoretical modelling of core ionisation edges for
+  quantitative electron energy loss spectroscopy of {B}- and {N}-doped
+  graphene.
+\newblock {\em Journal of Physics: Condensed Matter}, 29(22):225303, 2017.
+
+\bibitem{bad_hole1}
+E.~W. Tait, L.~E. Ratcliff, M.~C. Payne, P.~D. Haynes, and N.~D.~M. Hine.
+\newblock Simulation of electron energy loss spectra of nanomaterials with
+  linear-scaling density functional theory.
+\newblock {\em Journal of Physics: Condensed Matter}, 28(19):195202, 2016.
+
+\bibitem{bad_hole2}
+P.~Jegadeesan, S.~Amirthapandian, Gurpreet Kaur, Sharat Chandra, and B.~K.
+  Panigrahi.
+\newblock Characterization of {M}–{O} bonds in {Y}2ti2o7 and {Y}2tio5 with
+  {EELS}.
+\newblock {\em physica status solidi (b)}, 252(1):206--211, 2015.
+
+\bibitem{bad_hole3}
+Damien Magne, Vincent Mauchamp, Stéphane Célérier, Patrick Chartier, and
+  Thierry Cabioc'h.
+\newblock Site-projected electronic structure of two-dimensional {Ti} 3 {C} 2
+  {MXene}: the role of the surface functionalization groups.
+\newblock {\em Physical Chemistry Chemical Physics}, 18(45):30946--30953, 2016.
+
+\bibitem{bad_hole4}
+P.~Agrawal, J.~Guo, P.~Yu, C.~Hébert, D.~Passerone, R.~Erni, and M.~D.
+  Rossell.
+\newblock Strain-driven oxygen deficiency in multiferroic
+  \$\{{\textbackslash}mathrm\{{SrMnO}\}\}\_\{3\}\$ thin films.
+\newblock {\em Physical Review B}, 94(10):104101, September 2016.
+
+\bibitem{bad_hole5}
+Kota Tomita, Tomohiro Miyata, Weine Olovsson, and Teruyasu Mizoguchi.
+\newblock Strong excitonic interactions in the oxygen {K}-edge of perovskite
+  oxides.
+\newblock {\em Ultramicroscopy}, 178:105--111, July 2017.
+
+\bibitem{bad_hole6}
+Nicholas~L. McDougall, Rebecca~J. Nicholls, Jim~G. Partridge, and Dougal~G.
+  McCulloch.
+\newblock The {Near} {Edge} {Structure} of {Hexagonal} {Boron} {Nitride}.
+\newblock {\em Microscopy and Microanalysis}, 20(4):1053--1059, August 2014.
+
+\bibitem{bad_hole7}
+Tomohiro Miyata and Teruyasu Mizoguchi.
+\newblock Fabrication of thin {TEM} sample of ionic liquid for high-resolution
+  {ELNES} measurements.
+\newblock {\em Ultramicroscopy}, 178:81--87, July 2017.
+
+\bibitem{bad_hole8}
+Robert~F. Klie, Haibin Su, Yimei Zhu, James~W. Davenport, Juan-Carlos Idrobo,
+  Nigel~D. Browning, and Peter~D. Nellist.
+\newblock Measuring the hole-state anisotropy in
+  \$\{{\textbackslash}mathrm\{{MgB}\}\}\_\{2\}\$ by electron energy-loss
+  spectroscopy.
+\newblock {\em Physical Review B}, 67(14):144508, April 2003.
+
+\bibitem{bad_hole9}
+Stefan Nufer, Thomas Gemming, Christian Elsässer, Sibylle Köstlmeier, and
+  Manfred Rühle.
+\newblock Core-hole effect in the {ELNES} of α-{Al}2o3: experiment and theory.
+\newblock {\em Ultramicroscopy}, 86(3):339--342, February 2001.
+
+\bibitem{bad_hole10}
+Shang-Peng Gao, Chris~J. Pickard, Alexander Perlov, and Victor Milman.
+\newblock Core-level spectroscopy calculation and the plane wave
+  pseudopotential method.
+\newblock {\em Journal of Physics: Condensed Matter}, 21(10):104203, 2009.
+
+\bibitem{jorissen2007ab}
+Kevin Jorissen.
+\newblock {\em The ab initio calculation of relativistic electron energy loss
+  spectra}.
+\newblock PhD thesis, University of Antwerp, 2007.
+
+\bibitem{kohn_self-consistent_1965}
+W.~Kohn and L.~J. Sham.
+\newblock Self-{Consistent} {Equations} {Including} {Exchange} and
+  {Correlation} {Effects}.
+\newblock {\em Physical Review}, 140(4A):A1133--A1138, 1965.
+
+\bibitem{shirley_modeling_2005}
+E.~L. Shirley, J.~A. Soininen, and J.~J. Rehr.
+\newblock Modeling core-hole screening in core-excitation spectroscopies.
+\newblock {\em Physica Scripta}, 2005(T115):31, 2005.
+
+\end{thebibliography}
