@@ -91,6 +91,23 @@ H.~Tenailleau and J.~M. Martin.
 \newblock A new background subtraction for low-energy eels core edges.
 \newblock {\em Journal of Microscopy}, 166(3):297--306, 1992.
 
+\bibitem{verbeeck_model_2004}
+J.~Verbeeck and S.~Van~Aert.
+\newblock Model based quantification of {EELS} spectra.
+\newblock {\em Ultramicroscopy}, 101(2):207--224, 2004.
+
+\bibitem{egerton_inelastic_1975}
+R.~F. Egerton.
+\newblock Inelastic scattering of 80 {keV} electrons in amorphous carbon.
+\newblock {\em The Philosophical Magazine: A Journal of Theoretical
+  Experimental and Applied Physics}, 31(1):199--215, 1975.
+
+\bibitem{riedl_extraction_2006}
+T.~Riedl, T.~Gemming, and K.~Wetzig.
+\newblock Extraction of {EELS} white-line intensities of manganese compounds:
+  {Methods}, accuracy, and valence sensitivity.
+\newblock {\em Ultramicroscopy}, 106(4):284--291, March 2006.
+
 \bibitem{richardson_lucy}
 A.~Gloter, A.~Douiri, M.~Tencé, and C.~Colliex.
 \newblock Improving energy resolution of eels spectra: an alternative to the

@@ -6,7 +6,7 @@
 %usages
 %pros, cons/ STEM TEM
 \setcitestyle{numbers,open={[},close={]}}
-Having described the inner workings of DFT, we will now investigate how we can use the ground state density, Kohn-sham wavefunctions and eigenvalues to calculate the features of an EELS spectra.  DFT is however a ground state theory; the Hohenberg Kohn theorems only guarantee that agreement between the calculation and reality for the lowest energy state. As EELS inherently involves exciting an atom above this ground state, a number of assumptions must be made to address this issue. The various approaches to the issue of handling excitations are defining features of many of the techniques used to calculate EELS.  Additionally, the varying requirements to handle the wide array of features in EELS spectra further diversify the techniques. Broadly there are three methods for calculating EELS, multiple scattering, atomic multiplet and band structure methods.  We will discuss a number of the band structure methods as well as their advantages and applicability below.
+Having described the inner workings of DFT and EELS, we will now investigate how we can use the ground state density, Kohn-sham wavefunctions and eigenvalues to calculate the features of an EELS spectra.  Central to this challenge, is the fact that DFT is however a ground state theory; the Hohenberg Kohn theorems only guarantee that agreement between the calculation and reality for the lowest energy state. As EELS inherently involves exciting an atom above this ground state, a number of assumptions must be made to address this issue. The various approaches to the issue of handling excitations are defining features of many of the techniques used to calculate EELS.  Additionally, the varying requirements of the wide array of features in EELS spectra further diversify the techniques. Broadly, there are three methods for calculating EELS: multiple scattering, atomic multiplet and band structure methods.  We will discuss a number of the band structure methods as well as their advantages and applicability below.
 
 
 \subsection{Time Dependent Density Functional Theory -TDDFT}
@@ -45,15 +45,9 @@ from which we can calculate the macroscopic dielectric function which relates to
 	L(\textbf{q},\omega) = -\mathrm{Im}[\epsilon_{\mathrm{M}}(\textbf{q},\omega)]^{-1}
 \end{equation}
 
-The energy loss function is what is directly measured by EELS and is the standard of comparison to TDDFT. TDDFT is accurate for low losses, so ideal for calculations of plasmons, and in the limit of the optical approximation low energy M edges of transition metals, and notably the lithium K edge.  Limitations of the approach are that it is based on the final state rule, and thus is susceptible to excitonic effects in $\bra{f}$.  Additionally, local field effects can be subtle and come at computational cost to include \cite{mauchamp_local_2008}.    TDDFT is also applicable to x-ray absorption spectroscopy where the optical limit is more valid.  The only required modifications to the theory are a modification to the propogator in Eq. \ref{FGR}.
+The energy loss function is what is directly measured by EELS and is the standard of comparison to TDDFT. TDDFT is accurate for low losses, so ideal for calculations of plasmons, and in the limit of the optical approximation low energy M edges of transition metals, and in the limit, the lithium K edge.  Limitations of the approach are that it is based on the final state rule, and thus is susceptible to excitonic effects in $\bra{f}$.  Additionally, local field effects can require subtle interpretations and come at computational cost to include \cite{mauchamp_local_2008}.    TDDFT is also applicable to x-ray absorption spectroscopy where the optical limit is more valid.  The only required modifications to the theory are a modification to the propagator in Eq. \ref{FGR}.
 
 
-
-
-%valence technique
-%calculates dielectric from FGR
-%Single particle
-%CH
 
 \subsection{Cross Section Approach}
 TDDFT is a suitable choice for low loss EELS.  For higher energy ionization edges with non-negligible momentum transfer, Fermi's Golden Rule can be used to compute a double differential cross section instead of the dielectric function.  The differentials are with respect to energy and scattering angle, the two relevant parameters in an EELS experiment.  The relationship is given by \cite{hebert_practical_2007}:

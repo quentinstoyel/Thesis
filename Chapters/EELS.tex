@@ -85,40 +85,35 @@ Unlike x-ray edges in EDS which have distinct, simple shapes, higher energy reso
 
 \subsection{EELS in Experiment}
 
-In order to collect EELS spectra, electrons must pass entirely through the sample, making EELS a technique for transmission electron microscopes (TEM's) or scanning transmission electron microscopes (STEM) technique \cite{Egerton}. The main features of the two techniques are illustrated in Fig ??? but a more in depth discussioncan be found in Goldstein, William and Carter, and Egerton \cite{Egerton,williams_transmission_2008,goldstein_electron_2003} In order to collect these transmitted electrons, a magnetic field prism is placed below the specimen and redirects the electrons into a detector, Fig FIG!.  Inside the magnetic prism, there is a $\mathrm{\vec{B}}$ field perpendicular to the beam direction and the transmitted electrons are exposed to a Lorentz force: 
+In order to collect EELS spectra, electrons must pass entirely through the sample, making EELS a technique for transmission electron microscopes (TEM's)\cite{Egerton}. In order to collect these transmitted electrons, a magnetic field prism is placed below the specimen and redirects the electrons into a detector, Fig \ref{prism}.  Inside the magnetic prism, there is a $\mathrm{\textbf{B}}$ field perpendicular to the beam direction and the transmitted electrons are exposed to a Lorentz force: 
 
 
 \begin{equation}
-	\vec{F_B} = q (\vec{v} \times \vec{B})
+	\textbf{F}_B = q (\textbf{v} \times \textbf{B})
 \end{equation}
 
-As the force varies according to the velocity of the electrons, the magnetic prism also separates the electrons according to their energy: 
+As the force varies according to the velocity of the electrons, the magnetic prism  separates the electrons according to their energy: 
 
-\begin{equation}
-\vec{F_B} = e (\vec{v} \times \vec{B}) =  \frac{m \vec{v}^2}{\vec{r}} = \vec{F_c} 
-\end{equation}
-
- 
- 
-\begin{equation} 
+\begin{gather}
+\textbf{F}_B = e (\textbf{v} \times \textbf{B}) =  \frac{m \textbf{v}^2}{\textbf{r}} = \textbf{F}_c \\
  r =  \frac{mv}{eB} = \frac{\sqrt{2mE}}{eB}
-\end{equation}
-
+\end{gather}
 
 \begin{figure}
  \centering
  \includegraphics[scale=0.4]{Expt_setup.png}
  \caption{Experimental EELS setup, with the various magnetic lenses depicted in blue.  }
+ \label{prism}
  
 \end{figure}
 
-Where e is the charge of an electron and E is the energy of each electron after passing through the sample.  By mapping each location on the detector to a corresponding energy loss value the final spectra are obtained.  
+Where e is the charge of an electron and E is the energy of each electron after passing through the sample.  By mapping each location on the detector to a corresponding energy loss value the final spectra are obtained. In order to produce images, the beam is rastered over the sample and the intensities of a specific energy loss value are used to create an image. 
 
-\subsubsection{TEM vs STEM}
-There are two distinct types of electron microscope that can before EELS, TEM and STEM, each with their own advantages.  TEM's operate between 100-300 keV in parallel beam conditions, allowing for thicker samples and better resolution.  STEM's operate in the 30 keV range and offer the ability for EELS imaging as well as being considerably more economical than TEM's.  A summary of EELS in each of these techniques is presented in Table TABLE!.  
+\subsubsection{TEM vs SEM EELS}
+There are two main types of electron microscopy, scanning and transmission (SEM and TEM).  TEM typically operates with beam energies between 100-300 keV while SEM performs between 1-30 keV.  Each method has their own set of advantages.  TEM's operate on thin samples resulting in a minimal interaction volume, resulting in far higher energy resolution and have the ability to image individual atoms. SEM's scan the surfaces of samples and can operate on bulk specimens.  SEM is also dramatically more economical and flexible of a technique.   EELS has been conventionally performed in TEM's as it requires the beam to pass through the sample. Recent advances however have allowed EELS to be performed in an SEM.   EELS in an SEM offers the distinct advantage over TEM EELS for lithium materials as it allows operation at 30keV which minimizes the beam damage.  It is also dramatically more economical.   
 
 \subsubsection{Lithium in EELS}
-Lithium materials present a number of challenges to EELS analysis.  As the lightest alkali metal it is almost always ionized and highly mobile. Additionally, lithium ion battery materials are in general insulators with band gaps of varying sizes. These features make lithium materials highly sensitive to electron beam damage.  When the electron beam pass through a sample, it results in charge build up.  In electron conductive samples (eg. metals), this charge can be dissipated to a certain extent, however in materials with a band gap (eg. insulators, battery cathodes), this charge can displace the charged and mobile lithium ions and break down the crystal structure.  Lithium's high mobility also make them vulnerable to knock on damage.  This effect occurs when an electron interacts inelastically with an atom's nucleus and transfers sufficient energy to it to displace it from its lattice site.  Lithium is particularly vulnerable to this interaction because its high mobility, meaning that it requires only a small amount of energy to displace it through a crystal.  
+Lithium materials present a number of challenges to EELS analysis.  As the lightest alkali metal it is almost always ionized and highly mobile. Additionally, lithium ion battery materials are in general insulators with band gaps of varying sizes. These features make lithium materials highly sensitive to electron beam damage.  This damage results from the charge buildup when an electron beam passes through a sample.  In electron conductive samples (eg. metals), this charge can be dissipated to a certain extent, however in materials with a band gap (eg. insulators, battery cathodes), this charge can displace the charged and mobile lithium ions and break down the crystal structure.  Lithium's high mobility also make them vulnerable to knock on damage.  This effect occurs when an electron interacts inelastically with an atom's nucleus and transfers sufficient energy to it to displace it from its lattice site.  Lithium is particularly vulnerable to this interaction because its lightweight and high mobility, meaning that it requires only a small amount of energy ($ \sim 1-5$eV) to displace it through a crystal.\\  
 Lithium's only ionization edge is its K-edge is located at $\mathrm{\sim}$55eV, at the boundary of what is considered reasonable for analysis.  The low edge places it close to the plasmon decay complicating background subtraction.  This energy range also often results in overlap between the lithium K-edge and the $\mathrm{M_{2 / 3}}$ and $\mathrm{M_4}$ edges of transition metals. In particular the edges of Mn, Fe and Ni, all fall between 40-70eV.  As these elements are key components to cathode materials, they can require further steps for analysis to be possible.
 
 
@@ -134,7 +129,30 @@ The smooth decaying background in EELS spectra needs to be removed in order for 
 	I_{bg} = AE^{-r}
 \end{equation}
 
-Where E is the energy loss and A and r are fitting factors.  This method has limitations due to different regions of the spectra decaying at different rates, in particular, for the plasmon peak, r $\sim$ 4-5? yet at higher energies ($\ge$100eV) r $\sim$ 3?.  A downside of this method is the final results dependence on the size and location of the fitting window on the final output, see Fig FIG.  This instability has resulted in a number of alternate models being proposed for specific cases, however, the power law method remains the most prevalent.  
+Where E is the energy loss and A and r are fitting factors.  This method has limitations due to different regions of the spectra decaying at different rates which means a fit must be performed for every analysis \cite{verbeeck_model_2004, egerton_inelastic_1975}.  A downside of this method is the final results dependence on the size and location of the fitting window on the final output, see Fig \ref{bg_removal}.  This instability has resulted in a number of alternate models being proposed for specific cases, however, the power law method remains the most prevalent \cite{verbeeck_model_2004, riedl_extraction_2006}.  
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[scale=0.5]{full_bg.png} 
+		\caption{}
+		\label{full_bg}
+	\end{subfigure}
+	\hfill
+	
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[scale=0.5]{good_window.png} 
+		\caption{}
+		\label{good_window}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[scale=0.5]{bad_window.png} 
+		\caption{}
+		\label{bad_window}
+	\end{subfigure}
+	\caption{Results of power law background removal from raw spectrum (a) of metallic lithium K edge, using an appropriate (b)and inappropriate (c) window choice.}
+	\label{bg_removal}
+\end{figure}
 
 \subsubsection{Deconvolution}
 Despite drastic improvements, there is still a degree of energy spread on beam electrons, typically in the range of $\sim$0.5-3eV.  This energy spread results in the observed ELNES on a spectra to be a result of a convolution between the 'actual' ELNES and the zero loss peak.  Additionally, the probability of an electron undergoing plural scattering (scattering inelastically more than once in the specimen) must also be accounted for, as the low loss region of the spectrum is also convoluted into the output spectra.  Plural scattering can best be seen in thicker samples where it results in the presence of multiple plasmon peaks, although it is present on the entire spectrum.  In order to recover the single scattering spectrum, the output must undergo deconvolution.  A number of techniques exist for this purpose.   Fourier techniques rely on describing the signal as a number of convolutions:
@@ -148,7 +166,7 @@ Despite drastic improvements, there is still a degree of energy spread on beam e
 Where J(E) is the obtained spectra, Z(E) is the zero loss peak, S(E) is the single scattering spectra, and I$_0$ is the integrated intensity of the zero loss.  The double scattering term is the convolution of the two single scattering terms, weighted by the decreased probability according to Poisson statistics.   Taking a Fourier transform of this turns all of the convolutions into products: 
 
 \begin{equation}
-	j(\nu) = z(\nu) (1+\frac{s(\nu)}{I_0}+   \frac{s^2(\nu)}{2! I_0}+ \frac{s^3(\nu)}{3! I_0})...
+	j(\nu) = z(\nu) \left(1+\frac{s(\nu)}{I_0}+   \frac{s^2(\nu)}{2! I_0}+ \frac{s^3(\nu)}{3! I_0} + ...\right)
 	\label{fourier_spectra}
 \end{equation} 
 
@@ -175,7 +193,7 @@ As an EELS spectra is inherently pixilated by the CCD, at each pixel we can appl
 By iteratively varying N$_m$ and maximizing the probability, the deconvoluted spectra can be obtained.  Similar to Fourier methods however, the noise on the spectra increases with more iterations, in order to conserve information.   
 
 
-\subsection{A Note on Other Experimental Techniques}
+\subsection{Other Experimental Techniques}
 EELS is by no means the only experimental technique available for the analysis of material microstructure, nor is it even the only electron microscopy technique available for the task. Other prevalent techniques include x-ray based analysis such as x ray absorption spectroscopy and energy dispersive spectroscopy.  We will take a moment to briefly describe these methods.
 
 \subsubsection{X Ray Absorption Spectroscopy (XAS)}
