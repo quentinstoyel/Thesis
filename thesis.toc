@@ -7,32 +7,33 @@
 \contentsline {subsection}{\numberline {2.1.1}Background}{4}{subsection.2.1.1}
 \contentsline {subsubsection}{Near Edge Structure}{8}{section*.10}
 \contentsline {subsection}{\numberline {2.1.2}EELS in Experiment}{9}{subsection.2.1.2}
-\contentsline {subsubsection}{TEM vs STEM}{11}{section*.13}
+\contentsline {subsubsection}{TEM vs SEM EELS}{11}{section*.13}
 \contentsline {subsubsection}{Lithium in EELS}{11}{section*.14}
 \contentsline {subsection}{\numberline {2.1.3}Preprocessing}{12}{subsection.2.1.3}
 \contentsline {subsubsection}{Background Subtraction}{12}{section*.15}
-\contentsline {subsubsection}{Deconvolution}{12}{section*.16}
-\contentsline {subsection}{\numberline {2.1.4}A Note on Other Experimental Techniques}{14}{subsection.2.1.4}
-\contentsline {subsubsection}{X Ray Absorption Spectroscopy (XAS)}{14}{section*.17}
-\contentsline {subsubsection}{Energy Dispersive Spectroscopy (EDS)}{15}{section*.18}
-\contentsline {subsection}{\numberline {2.1.5}Lithium in EELS}{15}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}Density Functional Theory}{16}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Background}{16}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Formulation}{17}{subsection.2.2.2}
-\contentsline {subsubsection}{Exchange-Correlation Potential}{20}{section*.20}
-\contentsline {subsubsection}{Basis Sets}{21}{section*.21}
-\contentsline {subsection}{\numberline {2.2.3}WIEN2k}{22}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Lithium in DFT}{23}{subsection.2.2.4}
-\contentsline {subsubsection}{Quantum Theory of Atoms in Molecules}{24}{section*.25}
-\contentsline {section}{\numberline {2.3}EELS Calculations}{25}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Time Dependent Density Functional Theory -TDDFT}{26}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Cross Section Approach}{27}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Beth Salpeter Equations -BSE}{28}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Core Hole Approximation}{29}{subsection.2.3.4}
-\contentsline {chapter}{\numberline {3}Shielding Calculations}{32}{chapter.3}
-\contentsline {section}{\numberline {3.1}Core Hole Shielding Calculations}{32}{section.3.1}
-\contentsline {section}{\numberline {3.2}Implementation}{34}{section.3.2}
-\contentsline {chapter}{\numberline {4}Applications}{36}{chapter.4}
-\contentsline {section}{\numberline {4.1}Lithium Oxide}{36}{section.4.1}
-\contentsline {section}{\numberline {4.2}Lithium}{37}{section.4.2}
-\contentsline {section}{\numberline {4.3}LiF}{37}{section.4.3}
+\contentsline {subsubsection}{Deconvolution}{14}{section*.17}
+\contentsline {subsection}{\numberline {2.1.4}Other Experimental Techniques}{15}{subsection.2.1.4}
+\contentsline {subsubsection}{X Ray Absorption Spectroscopy (XAS)}{15}{section*.18}
+\contentsline {subsubsection}{Energy Dispersive Spectroscopy (EDS)}{16}{section*.19}
+\contentsline {subsection}{\numberline {2.1.5}Lithium in EELS}{16}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Density Functional Theory}{17}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Background}{17}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Formulation}{18}{subsection.2.2.2}
+\contentsline {subsubsection}{Exchange-Correlation Potential}{21}{section*.21}
+\contentsline {subsubsection}{Basis Sets}{22}{section*.22}
+\contentsline {subsection}{\numberline {2.2.3}WIEN2k}{24}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Lithium in DFT}{25}{subsection.2.2.4}
+\contentsline {subsubsection}{Quantum Theory of Atoms in Molecules}{26}{section*.26}
+\contentsline {section}{\numberline {2.3}EELS Calculations}{26}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Time Dependent Density Functional Theory -TDDFT}{27}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Cross Section Approach}{29}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Beth Salpeter Equations -BSE}{29}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Core Hole Approximation}{30}{subsection.2.3.4}
+\contentsline {chapter}{\numberline {3}Shielding Calculations}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Core Hole Shielding Calculations}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}Implementation}{35}{section.3.2}
+\contentsline {chapter}{\numberline {4}Results and Discussion}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Lithium Oxide}{37}{section.4.1}
+\contentsline {section}{\numberline {4.2}Lithium}{39}{section.4.2}
+\contentsline {section}{\numberline {4.3}LiF}{41}{section.4.3}
+\contentsline {section}{\numberline {4.4}Li-LiF Mixture}{41}{section.4.4}
