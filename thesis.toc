@@ -33,7 +33,9 @@
 \contentsline {section}{\numberline {3.1}Core Hole Shielding Calculations}{33}{section.3.1}
 \contentsline {section}{\numberline {3.2}Implementation}{35}{section.3.2}
 \contentsline {chapter}{\numberline {4}Results and Discussion}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Lithium Oxide}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Lithium}{39}{section.4.2}
+\contentsline {section}{\numberline {4.1}Lithium Oxide}{38}{section.4.1}
+\contentsline {section}{\numberline {4.2}Lithium}{40}{section.4.2}
 \contentsline {section}{\numberline {4.3}LiF}{41}{section.4.3}
-\contentsline {section}{\numberline {4.4}Li-LiF Mixture}{41}{section.4.4}
+\contentsline {section}{\numberline {4.4}Li-LiF Mixture}{42}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{43}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusion}{53}{chapter.5}
