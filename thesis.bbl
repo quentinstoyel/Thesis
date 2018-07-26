@@ -1,11 +1,64 @@
 \begin{thebibliography}{10}
 
+\bibitem{nitta_li-ion_2015}
+Naoki Nitta, Feixiang Wu, Jung~Tae Lee, and Gleb Yushin.
+\newblock Li-ion battery materials: present and future.
+\newblock {\em Materials Today}, 18(5):252--264, June 2015.
+
+\bibitem{gaines_future_2014}
+Linda Gaines.
+\newblock The future of automotive lithium-ion battery recycling: {Charting} a
+  sustainable course.
+\newblock {\em Sustainable Materials and Technologies}, 1-2:2--7, December
+  2014.
+
+\bibitem{doughty_general_2012}
+Daniel~H. Doughty and E.~Peter Roth.
+\newblock A {General} {Discussion} of {Li} {Ion} {Battery} {Safety}.
+\newblock {\em The Electrochemical Society Interface}, 21(2):37--44, January
+  2012.
+
+\bibitem{balakrishnan_safety_2006}
+P.~G. Balakrishnan, R.~Ramesh, and T.~Prem~Kumar.
+\newblock Safety mechanisms in lithium-ion batteries.
+\newblock {\em Journal of Power Sources}, 155(2):401--414, April 2006.
+
 \bibitem{etacheri_challenges_2011}
 Vinodkumar Etacheri, Rotem Marom, Ran Elazari, Gregory Salitra, and Doron
   Aurbach.
 \newblock Challenges in the development of advanced {Li}-ion batteries: a
   review.
 \newblock {\em Energy \& Environmental Science}, 4(9):3243--3262, 2011.
+
+\bibitem{lu_lithium_2012}
+Xia Lu, Liang Zhao, Xiaoqing He, Ruijuan Xiao, Lin Gu, Yong-Sheng Hu, Hong Li,
+  Zhaoxiang Wang, Xiaofeng Duan, Liquan Chen, Joachim Maier, and Yuichi
+  Ikuhara.
+\newblock Lithium {Storage} in {Li}4ti5o12 {Spinel}: {The} {Full} {Static}
+  {Picture} from {Electron} {Microscopy}.
+\newblock {\em Advanced Materials}, 24(24):3233--3238, 2012.
+
+\bibitem{arthur_spontaneous_2016}
+Zachary Arthur, Hsien-Chieh Chiu, Xia Lu, Ning Chen, Vincent Emond, Karim
+  Zaghib, De-Tong Jiang, and George P. Demopoulos.
+\newblock Spontaneous reaction between an uncharged lithium iron silicate
+  cathode and a {LiPF} 6 -based electrolyte.
+\newblock {\em Chemical Communications}, 52(1):190--193, 2016.
+
+\bibitem{muller_quantification_2018}
+Simon Müller, Patrick Pietsch, Ben-Elias Brandt, Paul Baade, Vincent~De
+  Andrade, Francesco~De Carlo, and Vanessa Wood.
+\newblock Quantification and modeling of mechanical degradation in lithium-ion
+  batteries based on nanoscale imaging.
+\newblock {\em Nature Communications}, 9(1):2340, June 2018.
+
+\bibitem{chiu_aqueous_2013}
+Hsien-chieh Chiu, Nicolas Brodusch, Raynald Gauvin, Abdelbast Guerfi, Karim
+  Zaghib, and George~P. Demopoulos.
+\newblock Aqueous {Synthesized} {Nanostructured} {Li}4ti5o12 for
+  {High}-{Performance} {Lithium} {Ion} {Battery} {Anodes}.
+\newblock {\em Journal of The Electrochemical Society}, 160(5):A3041--A3047,
+  January 2013.
 
 \bibitem{inkson_2_2016}
 B.~J. Inkson.
@@ -15,16 +68,70 @@ B.~J. Inkson.
   Herrmann, editors, {\em Materials Characterization Using Nondestructive
   Evaluation (NDE) Methods}, pages 17--43. Woodhead Publishing, 2016.
 
+\bibitem{hansen_atomic-resolution_2001}
+Thomas~W. Hansen, Jakob~B. Wagner, Poul~L. Hansen, Søren Dahl, Haldor Topsøe,
+  and Claus J.~H. Jacobsen.
+\newblock Atomic-{Resolution} in {Situ} {Transmission} {Electron} {Microscopy}
+  of a {Promoter} of a {Heterogeneous} {Catalyst}.
+\newblock {\em Science}, 294(5546):1508--1510, November 2001.
+
+\bibitem{kobayashi_quantitative_2017}
+Shunsuke Kobayashi, Craig A.~J. Fisher, Akihide Kuwabara, Yoshio Ukyo, and
+  Yuichi Ikuhara.
+\newblock Quantitative analysis of {Li} distributions in battery material
+  {Li}1-{xFePO}4 using {Fe} {M}2,3-edge and valence electron energy loss
+  spectra.
+\newblock {\em Microscopy}, 66(4):254--260, August 2017.
+
 \bibitem{Egerton}
 RF~Egerton.
 \newblock Eels in the electron microscope.
 \newblock {\em Springer, New York p}, 226, 1986.
+
+\bibitem{SU_9000}
+Takeshi Sunaoshi, Yoshihisa Orai, Hiroyuki Ito, Takeshi Ogashiwa, Toshihide
+  Agemura, and Mitsuru Konno.
+\newblock 30 kv stem imaging with lattice resolution using a high resolution
+  cold fe-sem.
+\newblock 2012.
 
 \bibitem{ks_1965}
 W.~Kohn and L.~J. Sham.
 \newblock Self-{Consistent} {Equations} {Including} {Exchange} and
   {Correlation} {Effects}.
 \newblock {\em Physical Review}, 140(4A):A1133--A1138, 1965.
+
+\bibitem{wien2k}
+K.~Schwarz, P.~Blaha, and G.~K.~H. Madsen.
+\newblock Electronic structure calculations of solids using the {WIEN}2k
+  package for material sciences.
+\newblock {\em Computer Physics Communications}, 147(1):71--76, 2002.
+
+\bibitem{elk}
+The {Elk} {FP}-{LAPW} {Code}.
+
+\bibitem{exciting}
+Andris Gulans, Stefan Kontur, Christian Meisenbichler, Dmitrii Nabok, Pasquale
+  Pavone, {Santiago Rigamonti}, Stephan Sagmeister, Ute Werner, and Claudia
+  Draxl.
+\newblock exciting: a full-potential all-electron package implementing
+  density-functional theory and many-body perturbation theory.
+\newblock {\em Journal of Physics: Condensed Matter}, 26(36):363202, 2014.
+
+\bibitem{mauchamp_ab_2006}
+V.~Mauchamp, F.~Boucher, G.~Ouvrard, and P.~Moreau.
+\newblock Ab initio simulation of the electron energy-loss near-edge structures
+  at the lik edge in li, li2o, and limn2o4.
+\newblock {\em Physical Review B}, 74(11):115106, 2006.
+\newblock WOS:000240872300038.
+
+\bibitem{mauchamp_local_2008}
+V.~Mauchamp, P.~Moreau, G.~Ouvrard, and F.~Boucher.
+\newblock Local field effects at {Li} {K} edges in electron energy-loss spectra
+  of {Li},
+  \$\{{\textbackslash}mathrm\{{Li}\}\}\_\{2\}{\textbackslash}mathrm\{{O}\}\$
+  and {LiF}.
+\newblock {\em Physical Review B}, 77(4):045117, January 2008.
 
 \bibitem{goldstein_electron_2003}
 Joseph~I. Goldstein, Dale~E. Newbury, Patrick Echlin, David~C. Joy, Charles~E.
@@ -193,19 +300,6 @@ Jürgen Hafner.
   theory and beyond.
 \newblock {\em Journal of Computational Chemistry}, 29(13):2044--2078, 2009.
 
-\bibitem{wien2k}
-K.~Schwarz, P.~Blaha, and G.~K.~H. Madsen.
-\newblock Electronic structure calculations of solids using the {WIEN}2k
-  package for material sciences.
-\newblock {\em Computer Physics Communications}, 147(1):71--76, 2002.
-
-\bibitem{mauchamp_ab_2006}
-V.~Mauchamp, F.~Boucher, G.~Ouvrard, and P.~Moreau.
-\newblock Ab initio simulation of the electron energy-loss near-edge structures
-  at the lik edge in li, li2o, and limn2o4.
-\newblock {\em Physical Review B}, 74(11):115106, 2006.
-\newblock WOS:000240872300038.
-
 \bibitem{bader}
 Richard F.~W. Bader.
 \newblock Atoms in {Molecules}.
@@ -233,22 +327,6 @@ Claudia Ambrosch-Draxl and Jorge~O. Sofo.
 Stephen~L. Adler.
 \newblock Quantum {Theory} of the {Dielectric} {Constant} in {Real} {Solids}.
 \newblock {\em Physical Review}, 126:413--420, 1962.
-
-\bibitem{exciting}
-Andris Gulans, Stefan Kontur, Christian Meisenbichler, Dmitrii Nabok, Pasquale
-  Pavone, {Santiago Rigamonti}, Stephan Sagmeister, Ute Werner, and Claudia
-  Draxl.
-\newblock exciting: a full-potential all-electron package implementing
-  density-functional theory and many-body perturbation theory.
-\newblock {\em Journal of Physics: Condensed Matter}, 26(36):363202, 2014.
-
-\bibitem{mauchamp_local_2008}
-V.~Mauchamp, P.~Moreau, G.~Ouvrard, and F.~Boucher.
-\newblock Local field effects at {Li} {K} edges in electron energy-loss spectra
-  of {Li},
-  \$\{{\textbackslash}mathrm\{{Li}\}\}\_\{2\}{\textbackslash}mathrm\{{O}\}\$
-  and {LiF}.
-\newblock {\em Physical Review B}, 77(4):045117, January 2008.
 
 \bibitem{hebert_practical_2007}
 C.~Hebert.

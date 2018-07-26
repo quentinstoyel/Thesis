@@ -64,5 +64,3 @@ This equation allows connects the screening due to valence electrons to a change
 \section{Implementation} \label{implementation}
 Having determined a means of calculating the core hole shielding effects, we describe how these were implemented into ELNES calculations.  We begin by performing a standard DFT calculation with no core hole, followed by one including a full core hole. Depending on cell size, the full core hole calculation is performed using a supercell so as to isolate individual core holes in the periodic boundaries. For both calculations, the electron occupancy inside the lithium atomic basin is calculated and used to calculate the screening potential according to Eq \ref{final_eq}.  This returns a decimal value between 0 and 1 which is subtracted from the magnitude of the hole.  A third calculation is then performed with using this non integer ``shielded" hole, again using supercells as necessary.  
 
-
-

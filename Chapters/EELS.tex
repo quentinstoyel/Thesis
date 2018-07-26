@@ -122,7 +122,7 @@ Lithium's only ionization edge is its K-edge is located at $\mathrm{\sim}$55eV, 
 
 There are two key steps to be performed upon acquiring an ELNES spectra before it can be used for meaningful conclusions, background subtraction and deconvolution. 
 
-\subsubsection{Background Subtraction}
+\subsubsection{Background Subtraction} \label{bg_section}
 The smooth decaying background in EELS spectra needs to be removed in order for meaningful comparison and measurements to be made on ELNES.  However, the EELS background does not decay at a fixed rate and changes based on the presence of edges and with energy \cite{new_bg}. Consequently, it is not currently possible to fit remove a single function to an entire spectrum.  Instead, the method of choice relies on fitting to a window directly before an ionization edge and refitting for each edge as needed.  The most prevalent function used for this purpose is a power law decay \cite{Egerton}: 
 
 \begin{equation}
@@ -154,7 +154,7 @@ Where E is the energy loss and A and r are fitting factors.  This method has lim
 	\label{bg_removal}
 \end{figure}
 
-\subsubsection{Deconvolution}
+\subsubsection{Deconvolution} \label{deconvolution}
 Despite drastic improvements, there is still a degree of energy spread on beam electrons, typically in the range of $\sim$0.5-3eV.  This energy spread results in the observed ELNES on a spectra to be a result of a convolution between the 'actual' ELNES and the zero loss peak.  Additionally, the probability of an electron undergoing plural scattering (scattering inelastically more than once in the specimen) must also be accounted for, as the low loss region of the spectrum is also convoluted into the output spectra.  Plural scattering can best be seen in thicker samples where it results in the presence of multiple plasmon peaks, although it is present on the entire spectrum.  In order to recover the single scattering spectrum, the output must undergo deconvolution.  A number of techniques exist for this purpose.   Fourier techniques rely on describing the signal as a number of convolutions:
 
 \begin{equation}
