@@ -150,6 +150,12 @@ Eugene Hecht.
 \newblock Optics.
 \newblock {\em Addison Wesley}, 997:213--214, 1998.
 
+\bibitem{morales_laser_1998}
+Alfredo~M. Morales and Charles~M. Lieber.
+\newblock A {Laser} {Ablation} {Method} for the {Synthesis} of {Crystalline}
+  {Semiconductor} {Nanowires}.
+\newblock {\em Science}, 279(5348):208--211, 1998.
+
 \bibitem{williams_transmission_2008}
 David~B. Williams and C.~Barry Carter.
 \newblock {\em Transmission electron microscopy: a textbook for materials
@@ -233,6 +239,9 @@ Frank~de Groot.
 \newblock High-resolution x-ray emission and x-ray absorption spectroscopy,
   2001.
 
+\bibitem{DFT_codes}
+Codes - {NOMAD}, 2018.
+
 \bibitem{sholl_density_2009}
 David~S Sholl and Janice~A Steckel.
 \newblock {\em Density functional theory: a practical introduction}.
@@ -300,6 +309,11 @@ Jürgen Hafner.
   theory and beyond.
 \newblock {\em Journal of Computational Chemistry}, 29(13):2044--2078, 2009.
 
+\bibitem{singh_planewaves_2006}
+David~J. Singh and Lars Nordström.
+\newblock {\em Planewaves, {Pseudopotentials}, and the {LAPW} {Method}}.
+\newblock Springer, New York, NY, UNITED STATES, 2006.
+
 \bibitem{bader}
 Richard F.~W. Bader.
 \newblock Atoms in {Molecules}.
@@ -316,6 +330,13 @@ A.~Otero-de-la Roza, Erin~R. Johnson, and Víctor Luaña.
 \newblock Critic2: {A} program for real-space analysis of quantum chemical
   interactions in solids.
 \newblock {\em Computer Physics Communications}, 185(3):1007--1018, 2014.
+
+\bibitem{fugel_variety_2018}
+Malte Fugel, Jens Beckmann, Dylan Jayatilaka, Gerald~V. Gibbs, and Simon
+  Grabowsky.
+\newblock A {Variety} of {Bond} {Analysis} {Methods}, {One} {Answer}? {An}
+  {Investigation} of the {Element}−{Oxygen} {Bond} of {Hydroxides} {HnXOH}.
+\newblock {\em Chemistry – A European Journal}, 24(23):6248--6261, 2018.
 
 \bibitem{optic}
 Claudia Ambrosch-Draxl and Jorge~O. Sofo.

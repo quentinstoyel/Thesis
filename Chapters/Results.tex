@@ -19,7 +19,7 @@ We begin by investigating $ \mathrm{Li_2O} $. Screening calculations were perfor
 
 The density plots clearly show valence electrons in the material being attracted to the excited atom. This indicates that the core hole should have both a noticeable effect on the final states and that it is screened as well.  We can also see that even the closest lithium atom is largely unaffected by the core hole, in agreement with the supercell size being sufficient to isolate core holes.  Calculating the difference in electron occupancy shows a decrease of 0.88 electron in the basin.  This decrease is smaller then would be expected the no screening limit and according to Eq \ref{final_eq}, indicates that the hole is 12\% screened.  A third calculation was then performed using a decreased hole size to obtain a final spectra.  The ELNES K edge from all three simulations are compared to experiment in Fig \ref{Li2O_three}.  
 
-From the comparison to experiment, we can observe that the full hole provides good agreement, as previously predicted in the literature \cite{mauchamp_ab_2006}. However, the screened hole provides a superior result, which can be emphasized by consider the ratio of the two peaks at $\sim$55eV and $\sim$58 eV.  Quantitatively comparing the values, presented in Table \ref{ratio}, reveals a dramatic improvement, decreasing the error from 20\% to  6\%.  The qualitative and quantitative improvements to the results support the validity of the new method and highlights it's necessity.  
+From the comparison to experiment, we can observe that the full hole provides good agreement, as previously predicted in the literature \cite{mauchamp_ab_2006}. However, the screened hole provides a superior result, which can be emphasized by considering the ratio of the two peaks at $\sim$55eV and $\sim$58 eV.  Quantitatively comparing the values, presented in Table \ref{ratio}, reveals a dramatic improvement, decreasing the error from 20\% to  6\%.  The qualitative and quantitative improvements to the results support the validity of the new method and highlights it's necessity.  
 
 \begin{table}
 	\centering
@@ -46,7 +46,7 @@ From the comparison to experiment, we can observe that the full hole provides go
 \end{figure}
 
 \section{Lithium}
-We now shift our attention to metallic lithium, which has previously presented a  number of challenges to analysis.  As a metal, it has been predicted to exhibit no core hole effects due to valence screening, however a density plot reveals that core  holes have a large impact on the electron density, see Fig \ref{Li_countours}. As with $ \mathrm{Li_2O} $, the excited atom attracts a number of valence electrons and expands its atomic basin, whilst modifying the electron clouds of the surrounding atoms.  Calculating the screening factor reveals that the lithium core hole is in reality only $ \sim$41\% screened.  A comparison with experimental spectra confirms this fact, Fig \ref{Li_spectra}.
+We now shift our attention to metallic lithium, which has previously presented a  number of challenges to experimental analysis.  As a metal, it has been predicted to exhibit no core hole effects due to valence screening, and a density plot reveals that core  holes have a large impact on the electron density, see Fig \ref{Li_countours}, supporting the notion that the hole may indeed be entirely screened.  The excited atom attracts a number of valence electrons and  distorts the electron clouds of the surrounding atoms more aggressively than in $ \mathrm{Li_2O} $.  Calculating the screening factor however reveals that the lithium core hole is in reality only $ \sim$41\% screened.  A comparison with experimental spectra confirms this fact, Fig \ref{Li_spectra}.
 
 
 \begin{figure}
@@ -67,10 +67,10 @@ We now shift our attention to metallic lithium, which has previously presented a
 \end{figure}
 
 
-Again, the literature result assuming no hole provides better agreement than the full hole, but worse than the screened hole.  Of particular note is the small peak located at $ \sim$58 eV, which is underestimated, in the no hole spectra, overestimate in the full hole, and correctly accounted for in the screened case.  The only moderate (41\%) screening goes against common convention in the literature that metals do not exhibit core hole effects.  A couple of more extreme cases have been highlighted  (Cu, Al), but the slight yet significant improvements observed with lithium suggest that screened core holes should be included in all cases.  It should be noted that lithium's lack of core electron screening may also contribute to the large core hole effects in this case. 
+Again, the literature result assuming no hole provides better agreement than the full hole, but is inferior to the screened hole result.  Of particular note is the small peak located at $ \sim$58 eV, which is underestimated, in the no hole spectra, overestimated in the full hole, and correctly accounted for in the screened case.  The only moderate (41\%) screening goes against common convention in the literature that metals do not exhibit core hole effects.  A couple of more extreme cases have been highlighted  (Cu, Al?), but the slight yet significant improvements observed with lithium suggest that screened core holes should be included or at least calculated in all cases.  It should be noted that lithium's lack of core electron screening may also contribute to the large core hole effects, which could be lessened for heavier elements. 
 
 \section{LiF}
-We continue our investigation of pure molecules by considering LiF.  LiF has been one of the more published EELS results for lithium and simulations have obtained good agreement with a full core hole approximation \cite{mauchamp_ab_2006}.  We again begin with a qualitative probe of the electron density, see Fig \ref{LiF_countours}.  We can see that the introduction of a hole has minor effects on the electron density, but these are largely limited to slight distortions in the fluorine electron cloud, see Fig \ref{Li2O_contour}. Additionally, despite the loss of a core electron, the density around the excited lithium atom retains much of its initial form. The minimal effect of introducing a core is reflective of fluorine's high electronegativity which ``freezes" all of the electrons in place and minimizes any kind of valence electron screening.  This effect is confirmed by calculating the screening coefficient which was determined to be zero in this case. Consequently, LiF represents the no screening case of Eqn. \ref{density_calc} and we can take the full hole spectra as the final spectrum.  Plotting the spectra against experiment confirms that a full hole does indeed produce good agreement, Fig \ref{LiF_spectra}.  The lack of screening in LiF also explains the good results obtained in literature when using only a full hole.  
+We continue our investigation of pure molecules by considering LiF.  LiF has been one of the more published EELS results for lithium and simulations have obtained good agreement with a full core hole approximation \cite{mauchamp_ab_2006}.  We again begin with a qualitative probe of the electron density, see Fig \ref{LiF_countours}.  We can see that the introduction of a hole has minor effects on the electron density, but these are largely limited to slight distortions in the fluorine electron cloud, see Fig \ref{LiF_countours}. Additionally, despite the loss of a core electron, the density around the excited lithium atom retains much of its initial form. The minimal effect of introducing a core is reflective of fluorine's high electronegativity which ``freezes" all of the electrons in place and minimizes any kind of valence electron screening.  This effect is confirmed by calculating the screening coefficient which was determined to be zero in this case. Consequently, LiF represents the no screening case of Eqn. \ref{density_calc} and we can take the full hole spectra as the final spectrum.  Plotting the spectra against experiment confirms that a full hole does indeed produce good agreement, Fig \ref{LiF_spectra}.  The lack of screening in LiF also explains the good results obtained in literature when using only a full hole.  It also supports the theory that inserting a full hole is sufficient in the case of strong insulators, although again, lithium's lack of core screening limit the generality of that statement.  
 
 \begin{figure}
 	\centering
@@ -114,17 +114,9 @@ We will conclude the results section with a case that demonstrates the full impo
 
 
 \section{Discussion}
+The cases handled here highlight the importance of including a core hole and calculating screening effects when performing ELNES on lithium.  In every case, a core hole was necessary, including metallic lithium which had been predicted to not exhibit core hole effects.  Additionally, in every case except LiF, screening was non negligible and the first order method developed in Chapter \ref{methods} result in dramatic improvements to experimental agreement.  The impact of including screening in ELNES calculations is made more apparent when dealing with unknown cases such as the Li-LiF mixture where it was essential to fingerprinting the near edge structure.  The improvement to the peak ratio in $ \mathrm{Li2O} $ is another key feature in terms of identifying oxidation on lithium edges, or taking the steps to quantitative analysis.  Finally the reliable agreement between calculation and experiment help solidify the validity of the technique of performing EELS at 30keV to analyze beam sensitive materials, a result with considerably less weight without excellent agreement between the results.  
 
 
 
 
 
-
-
-
-
-\newpage
-\bibliographystyle{unsrt}
-
-
-\bibliography{EELS,DFT,EELScalculation,introduction,methods}
