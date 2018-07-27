@@ -13,19 +13,20 @@
 \BOOKMARK [2][-]{subsection.2.2.1}{Background}{section.2.2}% 13
 \BOOKMARK [2][-]{subsection.2.2.2}{Formulation}{section.2.2}% 14
 \BOOKMARK [2][-]{subsection.2.2.3}{WIEN2k}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.4}{Lithium in DFT}{section.2.2}% 16
-\BOOKMARK [1][-]{section.2.3}{EELS Calculations}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.3.1}{Time Dependent Density Functional Theory -TDDFT}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.2}{Cross Section Approach}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.3}{Beth Salpeter Equations -BSE}{section.2.3}% 20
-\BOOKMARK [2][-]{subsection.2.3.4}{Core Hole Approximation}{section.2.3}% 21
-\BOOKMARK [0][-]{chapter.3}{Shielding Calculations}{}% 22
-\BOOKMARK [1][-]{section.3.1}{Core Hole Shielding Calculations}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.2}{Implementation}{chapter.3}% 24
-\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 25
-\BOOKMARK [1][-]{section.4.1}{Lithium Oxide}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.2}{Lithium}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.3}{LiF}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.4}{Li-LiF Mixture}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 30
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 31
+\BOOKMARK [2][-]{subsection.2.2.4}{Quantum Theory of Atoms in Molecules}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.5}{Lithium in DFT}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{EELS Calculations}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{Time Dependent Density Functional Theory -TDDFT}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.2}{Cross Section Approach}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.3}{Beth Salpeter Equations -BSE}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.4}{Core Hole Approximation}{section.2.3}% 22
+\BOOKMARK [0][-]{chapter.3}{Shielding Calculations}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Core Hole Shielding Calculations}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Implementation}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 26
+\BOOKMARK [1][-]{section.4.1}{Lithium Oxide}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{Lithium}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.3}{LiF}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.4}{Li-LiF Mixture}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 32

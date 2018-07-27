@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: ./thesis.aux
+The top-level auxiliary file: thesis.aux
 The style file: unsrt.bst
 Database file #1: EELS.bib
 Database file #2: DFT.bib
@@ -8,45 +8,45 @@ Database file #3: EELScalculation.bib
 Database file #4: introduction.bib
 Database file #5: methods.bib
 Warning--empty booktitle in SU_9000
-You've used 76 entries,
+You've used 80 entries,
             1791 wiz_defined-function locations,
-            903 strings with 17807 characters,
-and the built_in function-call counts, 18759 in all, are:
-= -- 1659
-> -- 921
+            921 strings with 18438 characters,
+and the built_in function-call counts, 19557 in all, are:
+= -- 1729
+> -- 955
 < -- 2
-+ -- 338
-- -- 262
-* -- 1548
-:= -- 3033
-add.period$ -- 233
-call.type$ -- 76
-change.case$ -- 71
++ -- 351
+- -- 271
+* -- 1602
+:= -- 3152
+add.period$ -- 243
+call.type$ -- 80
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 702
-empty$ -- 1782
-format.name$ -- 262
-if$ -- 4019
+cite$ -- 81
+duplicate$ -- 735
+empty$ -- 1869
+format.name$ -- 271
+if$ -- 4198
 int.to.chr$ -- 0
-int.to.str$ -- 76
-missing$ -- 77
-newline$ -- 384
-num.names$ -- 77
-pop$ -- 135
+int.to.str$ -- 80
+missing$ -- 81
+newline$ -- 402
+num.names$ -- 80
+pop$ -- 151
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 259
+skip$ -- 274
 stack$ -- 0
-substring$ -- 1564
-swap$ -- 90
+substring$ -- 1620
+swap$ -- 94
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 193
-width$ -- 78
-write$ -- 837
+while$ -- 200
+width$ -- 82
+write$ -- 876
 (There was 1 warning)

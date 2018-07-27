@@ -5,10 +5,10 @@
 
 
 \setcitestyle{numbers,open={[},close={]}}
-The lack of flexibility and accuracy of the core hole approximation combined with the computational deterrent of more exact methods presents a barrier to expanding EELS calculations.  Due to their small atomic number, lithium materials are particularly susceptible to these effects as their core states are all low lying.  At the same time however, the few electrons involved with lithium help simplify the issue and thus make it an optimum target for improved methods.  In this work, a means to extend these barriers was developed by creating a method to perform a first order calculation of shielding effects from the electron density.   In this chapter we discuss the formulation and motivation behind this method. 
+The lack of flexibility and accuracy of the core hole approximation combined with the computational deterrent of more exact methods presents a barrier to expanding EELS calculations.  Due to their small atomic number, lithium materials are particularly susceptible to these effects.  At the same time however, the few electrons involved with lithium help simplify the issue and thus make it an optimum target for improved methods.  In this work, a means to extend these barriers was developed by creating a method to perform a first order calculation of shielding effects from the electron density.   In this chapter we discuss the formulation and implementation of this method. 
 
 \section{Core Hole Shielding Calculations}
-Our goal is to focus on the ionization edges of lithium, with the aim of technique that can be generalized to all elements.  To this end, we use the cross section approach under the relativistic single particle approach using the final state rule (FSR), Eq. \ref{telnes_eq}\cite{jorissen2007ab}:
+Our goal is to focus on the ionization edges of lithium calculated rapidly enough to be practical in interpreting novel EELS results.  To this end, we use the cross section method under the relativistic single particle approach using the final state rule (FSR), Eq. \ref{telnes_eq}\cite{jorissen2007ab}:
 
 \begin{equation}
 	\frac{\partial^2 \sigma}{\partial \Omega \partial E} = \left[\frac{4\gamma^2}{a_{\mathrm{0}^2q^4}}\right] \frac{k_f}{k_i} \sum_{i,f}|\mel{f}{e^{i\textbf{q}\cdot\textbf{r}}}{i}|^2\delta(E-E_f+E_i)
@@ -28,13 +28,13 @@ The core hole alters the Hartree and the exchange and correlation potentials, an
 
 where $V_{\mathrm{CH}}(\textbf{r})$ is the potential of a core hole and  $V_{\mathrm{S}}(\textbf{r})$ represents the shielding potential.  The current convention in literature when performing core hole calculations is to ignore this shielding term, despite the large effects it has been shown to have on ELNES.  We can break the shielding potential into two parts, core electron and valence electron shielding, $V_{\mathrm{c}}(\textbf{r})$ and  $V_{\mathrm{v}}(\textbf{r})$. Core shielding is due to electrons occupying core orbitals on the excited atom reducing how much the core hole can be ``felt" outside of the atom.  Valence screening is caused by valence and interstitial electrons being attracted to the positively charged hole.  Neither of these terms are readily solvable for using current methods.  At this point, an advantage of lithium's low atomic number becomes clear: as there is only one core electron that could shield the hole, we can assume that core electron screening is negligible, which simplifies this problem considerably.  
 
-In order to calculate the valence screening we turn to linear response theory, as  $\Delta V_{\mathrm{H}}(\textbf{r})$ and $\Delta V_{\mathrm{XC}}(\textbf{r})$ cannot be computed exactly.  We begin by considering the change in electron density resulting from the introduction of a core hole, as described by Shirley, Soininen and Rehr \cite{shirley_modeling_2005}:
+In order to calculate the valence screening we turn to linear response theory, as  $\Delta V_{\mathrm{H}}(\textbf{r})$ and $\Delta V_{\mathrm{XC}}(\textbf{r})$ cannot be computed exactly  \cite{shirley_modeling_2005}.  We begin by considering the change in electron density resulting from the introduction of a core hole, as described by Shirley, Soininen and Rehr \cite{shirley_modeling_2005}:
 
 \begin{equation}
 \Delta n(\textbf{r}) = \int d^3 \textbf{r'} \chi^0(\textbf{r},\textbf{r'}; \omega = 0)\Delta V_{\mathrm{tot}}(\textbf{r'})
 \end{equation}
 
-Where $\chi^0$ is the irreducible polarization function, given by $\chi^0(\textbf{r}) = \delta n(\textbf{r}) /  \delta V(\textbf{r})$.  At this point, we will proceed in assuming no screening ($V_{\mathrm{S}}(\textbf{r})=0$) and then reintroduce in the form of a perturbation.  We also restrict our view to only the excited atom, which in this case gives:
+Where $\chi^0$ is the irreducible polarization function, given by $\chi^0(\textbf{r}) = \delta n(\textbf{r}) /  \delta V(\textbf{r})$.  At this point, we will proceed in assuming no screening ($V_{\mathrm{S}}(\textbf{r})=0$) and then reintroduce screening later in the form of a perturbation.  We also restrict our view to only the excited atom, which in this case gives:
 \begin{equation}
 \Delta n _{\mathrm{basin}} = \int_{f}d^3\textbf{r} n_{f}(\textbf{r}) - \int_{i}d^3\textbf{r} n_i(\textbf{r})= -1
 \label{density_calc}
