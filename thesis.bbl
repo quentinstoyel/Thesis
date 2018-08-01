@@ -52,6 +52,11 @@ Simon Müller, Patrick Pietsch, Ben-Elias Brandt, Paul Baade, Vincent~De
   batteries based on nanoscale imaging.
 \newblock {\em Nature Communications}, 9(1):2340, June 2018.
 
+\bibitem{van_der_ven_first-principles_2001}
+A.~Van~der Ven, G.~Ceder, M.~Asta, and P.~D. Tepesch.
+\newblock First-principles theory of ionic diffusion with nondilute carriers.
+\newblock {\em Physical Review B}, 64(18):184307, October 2001.
+
 \bibitem{chiu_aqueous_2013}
 Hsien-chieh Chiu, Nicolas Brodusch, Raynald Gauvin, Abdelbast Guerfi, Karim
   Zaghib, and George~P. Demopoulos.
@@ -117,6 +122,12 @@ Andris Gulans, Stefan Kontur, Christian Meisenbichler, Dmitrii Nabok, Pasquale
 \newblock exciting: a full-potential all-electron package implementing
   density-functional theory and many-body perturbation theory.
 \newblock {\em Journal of Physics: Condensed Matter}, 26(36):363202, 2014.
+
+\bibitem{vasp}
+Jürgen Hafner.
+\newblock Ab-initio simulations of materials using {VASP}: {Density}-functional
+  theory and beyond.
+\newblock {\em Journal of Computational Chemistry}, 29(13):2044--2078, 2009.
 
 \bibitem{mauchamp_ab_2006}
 V.~Mauchamp, F.~Boucher, G.~Ouvrard, and P.~Moreau.
@@ -199,6 +210,37 @@ Ann-Lenaig Hamon, Jo~Verbeeck, Dominique Schryvers, Jan Benedikt, and Richard
   films.
 \newblock {\em Journal of Materials Chemistry}, 14(13):2030--2035, 2004.
 
+\bibitem{torrisi_atomic_2016}
+G.~Torrisi, A.~Di Mauro, M.~Scuderi, G.~Nicotra, and G.~Impellizzeri.
+\newblock Atomic layer deposition of {ZnO}/{TiO} 2 multilayers: towards the
+  understanding of {Ti}-doping in {ZnO} thin films.
+\newblock {\em RSC Advances}, 6(91):88886--88895, 2016.
+
+\bibitem{reimer_transmission_2008}
+Helmut Kohl and Ludwig Reimer.
+\newblock {\em Transmission {Electron} {Microscopy}: {Physics} of {Image}
+  {Formation}}.
+\newblock Number~36 in Springer {Series} in {Optical} {Sciences}. Springer, New
+  York, NY, 2008.
+
+\bibitem{griffiths_em}
+David~J Griffiths.
+\newblock {\em Introduction to electrodynamics}.
+\newblock 2013.
+\newblock OCLC: 794711764.
+
+\bibitem{hachtel_exploring_2018}
+Jordan~A. Hachtel, Andrew~R. Lupini, and Juan~Carlos Idrobo.
+\newblock Exploring the capabilities of monochromated electron energy loss
+  spectroscopy in the infrared regime.
+\newblock {\em Scientific Reports}, 8(1):5637, April 2018.
+
+\bibitem{kang_factors_2006}
+Kisuk Kang and Gerbrand Ceder.
+\newblock Factors that affect {Li} mobility in layered lithium transition metal
+  oxides.
+\newblock {\em Physical Review B}, 74(9):094105, September 2006.
+
 \bibitem{new_bg}
 H.~Tenailleau and J.~M. Martin.
 \newblock A new background subtraction for low-energy eels core edges.
@@ -238,6 +280,11 @@ J.~E. Krist.
 Frank~de Groot.
 \newblock High-resolution x-ray emission and x-ray absorption spectroscopy,
   2001.
+
+\bibitem{maclaren_eels_2018}
+Ian MacLaren, Kirsty~J. Annand, Colin Black, and Alan~J. Craven.
+\newblock {EELS} at very high energy losses.
+\newblock {\em Microscopy}, 67(suppl\_1):i78--i85, 2018.
 
 \bibitem{DFT_codes}
 Codes - {NOMAD}, 2018.
@@ -292,6 +339,13 @@ M.~J.~Frisch et~al.
 \newblock Gaussian˜16 {R}evision {B}.01, 2016.
 \newblock Gaussian Inc. Wallingford CT.
 
+\bibitem{mohr_linear_2018}
+Stephan Mohr, Marc Eixarch, Maximilian Amsler, Mervi~J. Mantsinen, and Luigi
+  Genovese.
+\newblock Linear scaling {DFT} calculations for large tungsten systems using an
+  optimized local basis.
+\newblock {\em Nuclear Materials and Energy}, 15:64--70, May 2018.
+
 \bibitem{griffiths}
 David~J. Griffiths.
 \newblock {\em Introduction to quantum mechanics}.
@@ -302,12 +356,6 @@ Paolo Giannozzi and Baroni.
 \newblock {QUANTUM} {ESPRESSO}: a modular and open-source software project for
   quantum simulations of materials.
 \newblock {\em Journal of Physics: Condensed Matter}, 21(39):395502, 2009.
-
-\bibitem{vasp}
-Jürgen Hafner.
-\newblock Ab-initio simulations of materials using {VASP}: {Density}-functional
-  theory and beyond.
-\newblock {\em Journal of Computational Chemistry}, 29(13):2044--2078, 2009.
 
 \bibitem{singh_planewaves_2006}
 David~J. Singh and Lars Nordström.
@@ -344,10 +392,11 @@ Claudia Ambrosch-Draxl and Jorge~O. Sofo.
   linearized augmented planewave method.
 \newblock {\em Computer Physics Communications}, 175(1):1--14, 2006.
 
-\bibitem{adler_quantum_1962}
-Stephen~L. Adler.
-\newblock Quantum {Theory} of the {Dielectric} {Constant} in {Real} {Solids}.
-\newblock {\em Physical Review}, 126:413--420, 1962.
+\bibitem{ankudinov_real-space_1998}
+A.~L. Ankudinov, B.~Ravel, J.~J. Rehr, and S.~D. Conradson.
+\newblock Real-space multiple-scattering calculation and interpretation of
+  x-ray-absorption near-edge structure.
+\newblock {\em Physical Review B}, 58(12):7565--7576, 1998.
 
 \bibitem{hebert_practical_2007}
 C.~Hebert.
@@ -355,12 +404,6 @@ C.~Hebert.
   spectroscopy.
 \newblock {\em Micron}, 38(1):12--28, 2007.
 \newblock WOS:000241994700002.
-
-\bibitem{ankudinov_real-space_1998}
-A.~L. Ankudinov, B.~Ravel, J.~J. Rehr, and S.~D. Conradson.
-\newblock Real-space multiple-scattering calculation and interpretation of
-  x-ray-absorption near-edge structure.
-\newblock {\em Physical Review B}, 58(12):7565--7576, 1998.
 
 \bibitem{salpeter_relativistic_1951}
 E.~E. Salpeter and H.~A. Bethe.
@@ -380,6 +423,12 @@ P.~A. Lee and G.~Beni.
   crystals.
 \newblock {\em Physical Review B}, 15(6):2862--2883, 1977.
 
+\bibitem{mauchamp_core-hole_2009}
+Vincent Mauchamp, Michel Jaouen, and Peter Schattschneider.
+\newblock Core-hole effect in the one-particle approximation revisited from
+  density functional theory.
+\newblock {\em Physical Review B}, 79(23):235106, 2009.
+
 \bibitem{luitz_partial_2001}
 J.~Luitz, M.~Maier, C.~Hébert, P.~Schattschneider, P.~Blaha, K.~Schwarz, and
   B.~Jouffrey.
@@ -392,6 +441,14 @@ C.~Hebert, J.~Luitz, and P.~Schattschneider.
   {Wien}2k.
 \newblock {\em Micron}, 34(3-5):219--225, 2003.
 \newblock WOS:000184846600012.
+
+\bibitem{slater_energy_1964}
+J.~C. Slater.
+\newblock Energy {Band} {Calculations} by the {Augmented} {Plane} {Wave}
+  {Method}**{The} research reported in this paper has been assisted by the
+  {National} {Science} {Foundation} and the {Office} of {Naval} {Research}, as
+  well as by the {Army}, {Navy}, and {Air} {Force}.
+\newblock {\em Advances in Quantum Chemistry}, 1:35--58, January 1964.
 
 \bibitem{brydson_further_1988}
 R.~Brydson, J.~Bruley, and J.~M. Thomas.

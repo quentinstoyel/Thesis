@@ -10,7 +10,7 @@ Having described the inner workings of EELS and DFT, we will now investigate how
 
 
 \subsection{Time Dependent Density Functional Theory -TDDFT}
-There are a number of ways to approach the problem of calculating EELS spectra \cite {optic, adler_quantum_1962}. In TDDFT, the ELNES is computed through the macroscopic dielectric function ($\epsilon_{\mathrm{M}}$). As is the case with many ELNES calculations, we begin from Fermi's Golden Rule, and define matrix elements which determine the probability of an electron being driven to a new state by some propagator:
+In TDDFT, the EELS spectrum is computed through the macroscopic dielectric function ($\epsilon_{\mathrm{M}}$). As is the case with many EELS calculations, we begin from Fermi's Golden Rule, and define matrix elements which determine the probability of an electron being driven to a new state by some propagator:
 
 \begin{equation}
 M_{nm\textbf{k}} = \mel{n\textbf{k}}{e^{-i(\textbf{q+G})\textbf{r}}}{n'\textbf{k+q}}
@@ -30,7 +30,7 @@ Where $f_{n\textbf{k}}$ is the fermi distribution and V is the volume of the cel
 \chi = \chi_{\mathrm{KS}} + \chi_{\mathrm{KS}}(\nu + f_{\mathrm{xc}})\chi
 \end{equation}
 
-Where $f_{\mathrm{xc}}$ is the exchange and correlation potential.  A common approximation is to set this to zero, a method called the Random Phase Approximation (RPA) \cite{optic}.  At this point we also make two more approximations.  We first assume that $\textbf{q} \to 0$, referred to as the optical limit.  This assumes that the momentum transfer to the sample is minimal, an approach that is valid for low energy losses ($<$50eV).  We also assume that the probe wavelength is much larger than the resulting perturbations, ($\textbf{ G} \to 0$). This is know as ignoring local field effects.  Both of these approximations can be relaxed on a case by case basis, however this comes at increased computational cost \cite{exciting}. With these approximations, we can proceed to calculate first element of the dielectric tensor: 
+Where $f_{\mathrm{xc}}$ is the exchange and correlation potential.  A common approximation is to set this to zero, a method called the Random Phase Approximation (RPA) \cite{optic}.  At this point we also make two more approximations.  We first assume that $\textbf{q} \to 0$, referred to as the optical limit.  This assumes that the momentum transfer to the sample is minimal, an approach that is valid for low energy losses ($<$50 eV).  We also assume that the probe wavelength is much larger than the resulting perturbations, ($\textbf{ G} \to 0$). This is know as ignoring local field effects.  Both of these approximations can be relaxed on a case by case basis, however this comes at increased computational cost \cite{exciting}. With these approximations, we can proceed to calculate first element of the dielectric tensor: 
 \begin{equation}
 \epsilon_{\mathrm{00}}^{-1} (\textbf{q},\omega) =1+v \chi
 \end{equation}
@@ -42,12 +42,11 @@ from which we can calculate the macroscopic dielectric function which relates to
 	L(\textbf{q},\omega) = -\mathrm{Im}[\epsilon_{\mathrm{M}}(\textbf{q},\omega)]^{-1}
 \end{gather}
 
-The energy loss function is what is directly measured by EELS and is the standard of comparison for TDDFT. TDDFT is accurate for low losses, so ideal for calculations of plasmons, and in the limit of the optical approximation low energy M edges of transition metals, and in the limit, the lithium K edge \cite{mauchamp_local_2008}.  Limitations of the approach are that it is based on the final state rule, and thus is susceptible to excitonic effects in $\bra{f}$.  Additionally, local field effects can require subtle interpretations and come at computational cost to include \cite{mauchamp_local_2008}.    TDDFT is also applicable to x-ray absorption spectroscopy where the optical limit is more valid.  The only required modifications to the theory are a modification to the propagator in Eq. \ref{FGR} \cite{ankudinov_real-space_1998}:
+The energy loss function is what is directly measured by EELS and is the standard of comparison for TDDFT. TDDFT is accurate for low losses, so ideal for calculations of plasmons, and in the limit of the optical approximation low energy M edges of transition metals and the lithium K edge \cite{mauchamp_local_2008}.  Limitations of the approach are that it is based on the final state rule, and thus is susceptible to excitonic effects in $\bra{f}$.  Additionally, local field effects can require subtle interpretations and come at computational cost to include \cite{mauchamp_local_2008}.    TDDFT is also applicable to x-ray absorption spectroscopy where the optical limit is more valid.  The only required modifications to the theory are a modification to the propagator in Eq. \ref{FGR} \cite{ankudinov_real-space_1998}:
 \begin{equation}
 e^{i\textbf{q}\cdot\textbf{r}} \to e^{i\textbf{k}\cdot\textbf{r}}\epsilon \cdot \textbf{r}
 \label{x-prop}
 \end{equation}
-
 
 \subsection{Cross Section Approach}
 TDDFT is a suitable choice for low loss EELS.  For higher energy ionization edges with non-negligible momentum transfer, Fermi's Golden Rule can be used to compute a double differential cross section instead of the dielectric function.  The differentials are with respect to energy and scattering angle, the two relevant parameters in an EELS experiment.  The relationship is given by \cite{hebert_practical_2007}:
@@ -57,7 +56,7 @@ TDDFT is a suitable choice for low loss EELS.  For higher energy ionization edge
 		\label{telnes_eq}
 \end{equation}
 
-Where $a_0$ is the Bohr radius, E the energy loss and $\gamma = \sqrt{1- \beta^2}$, the relativistic factor.  As in TDDFT, the approach can be modified to solve for XAS, by replacing the Rutherford cross section with the Thompson cross section in the prefactor and changing the propagator according to Eqn. \ref{x-prop}
+Where $a_0$ is the Bohr radius, $E$ the energy loss and $\gamma = \sqrt{1- \beta^2}$, the relativistic factor.  As in TDDFT, the approach can be modified to solve for XAS, by replacing the Rutherford cross section with the Thompson cross section in the prefactor and changing the propagator according to Eqn. \ref{x-prop}.
 
 
 
@@ -96,29 +95,30 @@ Where W is the screened Coulomb potential on the hole. By treating the hole crea
 
 
 \subsection{Core Hole Approximation} \label{Core Hole Approximation}
-The computational cost of the BSE method and the difficulties in handling excitonic effects in the single particle approaches has resulted in further approximations being made to improve single particle results.  The most prevalent of these is the core hole approximation.  This approximation is centred on artificially exciting a DFT into an excited one in order to better calculate the final states in EELS, $\bra{f}$.  Early implementations involved replacing the excited atom with the next element on the periodic table, called the Z+1 approach \cite{lee_new_1977}.  This method was mildly successful, however it lacks the flexibility to handle excitations from different shells, and has since been largely replaced with the core hole approximation \cite{hebert_practical_2007}.  This method involves manually decreasing the occupancy of an excited state, and adding the additional charge to the background to conserve electron number \cite{wien2k}. The effectiveness of the approximation however has been mixed.  In some cases, including a core hole results in excellent agreement with experiment, whilst in others, ignoring a core hole produces more accurate results.  There have been a number of offered explanations based on the nature of the material: metals tend to not require a core hole due to the increased screening from valence electrons, while in insulators screening can be ignored. In general however, spectra tend to fall in between the two extremes, which has led to some \textit{ad hoc} approaches of including non integer core holes, so as to best fit experiment, see Fig \ref{core-hole-types} \cite{hebert_practical_2007, luitz_partial_2001, hebert_improvement_2003}. This state of affairs has remained unchanged for the past 30 years and consistently leads to unsatisfying results \cite{ brydson_further_1988, hardcastle_robust_2017,bad_hole1,bad_hole2, bad_hole3, bad_hole4, bad_hole5, bad_hole6, bad_hole7, bad_hole8,bad_hole9, bad_hole10}.  This is particularly problematic in lithium, the core hole is very shallow, only a single other core electron to shield it.  A essential piece to calculating lithium ELNES is a more rigorous approach to core hole screening.  This improvement will be focus of this work by developing a deterministic method of introducing non-integer core holes. This will then provide the flexibility needed to treat core hole screening in the single particle approach without sacrificing physicality of the results.
+The computational cost of the BSE method and the difficulties in handling excitonic effects in the single particle approaches has resulted in further approximations being made to improve single particle results.  The most significant of these is the core hole approximation.  This approximation is centred on artificially exciting a DFT into an excited one in order to better calculate the final states in EELS, $\bra{f}$.  Early implementations involved replacing the excited atom with the next element on the periodic table, called the Z+1 approach \cite{lee_new_1977}.  This method was mildly successful, however it lacks the flexibility to handle excitations from different shells, and has since been largely replaced with the core hole approximation \cite{hebert_practical_2007}.  The core hole approximation involves manually decreasing the occupancy of an excited state, and adding the additional charge to the background to conserve electron number \cite{wien2k}. The effectiveness of the approximation however has been mixed.  In some cases, including a core hole results in excellent agreement with experiment, whilst in others, ignoring a core hole produces more accurate results.   There have been a number of offered explanations based on the nature of the material: eg. insulators require a hole and metals do not.  These general rules have not been successful in predicting all cases and more involved techniques based on density of states maps have also been proposed \cite{mauchamp_core-hole_2009}.  In general however, spectra tend to fall in between the two extremes, which has led to some \textit{ad hoc} approaches of including non integer core holes, so as to best fit experiment, see Fig \ref{core-hole-types} \cite{hebert_practical_2007, luitz_partial_2001, hebert_improvement_2003, slater_energy_1964}. This state of affairs has remained unchanged for the past 30 years and consistently leads to unsatisfying results \cite{ brydson_further_1988, hardcastle_robust_2017,bad_hole1,bad_hole2, bad_hole3, bad_hole4, bad_hole5, bad_hole6, bad_hole7, bad_hole8,bad_hole9, bad_hole10}. \\
+The treatment of core holes is particularly problematic in lithium as core state are very shallow with only a single other core electron to shield it.  The shallow shielded hole means that every lithium compound will exhibit some degree of core hole effects.  Consequently, in order to  calculate lithium ELNES a more rigorous approach to core hole screening is required.  Developing a deterministic method of introducing non-integer core holes for this end is the focus of this work
 
 
 \begin{figure}
 	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[scale=0.2]{hebert_ch_si_good.png} 
+		\includegraphics[scale=0.17]{hebert_ch_si_good.png} 
 		\caption{}
 		\label{hebert-ch-good}
 	\end{subfigure}
     \hfill
 	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[scale=0.2]{hebert_ch_mg} 
+		\includegraphics[scale=0.17]{hebert_ch_mg} 
 		\caption{}
 		\label{hebert-ch-bad}
 	\end{subfigure}
 	\vspace{1cm}
 	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[scale=0.2]{luitz_cu_half} 
+		\includegraphics[scale=0.17]{luitz_cu_half} 
 		\caption{}
 		\label{luitz_half}
 	\end{subfigure}
 	\centering
-	\caption{The 3 typical results on core hole on calculations, in \ref{hebert-ch-good} introducing a core hole results in good agreement with experiment.  In \ref{hebert-ch-bad} and \ref{luitz_half}, the core hole overestimates the excitonic effects resulting in errors in peak intensity.  In \ref{luitz_half}, an \textit{ad hoc} fractional core hole is inserted resulting in good agreement at the cost of physicality. Results from \cite{hebert_improvement_2003} (a,b) and \cite{luitz_partial_2001} (c).}
+	\caption{The three typical results of inserting a core hole. In (a) the core hole results in good agreement with experiment.  In (b) and (c), the core hole overestimates the excitonic effects, resulting in errors in peak intensity.  In (c), an \textit{ad hoc} fractional core hole is inserted resulting in good agreement at the cost of physicality. Results from \cite{hebert_improvement_2003} (a,b) and \cite{luitz_partial_2001} (c).}
 	\label{core-hole-types}
 	
 \end{figure}
