@@ -5,7 +5,11 @@
 
 
 \setcitestyle{numbers,open={[},close={]}}
-The lack of flexibility and accuracy of the core hole approximation combined with the computational deterrent of more exact methods presents a barrier to expanding EELS calculations.  Due to their small atomic number, lithium materials are particularly susceptible to these effects.  At the same time however, the few electrons involved with lithium help simplify the issue and thus make it an optimum target for improved methods.  In this work, a means to extend these barriers was developed by creating a method to perform a first order calculation of shielding effects from the electron density.   In this chapter we discuss the formulation and implementation of this method. 
+The lack of flexibility and accuracy of the core hole approximation combined with the computational deterrent of solving the BSE presents a barrier to expanding EELS calculations.  
+
+Any means of addressing the core hole approximation must satisfy two criteria.  First, it must remain a first principles method and not rely on any empirical data.  This is essential to be able to investigate unstudied materials.   Second, computational cost must remain reasonable and not scale any worse than DFT with the size of the unit cell. 
+
+Due to their small atomic number, lithium materials are particularly susceptible to these effects.  At the same time however, the few electrons involved with lithium help simplify the issue and thus make it an optimum target for improved methods.  In this work, a means to extend these barriers was developed by creating a method to perform a first order calculation of shielding effects from the electron density.   In this chapter we discuss the formulation and implementation of this method. 
 
 \section{Core Hole Shielding Calculations}
 Our goal is to focus on the ionization edges of lithium calculated rapidly enough to be practical in interpreting novel EELS results.  To this end, we use the cross section method under the relativistic single particle approach using the final state rule (FSR), Eq. \ref{telnes_eq}\cite{jorissen2007ab}:
