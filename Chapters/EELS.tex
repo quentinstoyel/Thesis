@@ -8,7 +8,7 @@
 \setcitestyle{numbers,open={[},close={]}}
 
 
-The focus of this work lies in  first principle theoretical calculations of EELS calculations, designed to be performed without any experimental input.  However, new theoretical techniques must be validated through comparison to experiment.  To this end, this chapter commences with an overview of experimental electron microscopy and  energy loss spectroscopy (EELS) before discussing the basis of first principles calculations, in this case density functional theory (DFT). The chapter concludes with a review of the various methods used to calculate EELS theoretically from DFT.  The particularities of lithium materials will be discussed at each step of this process.  
+The focus of this work lies in  first principle theoretical calculations of EELS calculations, designed to be performed without experimental input.  However, new theoretical techniques must be validated through comparison to experiment.  To this end, this chapter presents an overview of experimental electron microscopy and  energy loss spectroscopy (EELS) before discussing the basis of first principles calculations, in this case density functional theory (DFT). The chapter concludes with a review of the various methods used to calculate EELS theoretically from DFT.  The particularities of lithium materials are discussed at each step of this process.  
  
 \section{Electron Energy Loss Spectroscopy}
 
@@ -35,7 +35,7 @@ Where $h$ is planck's constant, $m_0$, $e$ and $E$ are the rest mass, charge and
 \end{figure}
 
 
-In order to use obtain images using electrons, electron microscopes use magnetic lenes to direct a highly focused beam of high energy electrons onto a sample, and collect the assorted types of signal resulting from the interaction, see Fig \ref{em_diagram}.
+In order to obtain images using electrons, electron microscopes use magnetic lenses to direct a highly focused beam of high energy electrons onto a sample, and collect the assorted types of signals resulting from the interaction, see Fig \ref{em_diagram}.
 
 
 \begin{figure}
@@ -52,7 +52,7 @@ In order to use obtain images using electrons, electron microscopes use magnetic
 	\label{em_diagram}
 \end{figure}
 
-The large number of different signals generated when the electron beam interacts with the sample, (Fig \ref{specimen_emmisions}), can be used to perform a multitude of types of analysis \cite{williams_transmission_2008}. The wide range of material properties that can be obtained at high spatial resolution make electron microscopy  a very versatile technique. A full discussion of the analysis methods at the disposal of electron microscopes is beyond the scope of this work and has been well documented elsewhere \cite{goldstein_electron_2003,Egerton,williams_transmission_2008,reimer_electron_1998}.  Instead, we will focus on the relevant technique, electron energy loss spectroscopy (EELS).  EELS is an electron microscopy technique that analyzes the transmitted inelastically scattered electrons, Fig \ref{specimen_emmisions}\cite{Egerton}.  It is mainly an analytic technique, however it is also possible to perform imaging with EELS \cite{varela_stem-eels_2012}.  EELS consists of collecting electrons that have passed entirely through the sample and binning them according to how much energy each one has lost, resulting in a spectrum such as in Fig \ref{EELS_spectra}.  The numerous distinct features arise from the various mechanisms through which beam electrons can lose energy in the sample.  Each mechanism results in a particular feature in the spectrum, of which the main ones are described below:
+The large number of different signals generated when the electron beam interacts with a sample, (Fig \ref{specimen_emmisions}), can be used to perform a multitude of types of analysis \cite{williams_transmission_2008}. The wide range of material properties that can be obtained at high spatial resolution make electron microscopy  a very versatile technique. A full discussion of the analysis methods at the disposal of electron microscopes is beyond the scope of this work and has been well documented elsewhere \cite{goldstein_electron_2003,Egerton,williams_transmission_2008,reimer_electron_1998}.  Instead, this discussion is limited to electron energy loss spectroscopy (EELS).  EELS is an electron microscopy technique that analyzes the transmitted inelastically scattered electrons, Fig \ref{specimen_emmisions}\cite{Egerton}.  It is mainly an analytic technique, however it is also possible to perform imaging with EELS \cite{varela_stem-eels_2012}.  EELS consists of collecting electrons that have passed entirely through the sample and binning them according to how much energy each one has lost, resulting in a spectrum such as shown in Fig \ref{EELS_spectra}.  The numerous distinct features arise from the various mechanisms through which beam electrons can lose energy in the sample.  Each mechanism results in a particular feature in the spectrum, of which the main ones are described below:
 \begin{figure}
 	\centering
 	\includegraphics[scale=0.3]{specimen_emmisions.png}
@@ -81,7 +81,7 @@ The large number of different signals generated when the electron beam interacts
 \end{itemize}
  
 
-The array of independent interaction mechanisms opens the possibility of beam electrons undergoing multiple inelastic events in the sample, referred to as plural scattering.  In order for meaningful data to be extracted from a spectra, plural scattering must be minimized \cite{Egerton}. This is achieved by using samples thinner or at least comparable to the path length of the beam electrons \cite{Egerton}.  Thicker samples result in duplicate plasmon peaks which  drown out the relatively weaker ionization edges see Fig \ref{multiple_plasmons}.   Consequently, samples must be made thin enough to analyze the more sensitive parts of EELS spectra, amongst others near edge structure. \\
+The array of independent interaction mechanisms occuring in EELS opens the possibility of beam electrons undergoing multiple inelastic events in the sample, referred to as plural scattering.  In order for meaningful data to be extracted from a spectra, plural scattering must be minimized \cite{Egerton}. This is achieved by using samples thinner or at least comparable to the path length of the beam electrons \cite{Egerton}.  Thicker samples result in duplicate plasmon peaks which  drown out the relatively weaker ionization edges see Fig \ref{multiple_plasmons}.   Consequently, samples must be made thin enough to analyze the more sensitive parts of EELS spectra, amongst others near edge structure. \\
 
 \begin{figure}
 	\centering
@@ -109,7 +109,7 @@ These are the essential principles behind an EELS spectra.  In this work, we foc
 
 \subsection{EELS in Experiment}
 
-In order to collect EELS spectra, electrons must pass entirely through the sample, making EELS a technique for transmission electron microscopes (TEM's)\cite{Egerton}. In order to collect these transmitted electrons and divide them according to energy, a magnetic prism is placed below the specimen and redirects the electrons into a detector, Fig \ref{prism}.  Inside the magnetic prism, there is a $\mathrm{\textbf{B}}$ field perpendicular to the beam direction and the transmitted electrons are exposed to a Lorentz force (bold text indicates vector quantities) \cite{griffiths_em}: 
+In order to collect EELS spectra, electrons must pass entirely through the sample, making EELS a technique for transmission electron microscopes (TEM's)\cite{Egerton}. In order to collect these transmitted electrons and divide them according to energy, a magnetic prism is placed below the specimen to redirect the electrons into a detector,  Fig \ref{prism}.  Inside the magnetic prism, there is a $\mathrm{\textbf{B}}$ field perpendicular to the beam direction which exposes the transmitted electrons to a Lorentz force (bold text indicates vector quantities) \cite{griffiths_em}: 
 
 
 \begin{equation}
@@ -131,13 +131,13 @@ As the force varies according to the velocity of the electrons, the magnetic pri
  
 \end{figure}
 
-Where $e$ is the charge of an electron and $E$ is the energy of each electron after passing through the sample.  Spectra are obtained by mapping each location on the detector to a corresponding energy loss value. Images are produced by  rastering the beam over the sample and using the intensities of a specific energy loss value to create an image. 
+Where  $E$ is the energy of each electron after passing through the sample.  Spectra are obtained by mapping each location on the detector to a corresponding energy loss value. Images are produced by  rastering the beam over the sample and using the intensities of a specific energy loss value to create an image. 
 
 The quality of EELS results depends numerous factors in the microscope.  Foremost among these is the quality of the electron beam.  In order to obtain accurate results with regards to the finer features, the beam electrons must have very similar energies before striking the sample, within a few eV.  The larger this spread, the worse the energy resolution on the sample which obscures features in ELNES.  The energy spread is largely dictated by the electron gun, with the choice for EELS being a field emission gun ($\delta E \sim 0.5-1eV$), as older style tungsten and LaB$_6$ guns are unsuitable for EELS with energy spreads greater than 2 eV \cite{reimer_transmission_2008}.  The energy resolution can be further improved to the order of $\sim$10meV through the use of monochromators \cite{hachtel_exploring_2018}.  This improved energy resolution however comes at the cost of beam current which is another essential parameter for performing EELS.  This is because sufficient signal needs to be collected to render the statistical $\sqrt{N}$ errors small enough for features to become discernible.  At higher energies, introducing a monochromators can results in a trade off between experimental error from the beam and statistical errors due to lack of counts.  Lower current also translates into longer acquisition times, which expose the sample to more beam damage.  In addition to the beam properties, EELS results also depend largely on the imaging mode being used in the electron microscope as is discussed below.
 
 
 \subsubsection{TEM vs SEM EELS}
-There are two main branches of electron microscopy, scanning and transmission (SEM and TEM).  TEM typically operates with beam energies between 100-300 keV designed to penetrate through thin samples, while SEM performs between 1-30 keV targeted towards analyzing bulk samples.  Each method has their own set of advantages.  The thin samples in TEM's result in a minimal interaction volume, far higher spatial resolution and have the ability to image individual atoms \cite{hansen_atomic-resolution_2001}. SEM's scan the surfaces of samples and the large interaction volumes allow them to analyze bulk properties.  SEM is also a more economical and flexible technique as it has far fewer sample requirements.   EELS has been conventionally performed in TEM's as it requires the beam to pass through the sample and higher beam energies allow for thicker samples. Recent advances however have allowed EELS to be performed in an SEM using accelerating voltages of 30 keV \cite{SU_9000}.  As in a TEM, EELS in an SEM at 30keV requires thin samples, but offers the advantage of reducing the beam damage which has been essential for investigating lithium materials. 
+There are two main branches of electron microscopy: scanning and transmission electron microscopy (SEM and TEM).  TEM typically operates with beam energies between 100-300 keV designed to penetrate through thin samples, while SEM operates between 1-30 keV targeted towards analyzing bulk samples.  Each method has its own advantages.  The thin samples in TEM's result in a minimal interaction volume, far higher spatial resolution and have the ability to image individual atoms \cite{hansen_atomic-resolution_2001}. SEM's are optimized to scan the surfaces of samples and the large interaction volumes allow them to analyze bulk properties.  SEM is also a more economical and flexible tool as it has far fewer sample requirements.   EELS has been conventionally performed in TEM's as it requires the beam to pass through the sample and higher beam energies allow for thicker samples. Recent advances however have allowed EELS to be performed using an SEM with accelerating voltages of 30 keV \cite{SU_9000}.  As in a TEM, EELS in an SEM at 30keV requires thin samples, but offers the advantage of reducing the beam damage which has been essential for investigating lithium materials. 
 
 
 
@@ -162,7 +162,7 @@ The smooth decaying background in EELS spectra needs to be removed in order for 
 \end{equation}
 
 
-Where $E$ is the energy loss and $A$ and $r$ are fitting factors, typically determined through a least squares procedure \cite{reimer_transmission_2008}.  This method has limitations due to different regions of the spectra decaying at different rates, with $r$ ranging from 2-6.5 \cite{reimer_transmission_2008}. A fit must therefore be performed for every feature being analyzed in a spectrum \cite{verbeeck_model_2004, egerton_inelastic_1975}.  A downside of this method is the final results dependence on the size and location of the fitting window on the final output, see Fig \ref{bg_removal}.  It is further complicated in situations when edges overlap or when attempting quantitative analysis.  Coupled with the instability of power law fitting, this has resulted in a number of alternate models, such as polynomials, being proposed for specific cases. The power law method however, remains the most prevalent \cite{verbeeck_model_2004, riedl_extraction_2006}.  
+Where $E$ is the energy loss and $A$ and $r$ are fitting factors, typically determined through a least squares procedure \cite{reimer_transmission_2008}.  This method has limitations due to different regions of the spectra decaying at different rates, with $r$ ranging from 2-6.5 \cite{reimer_transmission_2008}. A fit must therefore be performed for every feature being analyzed in a spectrum \cite{verbeeck_model_2004, egerton_inelastic_1975}.  A downside of this method is the final results dependence on the size and location of the fitting window on the final output, this instability is shown in Fig \ref{bg_removal}.  It is further complicated in situations when edges overlap or when attempting quantitative analysis.  Coupled with the instability of power law fitting, this has resulted in a number of alternate models, such as polynomials, being proposed for specific cases. The power law method however, remains the most prevalent \cite{verbeeck_model_2004, riedl_extraction_2006}.  
 
 \begin{figure}
 	\centering
@@ -229,7 +229,7 @@ From here, the Richardson-Lucy algorithm applies Poisson statistics and iterativ
 S^{k+1}(j) = S^k(j) \left(\sum_{i} \frac{P(i,j)J(i)}{\sum_{l}P(i,l)S^k(l)}\right) \bigg/ \left( \sum_{i} P(i,j)\right)
 \end{equation}
 
-Where $k$ is the iteration number.  As with Fourier methods, the final spectra cannot gain any more information, increasing iterations results in increased noise and artifacts as well, see Fig \ref{RL_iter}.
+Where $k$ is the iteration number.  As with Fourier methods, the final spectra cannot gain any more information, increasing iterations results in increased noise and artifacts as well, see Fig \ref{RL_iter}.  
 
 \begin{figure}
 

@@ -30,12 +30,13 @@
 \contentsline {subsection}{\numberline {2.3.4}Core Hole Approximation}{33}{subsection.2.3.4}
 \contentsline {chapter}{\numberline {3}Shielding Calculations}{35}{chapter.3}
 \contentsline {section}{\numberline {3.1}Core Hole Shielding Calculations}{35}{section.3.1}
-\contentsline {section}{\numberline {3.2}Implementation}{38}{section.3.2}
+\contentsline {section}{\numberline {3.2}Implementation}{37}{section.3.2}
 \contentsline {chapter}{\numberline {4}Results and Discussion}{39}{chapter.4}
-\contentsline {section}{\numberline {4.1}Lithium Oxide}{40}{section.4.1}
-\contentsline {section}{\numberline {4.2}Lithium}{42}{section.4.2}
-\contentsline {section}{\numberline {4.3}LiF}{43}{section.4.3}
-\contentsline {section}{\numberline {4.4}Li-LiF Mixture}{44}{section.4.4}
-\contentsline {section}{\numberline {4.5}Discussion}{45}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusion}{47}{chapter.5}
-\contentsline {chapter}{\numberline {6}}{48}{chapter.6}
+\contentsline {section}{\numberline {4.1}Calculation and Experimental Details}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Lithium Oxide}{40}{section.4.2}
+\contentsline {section}{\numberline {4.3}Lithium}{42}{section.4.3}
+\contentsline {section}{\numberline {4.4}LiF}{44}{section.4.4}
+\contentsline {section}{\numberline {4.5}Li-LiF Mixture}{44}{section.4.5}
+\contentsline {section}{\numberline {4.6}Discussion}{46}{section.4.6}
+\contentsline {chapter}{\numberline {5}Conclusion}{48}{chapter.5}
+\contentsline {chapter}{\numberline {6}}{49}{chapter.6}
