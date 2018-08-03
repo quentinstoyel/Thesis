@@ -17,7 +17,7 @@ DFT is an ab initio method that requires only atomic positions as input and is i
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.3]{method_scaling.png}
+	\includegraphics[width=0.5\textwidth]{method_scaling.png}
 	\caption{Various methods available to compute material properties and their corresponding regions of use. }
 	\label{scaling}
 \end{figure}
@@ -112,8 +112,8 @@ Consequently, a natural basis choice for periodic boundary situations are plane 
 As large numbers of plane waves would be required to handle the fine features in the electron density close to nuclei, often an augmented plane wave (APW) technique is used.  APW lowers the computational cost by dividing the unit cell into two regions: interstitial space and atomic basins (sometimes referred to as muffin tins), illustrated in Fig \ref{MT} \cite{wien2k}. 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.5]{muffin_tins.png}
-	\caption{The two regions in an APW approach.  (I) Atomic Basins modelled with Psudopotentials or atomic orbitals and (II) interstitial space modelled with a plane wave basis set \cite{wien2k}. }
+	\includegraphics[width=0.5\textwidth]{muffin_tins.png}
+	\caption{The two regions in an augmented plane wave approach.  (I) Atomic Basins modelled with Psudopotentials or atomic orbitals and (II) interstitial space modelled with a plane wave basis set \cite{wien2k}. }
 	\label{MT}   
 \end{figure}
 
@@ -145,7 +145,7 @@ Where $Y_{lm}(\hat{\textbf{r}})$ are the spherical harmonics and $u_l(r,E_l)$ ar
 
 
 \subsection{Quantum Theory of Atoms in Molecules} \label{bader-theory}
-Before continuing to the application of DFT to EELS, we will briefly discuss a more direct application of DFT; defining atoms and bonds from the electron density. Initial work on this front was performed by Bader \cite{bader}. The electron density can be divided into regions, with each atomic basin  delimited by surfaces satisfying \cite{bader_quantum_1991}: 
+Before continuing to the application of DFT to EELS, we will briefly discuss a more direct application of DFT: defining atoms and bonds from the electron density. Initial work on this front was performed by Bader \cite{bader}. The electron density can be divided into regions, with each atomic basin  delimited by surfaces satisfying \cite{bader_quantum_1991}: 
 
 
 \begin{equation}
@@ -157,7 +157,7 @@ That is, surfaces with no flux of electron density through them and can be pictu
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.5]{bader_topo_plot}
+	\includegraphics[width=0.75\textwidth]{bader_topo_plot}
 	\caption{Density plot (left) and identification of atomic basin (right) in diborane atomic From Bader \cite{bader}.}
 	\label{topo_plot}
 \end{figure}
@@ -168,7 +168,7 @@ As in experiment, lithium's low atomic number requires a number of special treat
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.3]{atomic_orbital_size}
+	\includegraphics[width=0.75\textwidth]{atomic_orbital_size}
 	\caption{Orbital charge densities as a function of distance from nucleus, demonstrating the varying degrees of localization.  From Mauchamp et al \cite{mauchamp_ab_2006}}
 	\label{orbital_size}
 \end{figure}

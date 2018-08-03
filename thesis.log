@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.6.11)  2 AUG 2018 12:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.6.11)  3 AUG 2018 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,6 +255,12 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@subfigure=\count107
 \c@subtable=\count108
 )
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count109
+\c@@ppsavesec=\count110
+\c@@ppsaveapp=\count111
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
 
@@ -308,13 +314,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen129
-\Hy@linkcounter=\count109
-\Hy@pagecounter=\count110
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/21 v6.83p Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count111
+\Hy@SavedSpaceFactor=\count114
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -326,7 +332,7 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count112
+\c@Hy@tempcnt=\count115
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -334,7 +340,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen130
-\Fld@menulength=\count113
+\Fld@menulength=\count116
 \Field@Width=\dimen131
 \Fld@charsize=\dimen132
 Package hyperref Info: Hyper figures OFF on input line 6342.
@@ -346,17 +352,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count114
-\c@Item=\count115
-\c@Hfootnote=\count116
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/21 v6.83p Hyperref driver for pdfTeX
-\Fld@listcount=\count117
-\c@bookmark@seq@number=\count118
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -365,7 +371,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip48
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 20.
+Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
@@ -384,24 +390,24 @@ L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
 L3 Module: l3str 2016/03/24 v6441 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/03/24 v6441 L3 Integers
-\c_max_int=\count119
-\l_tmpa_int=\count120
-\l_tmpb_int=\count121
-\g_tmpa_int=\count122
-\g_tmpb_int=\count123
+\c_max_int=\count122
+\l_tmpa_int=\count123
+\l_tmpb_int=\count124
+\g_tmpa_int=\count125
+\g_tmpb_int=\count126
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count124
+\g__prg_map_int=\count127
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2016/03/26 v6464 L3 Messages
 L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
-\l_iow_line_count_int=\count125
-\l__iow_target_count_int=\count126
-\l__iow_current_line_int=\count127
-\l__iow_current_word_int=\count128
-\l__iow_current_indentation_int=\count129
+\l_iow_line_count_int=\count128
+\l__iow_target_count_int=\count129
+\l__iow_current_line_int=\count130
+\l__iow_current_word_int=\count131
+\l__iow_current_indentation_int=\count132
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen133
 \c_max_dim=\dimen134
@@ -422,18 +428,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count130
-\l_keys_choice_int=\count131
+\g__keyval_level_int=\count133
+\l_keys_choice_int=\count134
 L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
-\c__fp_leading_shift_int=\count132
-\c__fp_middle_shift_int=\count133
-\c__fp_trailing_shift_int=\count134
-\c__fp_big_leading_shift_int=\count135
-\c__fp_big_middle_shift_int=\count136
-\c__fp_big_trailing_shift_int=\count137
-\c__fp_Bigg_leading_shift_int=\count138
-\c__fp_Bigg_middle_shift_int=\count139
-\c__fp_Bigg_trailing_shift_int=\count140
+\c__fp_leading_shift_int=\count135
+\c__fp_middle_shift_int=\count136
+\c__fp_trailing_shift_int=\count137
+\c__fp_big_leading_shift_int=\count138
+\c__fp_big_middle_shift_int=\count139
+\c__fp_big_trailing_shift_int=\count140
+\c__fp_Bigg_leading_shift_int=\count141
+\c__fp_Bigg_middle_shift_int=\count142
+\c__fp_Bigg_trailing_shift_int=\count143
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box28
 \l_tmpa_box=\box29
@@ -483,15 +489,15 @@ L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count141
+\l__driver_color_stack_int=\count144
 \l__driver_tmp_box=\box43
 ))
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count142
-\l__xparse_m_args_int=\count143
-\l__xparse_mandatory_args_int=\count144
-\l__xparse_processor_int=\count145
-\l__xparse_v_nesting_int=\count146
+\l__xparse_current_arg_int=\count145
+\l__xparse_m_args_int=\count146
+\l__xparse_mandatory_args_int=\count147
+\l__xparse_processor_int=\count148
+\l__xparse_v_nesting_int=\count149
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1374,39 +1380,39 @@ Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count147
+\scratchcounter=\count150
 \scratchdimen=\dimen164
 \scratchbox=\box44
-\nofMPsegments=\count148
-\nofMParguments=\count149
+\nofMPsegments=\count151
+\nofMParguments=\count152
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count150
+\MPscratchCnt=\count153
 \MPscratchDim=\dimen165
-\MPnumerator=\count151
-\makeMPintoPDFobject=\count152
+\MPnumerator=\count154
+\makeMPintoPDFobject=\count155
 \everyMPtoPDFconversion=\toks22
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1471,7 +1477,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 144.
 )
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring ON on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1479,11 +1485,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count153
+\c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
@@ -1499,20 +1505,29 @@ Package pdftex.def Info: Images/McGill_logo.png used on input line 24.
  [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./Images/Mc
-Gill_logo.png>]) [1
-
-] [2
-
-] [3
-
-] (./thesis.toc
-[4
+Gill_logo.png>]) (./thesis.tocpdfTeX warning (ext4): destination with the same 
+identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 ... Hole Approximation}{33}{subsection.2.3.4}
+                                                   [1
 
 ])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [5]
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+[3
+
+] (./Additional_files/french_abstract.tex) [4
+
+] [5
+
+]
 Chapter 1.
 (./Chapters/introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
@@ -1524,12 +1539,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<Images/ragone_plot.png, id=218, 882.29625pt x 522.95375pt>
+<Images/ragone_plot.png, id=217, 882.29625pt x 522.95375pt>
 File: Images/ragone_plot.png Graphic file (type png)
 
 <use Images/ragone_plot.png>
 Package pdftex.def Info: Images/ragone_plot.png used on input line 19.
-(pdftex.def)             Requested size: 264.69092pt x 156.88733pt.
+(pdftex.def)             Requested size: 234.8775pt x 139.21246pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -1537,117 +1552,104 @@ been already used, duplicate ignored
 l.27 
       [1
 
-] [2 <./Images/ragone_plot.png>]) [3]
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 
+      [2 <./Images/ragone_plot.png>]) [3]
 Chapter 2.
 (./Chapters/EELS.tex [4
 
 ]
-<Images/method_scales.png, id=284, 960.58875pt x 783.92876pt>
+<Images/method_scales.png, id=282, 960.58875pt x 783.92876pt>
 File: Images/method_scales.png Graphic file (type png)
 
 <use Images/method_scales.png>
 Package pdftex.def Info: Images/method_scales.png used on input line 31.
-(pdftex.def)             Requested size: 220.93076pt x 180.29982pt.
- [5 <./Images/method_scales.png>]
-<Images/SU_9000.png, id=299, 571.13374pt x 457.71pt>
+(pdftex.def)             Requested size: 234.8775pt x 191.67546pt.
+
+<Images/SU_9000.png, id=286, 571.13374pt x 457.71pt>
 File: Images/SU_9000.png Graphic file (type png)
  <use Images/SU_9000.png>
 Package pdftex.def Info: Images/SU_9000.png used on input line 43.
-(pdftex.def)             Requested size: 228.44945pt x 183.08075pt.
+(pdftex.def)             Requested size: 211.38832pt x 169.40591pt.
 
-Overfull \hbox (17.06113pt too wide) in paragraph at lines 43--44
-[][] 
- []
-
-<Images/EM_diagram.png, id=300, 619.56468pt x 531.48563pt>
+<Images/EM_diagram.png, id=287, 619.56468pt x 531.48563pt>
 File: Images/EM_diagram.png Graphic file (type png)
 
 <use Images/EM_diagram.png>
 Package pdftex.def Info: Images/EM_diagram.png used on input line 48.
-(pdftex.def)             Requested size: 247.82147pt x 212.59048pt.
+(pdftex.def)             Requested size: 211.38832pt x 181.33528pt.
 
-Overfull \hbox (36.43315pt too wide) in paragraph at lines 48--49
-[][] 
- []
-
-<Images/specimen_emmisions.png, id=311, 928.21782pt x 645.16031pt>
+<Images/specimen_emmisions.png, id=298, 928.21782pt x 645.16031pt>
 File: Images/specimen_emmisions.png Graphic file (type png)
 
 <use Images/specimen_emmisions.png>
 Package pdftex.def Info: Images/specimen_emmisions.png used on input line 58.
-(pdftex.def)             Requested size: 278.4675pt x 193.54958pt.
- [6 <./Images/SU_9000.png> <./Images/EM_diagram.png>] <Images/EELS_spectra.png,
- id=326, 1005.00468pt x 663.98062pt>
+(pdftex.def)             Requested size: 305.33789pt x 212.22429pt.
+ [5] [6 <./Images/method_scales.png> <./Images/SU_9000.png> <./Images/EM_diagra
+m.png>]
+<Images/EELS_spectra.png, id=323, 1005.00468pt x 663.98062pt>
 File: Images/EELS_spectra.png Graphic file (type png)
 
 <use Images/EELS_spectra.png>
 Package pdftex.def Info: Images/EELS_spectra.png used on input line 65.
-(pdftex.def)             Requested size: 301.50372pt x 199.19571pt.
+(pdftex.def)             Requested size: 352.31625pt x 232.76143pt.
  [7 <./Images/specimen_emmisions.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<Images/multiple_plasmons.png, id=347, 1639.12375pt x 872.25874pt>
+[8 <./Images/EELS_spectra.png>]
+<Images/multiple_plasmons.png, id=352, 1639.12375pt x 872.25874pt>
 File: Images/multiple_plasmons.png Graphic file (type png)
 
 <use Images/multiple_plasmons.png>
 Package pdftex.def Info: Images/multiple_plasmons.png used on input line 88.
-(pdftex.def)             Requested size: 327.81894pt x 174.44865pt.
- [8 <./Images/EELS_spectra.png>]
+(pdftex.def)             Requested size: 352.31625pt x 187.47873pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 [9 <./Images/multiple_plasmons.png>]
-<Images/Carbon_k_edges.png, id=374, 578.16pt x 433.62pt>
+<Images/Carbon_k_edges.png, id=369, 578.16pt x 433.62pt>
 File: Images/Carbon_k_edges.png Graphic file (type png)
 
 <use Images/Carbon_k_edges.png>
 Package pdftex.def Info: Images/Carbon_k_edges.png used on input line 104.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+(pdftex.def)             Requested size: 352.31625pt x 264.23654pt.
  [10 <./Images/Carbon_k_edges.png>]
-<Images/Expt_setup.png, id=385, 874.01532pt x 701.62125pt>
+<Images/Expt_setup.png, id=382, 874.01532pt x 701.62125pt>
 File: Images/Expt_setup.png Graphic file (type png)
 
 <use Images/Expt_setup.png>
 Package pdftex.def Info: Images/Expt_setup.png used on input line 128.
-(pdftex.def)             Requested size: 349.59993pt x 280.64352pt.
- [11 <./Images/Expt_setup.png>] [12] [13]
-<Images/full_bg.png, id=422, 433.62pt x 289.08pt>
+(pdftex.def)             Requested size: 352.31625pt x 282.82751pt.
+ [11] [12 <./Images/Expt_setup.png>] [13] [14]
+<Images/full_bg.png, id=430, 433.62pt x 289.08pt>
 File: Images/full_bg.png Graphic file (type png)
  <use Images/full_bg.png>
 Package pdftex.def Info: Images/full_bg.png used on input line 170.
-(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+(pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
 
-Overfull \hbox (5.42114pt too wide) in paragraph at lines 170--171
-[][] 
- []
-
-<Images/good_window.png, id=423, 433.62pt x 289.08pt>
+<Images/good_window.png, id=431, 433.62pt x 289.08pt>
 File: Images/good_window.png Graphic file (type png)
 
 <use Images/good_window.png>
 Package pdftex.def Info: Images/good_window.png used on input line 177.
-(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
+(pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
 
-Overfull \hbox (5.42114pt too wide) in paragraph at lines 177--178
-[][] 
- []
-
-<Images/bad_window.png, id=424, 433.62pt x 289.08pt>
+<Images/bad_window.png, id=432, 433.62pt x 289.08pt>
 File: Images/bad_window.png Graphic file (type png)
 
 <use Images/bad_window.png>
 Package pdftex.def Info: Images/bad_window.png used on input line 182.
-(pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
-
-Overfull \hbox (5.42114pt too wide) in paragraph at lines 182--183
-[][] 
- []
-
-[14] [15 <./Images/full_bg.png> <./Images/good_window.png> <./Images/bad_window
-.png>] [16] <Images//deconvolutions/0iter.png, id=458, 578.16pt x 433.62pt>
+(pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
+ [15 <./Images/full_bg.png> <./Images/good_window.png> <./Images/bad_window.png
+>] [16]
+<Images//deconvolutions/0iter.png, id=457, 578.16pt x 433.62pt>
 File: Images//deconvolutions/0iter.png Graphic file (type png)
 
 <use Images//deconvolutions/0iter.png>
@@ -1659,7 +1661,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 237--238
 [][] 
  []
 
-<Images//deconvolutions/5iter.png, id=459, 578.16pt x 433.62pt>
+<Images//deconvolutions/5iter.png, id=458, 578.16pt x 433.62pt>
 File: Images//deconvolutions/5iter.png Graphic file (type png)
 
 <use Images//deconvolutions/5iter.png>
@@ -1671,7 +1673,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 241--242
 [][] 
  []
 
-<Images//deconvolutions/25iter.png, id=460, 578.16pt x 433.62pt>
+<Images//deconvolutions/25iter.png, id=459, 578.16pt x 433.62pt>
 File: Images//deconvolutions/25iter.png Graphic file (type png)
 
 <use Images//deconvolutions/25iter.png>
@@ -1683,7 +1685,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 245--246
 [][] 
  []
 
-<Images//deconvolutions/50iter.png, id=461, 578.16pt x 433.62pt>
+<Images//deconvolutions/50iter.png, id=460, 578.16pt x 433.62pt>
 File: Images//deconvolutions/50iter.png Graphic file (type png)
 
 <use Images//deconvolutions/50iter.png>
@@ -1695,7 +1697,7 @@ Overfull \hbox (24.20773pt too wide) in paragraph at lines 250--251
 [][] 
  []
 
-<Images//deconvolutions/100iter.png, id=462, 578.16pt x 433.62pt>
+<Images//deconvolutions/100iter.png, id=461, 578.16pt x 433.62pt>
 File: Images//deconvolutions/100iter.png Graphic file (type png)
 
 <use Images//deconvolutions/100iter.png>
@@ -1710,166 +1712,202 @@ Overfull \hbox (24.20773pt too wide) in paragraph at lines 255--256
 [17] [18 <./Images//deconvolutions/0iter.png> <./Images//deconvolutions/5iter.p
 ng> <./Images//deconvolutions/25iter.png> <./Images//deconvolutions/50iter.png>
  <./Images//deconvolutions/100iter.png>]) (./Chapters/DFT.tex [19]
-<Images/method_scaling.png, id=499, 927.465pt x 621.82312pt>
+<Images/method_scaling.png, id=497, 927.465pt x 621.82312pt>
 File: Images/method_scaling.png Graphic file (type png)
 
 <use Images/method_scaling.png>
 Package pdftex.def Info: Images/method_scaling.png used on input line 20.
-(pdftex.def)             Requested size: 278.24164pt x 186.54837pt.
+(pdftex.def)             Requested size: 234.8775pt x 157.4669pt.
  [20 <./Images/method_scaling.png>] [21]
-[22] [23] <Images/muffin_tins.png, id=564, 336.25626pt x 203.76125pt>
+[22] [23] <Images/muffin_tins.png, id=562, 336.25626pt x 203.76125pt>
 File: Images/muffin_tins.png Graphic file (type png)
 
 <use Images/muffin_tins.png>
 Package pdftex.def Info: Images/muffin_tins.png used on input line 115.
-(pdftex.def)             Requested size: 168.12772pt x 101.88037pt.
+(pdftex.def)             Requested size: 234.8775pt x 142.3303pt.
  [24] [25 <./Images/muffin_tins.png>]
-<Images/DFT_flowchart.png, id=596, 769.37437pt x 732.48656pt>
+<Images/DFT_flowchart.png, id=594, 769.37437pt x 732.48656pt>
 File: Images/DFT_flowchart.png Graphic file (type png)
 
 <use Images/DFT_flowchart.png>
 Package pdftex.def Info: Images/DFT_flowchart.png used on input line 126.
 (pdftex.def)             Requested size: 230.81409pt x 219.74765pt.
  [26 <./Images/DFT_flowchart.png>]
-<Images/bader_topo_plot.png, id=615, 663.47874pt x 265.99374pt>
+<Images/bader_topo_plot.png, id=613, 663.47874pt x 265.99374pt>
 File: Images/bader_topo_plot.png Graphic file (type png)
 
 <use Images/bader_topo_plot.png>
 Package pdftex.def Info: Images/bader_topo_plot.png used on input line 160.
-(pdftex.def)             Requested size: 331.73856pt x 132.99654pt.
+(pdftex.def)             Requested size: 352.31625pt x 141.24794pt.
  [27 <./Images/bader_topo_plot.png>]
-<Images/atomic_orbital_size.png, id=634, 1026.83624pt x 795.97375pt>
+<Images/atomic_orbital_size.png, id=632, 1026.83624pt x 795.97375pt>
 File: Images/atomic_orbital_size.png Graphic file (type png)
 
 <use Images/atomic_orbital_size.png>
 Package pdftex.def Info: Images/atomic_orbital_size.png used on input line 171.
 
-(pdftex.def)             Requested size: 308.05325pt x 238.79396pt.
-) (./Chapters/EELScalculations.tex [28 <./Images/atomic_orbital_size.png>] [29]
- [30] [31] [32]
-<Images/hebert_ch_si_good.png, id=707, 1104.125pt x 783.92876pt>
+(pdftex.def)             Requested size: 352.31625pt x 273.1052pt.
+) (./Chapters/EELScalculations.tex [28]
+[29 <./Images/atomic_orbital_size.png>] [30] [31] [32] [33]
+<Images/hebert_ch_si_good.png, id=710, 1104.125pt x 783.92876pt>
 File: Images/hebert_ch_si_good.png Graphic file (type png)
 
 <use Images/hebert_ch_si_good.png>
 Package pdftex.def Info: Images/hebert_ch_si_good.png used on input line 104.
-(pdftex.def)             Requested size: 187.69876pt x 133.26613pt.
+(pdftex.def)             Requested size: 211.38832pt x 150.08438pt.
 
-<Images/hebert_ch_mg.png, id=708, 1222.5675pt x 820.06375pt>
+<Images/hebert_ch_mg.png, id=711, 1222.5675pt x 820.06375pt>
 File: Images/hebert_ch_mg.png Graphic file (type png)
 
 <use Images/hebert_ch_mg.png>
 Package pdftex.def Info: Images/hebert_ch_mg.png used on input line 110.
-(pdftex.def)             Requested size: 207.83372pt x 139.40898pt.
+(pdftex.def)             Requested size: 211.38832pt x 141.78648pt.
 
-<Images/luitz_cu_half.png, id=709, 1104.125pt x 777.90625pt>
+<Images/luitz_cu_half.png, id=712, 1104.125pt x 777.90625pt>
 File: Images/luitz_cu_half.png Graphic file (type png)
 
 <use Images/luitz_cu_half.png>
 Package pdftex.def Info: Images/luitz_cu_half.png used on input line 116.
-(pdftex.def)             Requested size: 187.69876pt x 132.24231pt.
- [33] [34 <./Images/hebert_ch_si_good.png> <./Images/hebert_ch_mg.png> <./Image
+(pdftex.def)             Requested size: 211.38832pt x 148.93135pt.
+ [34] [35 <./Images/hebert_ch_si_good.png> <./Images/hebert_ch_mg.png> <./Image
 s/luitz_cu_half.png>])
 Chapter 3.
-(./Chapters/method.tex [35
+(./Chapters/method.tex [36
 
-] [36] [37]) [38]
+] [37] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+) [39]
 Chapter 4.
-(./Chapters/Results.tex [39
+(./Chapters/Results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
-]
-<Images/Li2Ocontour_plot.png, id=781, 1599.72656pt x 1529.715pt>
+ []
+
+<Images/Li2Ocontour_plot.png, id=779, 1599.72656pt x 1529.715pt>
 File: Images/Li2Ocontour_plot.png Graphic file (type png)
 
 <use Images/Li2Ocontour_plot.png>
-Package pdftex.def Info: Images/Li2Ocontour_plot.png used on input line 39.
-(pdftex.def)             Requested size: 239.94862pt x 229.44734pt.
- [40]
-<Images/Li2O_three.png, id=792, 481.8pt x 362.10281pt>
+Package pdftex.def Info: Images/Li2Ocontour_plot.png used on input line 14.
+(pdftex.def)             Requested size: 234.8775pt x 224.5923pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+[40
+
+] <Images/Li2O_three.png, id=789, 481.8pt x 362.10281pt>
 File: Images/Li2O_three.png Graphic file (type png)
 
 <use Images/Li2O_three.png>
-Package pdftex.def Info: Images/Li2O_three.png used on input line 67.
-(pdftex.def)             Requested size: 216.80798pt x 162.94475pt.
- [41 <./Images/Li2Ocontour_plot.png>]
-<Images/Li_contours.png, id=801, 1099.10625pt x 628.3475pt>
+Package pdftex.def Info: Images/Li2O_three.png used on input line 42.
+(pdftex.def)             Requested size: 234.8775pt x 176.52579pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+[41 <./Images/Li2Ocontour_plot.png>] [42 <./Images/Li2O_three.png>]
+<Images/Li_contours.png, id=804, 1099.10625pt x 628.3475pt>
 File: Images/Li_contours.png Graphic file (type png)
 
 <use Images/Li_contours.png>
-Package pdftex.def Info: Images/Li_contours.png used on input line 78.
-(pdftex.def)             Requested size: 439.6347pt x 251.33455pt.
+Package pdftex.def Info: Images/Li_contours.png used on input line 54.
+(pdftex.def)             Requested size: 352.31625pt x 201.41087pt.
 
-<Images/Li_two.png, id=802, 659.8251pt x 479.1501pt>
+<Images/Li_two.png, id=805, 659.8251pt x 479.1501pt>
 File: Images/Li_two.png Graphic file (type png)
  <use Images/Li_two.png>
-Package pdftex.def Info: Images/Li_two.png used on input line 89.
-(pdftex.def)             Requested size: 263.92535pt x 191.65663pt.
+Package pdftex.def Info: Images/Li_two.png used on input line 65.
+(pdftex.def)             Requested size: 232.52844pt x 168.8529pt.
 
-Overfull \hbox (52.53703pt too wide) in paragraph at lines 89--90
+Overfull \hbox (21.14012pt too wide) in paragraph at lines 65--66
 [][] 
  []
 
-<Images/Li_comparisson.png, id=803, 578.16pt x 433.62pt>
+<Images/Li_comparisson.png, id=806, 578.16pt x 433.62pt>
 File: Images/Li_comparisson.png Graphic file (type png)
 
 <use Images/Li_comparisson.png>
-Package pdftex.def Info: Images/Li_comparisson.png used on input line 93.
-(pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
+Package pdftex.def Info: Images/Li_comparisson.png used on input line 69.
+(pdftex.def)             Requested size: 232.52844pt x 174.39108pt.
 
-Overfull \hbox (48.78127pt too wide) in paragraph at lines 93--94
+Overfull \hbox (21.14012pt too wide) in paragraph at lines 69--70
 [][] 
  []
 
-[42 <./Images/Li2O_three.png>] [43 <./Images/Li_contours.png> <./Images/Li_two.
-png> <./Images/Li_comparisson.png>]
-<Images/LiF_countours.png, id=822, 1262.7175pt x 657.45625pt>
+[43 <./Images/Li_contours.png>] [44 <./Images/Li_two.png> <./Images/Li_comparis
+son.png>] <Images/LiF_countours.png, id=830, 1262.7175pt x 657.45625pt>
 File: Images/LiF_countours.png Graphic file (type png)
 
 <use Images/LiF_countours.png>
-Package pdftex.def Info: Images/LiF_countours.png used on input line 108.
-(pdftex.def)             Requested size: 441.95775pt x 230.11313pt.
+Package pdftex.def Info: Images/LiF_countours.png used on input line 84.
+(pdftex.def)             Requested size: 469.75502pt x 244.58925pt.
 
-<Images/LiF_colour.png, id=823, 578.16pt x 433.62pt>
+<Images/LiF_colour.png, id=831, 578.16pt x 433.62pt>
 File: Images/LiF_colour.png Graphic file (type png)
 
 <use Images/LiF_colour.png>
-Package pdftex.def Info: Images/LiF_colour.png used on input line 115.
-(pdftex.def)             Requested size: 260.16959pt x 195.1272pt.
- [44] [45 <./Images/LiF_countours.png> <./Images/LiF_colour.png>] <Images/Li-Li
-f_colour.png, id=837, 578.16pt x 433.62pt>
+Package pdftex.def Info: Images/LiF_colour.png used on input line 91.
+(pdftex.def)             Requested size: 264.2372pt x 198.1774pt.
+ [45 <./Images/LiF_countours.png>]
+<Images/Li-Lif_colour.png, id=839, 646.0938pt x 491.436pt>
 File: Images/Li-Lif_colour.png Graphic file (type png)
 
 <use Images/Li-Lif_colour.png>
-Package pdftex.def Info: Images/Li-Lif_colour.png used on input line 130.
-(pdftex.def)             Requested size: 231.2599pt x 173.44492pt.
+Package pdftex.def Info: Images/Li-Lif_colour.png used on input line 107.
+(pdftex.def)             Requested size: 232.52844pt x 176.86433pt.
 
-Overfull \hbox (19.87158pt too wide) in paragraph at lines 130--131
+Overfull \hbox (21.14012pt too wide) in paragraph at lines 107--108
 [][] 
  []
 
-<Images/Li-LiF_mix_no-screen.png, id=838, 462.528pt x 346.896pt>
-File: Images/Li-LiF_mix_no-screen.png Graphic file (type png)
+<Images/Li-Lif_colour_unscreened.png, id=840, 578.16pt x 433.62pt>
+File: Images/Li-Lif_colour_unscreened.png Graphic file (type png)
 
-<use Images/Li-LiF_mix_no-screen.png>
-Package pdftex.def Info: Images/Li-LiF_mix_no-screen.png used on input line 136
-.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+<use Images/Li-Lif_colour_unscreened.png>
+Package pdftex.def Info: Images/Li-Lif_colour_unscreened.png used on input line
+ 113.
+(pdftex.def)             Requested size: 232.52844pt x 174.39108pt.
 
-Overfull \hbox (19.8751pt too wide) in paragraph at lines 136--137
+Overfull \hbox (21.14012pt too wide) in paragraph at lines 113--114
 [][] 
  []
 
-[46 <./Images/Li-Lif_colour.png> <./Images/Li-LiF_mix_no-screen.png>]) [47]
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+[46 <./Images/LiF_colour.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+[47 <./Images/Li-Lif_colour.png> <./Images/Li-Lif_colour_unscreened.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+) [48]
 Chapter 5.
-(./Chapters/Conclusion.tex) [48
+(./Chapters/Conclusion.tex) [49
 
 ]
-Chapter 6.
-(./thesis.bbl
+Appendix A.
+(./Additional_files/calculation_details.tex [50
+
+]) (./thesis.bbl [51]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no   in font cmr12!
- [49
-
-]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -1878,17 +1916,18 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¸ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¸ in font cmr12!
- [50]
+ [52]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 143.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 143.
- [51]
+ [53]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -1897,10 +1936,10 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
- [52]
+ [54]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [53]
+ [55]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmti12!
@@ -1911,7 +1950,7 @@ Underfull \hbox (badness 1147) in paragraph at lines 310--313
   \OT1/cmr/m/it/12 Phys-i-cal Re-view\OT1/cmr/m/n/12 ,
  []
 
-[54]
+[56]
 Missing character: There is no Ë in font cmr12!
 Missing character: There is no œ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -1932,13 +1971,13 @@ Underfull \hbox (badness 1242) in paragraph at lines 383--388
 Gibbs, and Si-mon
  []
 
-[55]
+[57]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [56]
+ [58]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -1950,7 +1989,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [57]
+ [59]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -1959,22 +1998,22 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Î in font cmr12!
 Missing character: There is no ± in font cmr12!
- [58])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
- [59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+ [60])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+ [61]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A5F3C01A57486E2F02A66C9F6776BBB4;2227.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+(rerunfilecheck)             Checksum: BF797866F1896C7F3B40B7CA4797C7F2;2227.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 16218 strings out of 493064
- 283434 string characters out of 6138159
- 343486 words of memory out of 5000000
- 19312 multiletter control sequences out of 15000+600000
+ 16330 strings out of 493064
+ 285297 string characters out of 6138159
+ 344083 words of memory out of 5000000
+ 19412 multiletter control sequences out of 15000+600000
  10779 words of font info for 38 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  42i,11n,44p,10459b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1994,10 +2033,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (65 pages, 3563163 bytes).
+Output written on thesis.pdf (67 pages, 3569276 bytes).
 PDF statistics:
- 1031 PDF objects out of 1200 (max. 8388607)
- 870 compressed objects within 9 object streams
- 272 named destinations out of 1000 (max. 500000)
+ 1047 PDF objects out of 1200 (max. 8388607)
+ 884 compressed objects within 9 object streams
+ 275 named destinations out of 1000 (max. 500000)
  454 words of extra memory for PDF output out of 10000 (max. 10000000)
 
