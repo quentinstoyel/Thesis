@@ -1,6 +1,6 @@
-\BOOKMARK [1][-]{chapter*.1}{Abstract}{}% 1
-\BOOKMARK [1][-]{chapter*.2}{Acknowledgements}{}% 2
-\BOOKMARK [1][-]{chapter*.3}{Contribution to Original Knowledge}{}% 3
+\BOOKMARK [1][-]{chapter*.2}{Abstract}{}% 1
+\BOOKMARK [1][-]{chapter*.3}{Abr\351g\351}{}% 2
+\BOOKMARK [1][-]{chapter*.4}{Acknowledgements}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
 \BOOKMARK [0][-]{chapter.2}{Literature Review}{}% 5
 \BOOKMARK [1][-]{section.2.1}{Electron Energy Loss Spectroscopy}{chapter.2}% 6
@@ -20,15 +20,15 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Cross Section Approach}{section.2.3}% 20
 \BOOKMARK [2][-]{subsection.2.3.3}{Beth Salpeter Equations -BSE}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.4}{Core Hole Approximation}{section.2.3}% 22
-\BOOKMARK [0][-]{chapter.3}{Shielding Calculations}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Core Hole Shielding Calculations}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.3}{Methods}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Improvement to Core Hole Shielding Calculations}{chapter.3}% 24
 \BOOKMARK [1][-]{section.3.2}{Implementation}{chapter.3}% 25
-\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 26
-\BOOKMARK [1][-]{section.4.1}{Calculation and Experimental Details}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.2}{Lithium Oxide}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.3}{Lithium}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.4}{LiF}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.5}{Li-LiF Mixture}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.6}{Discussion}{chapter.4}% 32
+\BOOKMARK [1][-]{section.3.3}{Calculation and Experimental Details}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Lithium Oxide}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Lithium}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{LiF}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.4}{Li-LiF Mixture}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 32
 \BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 33
-\BOOKMARK [0][-]{chapter.6}{}{}% 34
+\BOOKMARK [0][-]{Appendix.a.A}{Calculation Details}{}% 34

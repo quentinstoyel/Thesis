@@ -28,7 +28,7 @@ Where $h$ is planck's constant, $m_0$, $e$ and $E$ are the rest mass, charge and
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.23]{method_scales}
+	\includegraphics[width=0.5\textwidth]{method_scales}
 	\caption{Resolution achievable by various techniques including Transmission and Scanning electron microscopy (TEM/SEM) and light microscopy, on a log-log scale.  Taken from Inkson, 2016 \cite{inkson_2_2016}}.
 	\label{method_scales}
 	
@@ -40,12 +40,12 @@ In order to obtain images using electrons, electron microscopes use magnetic len
 
 \begin{figure}
 \begin{subfigure}{0.45\textwidth}
-	\includegraphics[scale=0.4]{SU_9000}
+	\includegraphics[width=1\textwidth]{SU_9000}
 	\caption{}
 \end{subfigure}
-\hfill
+\hspace{0.05cm}
 \begin{subfigure}{0.45\textwidth}
-	\includegraphics[scale=0.4]{EM_diagram}
+	\includegraphics[width=1\textwidth]{EM_diagram}
 	\caption{}
 \end{subfigure}
 	\caption{Example of an electron microscope (a) and working principles behind data acquisition (b). }
@@ -55,14 +55,14 @@ In order to obtain images using electrons, electron microscopes use magnetic len
 The large number of different signals generated when the electron beam interacts with a sample, (Fig \ref{specimen_emmisions}), can be used to perform a multitude of types of analysis \cite{williams_transmission_2008}. The wide range of material properties that can be obtained at high spatial resolution make electron microscopy  a very versatile technique. A full discussion of the analysis methods at the disposal of electron microscopes is beyond the scope of this work and has been well documented elsewhere \cite{goldstein_electron_2003,Egerton,williams_transmission_2008,reimer_electron_1998}.  Instead, this discussion is limited to electron energy loss spectroscopy (EELS).  EELS is an electron microscopy technique that analyzes the transmitted inelastically scattered electrons, Fig \ref{specimen_emmisions}\cite{Egerton}.  It is mainly an analytic technique, however it is also possible to perform imaging with EELS \cite{varela_stem-eels_2012}.  EELS consists of collecting electrons that have passed entirely through the sample and binning them according to how much energy each one has lost, resulting in a spectrum such as shown in Fig \ref{EELS_spectra}.  The numerous distinct features arise from the various mechanisms through which beam electrons can lose energy in the sample.  Each mechanism results in a particular feature in the spectrum, of which the main ones are described below:
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.3]{specimen_emmisions.png}
+	\includegraphics[width=0.65\textwidth]{specimen_emmisions.png}
 	\caption{The numerous types of signals emitted when an electron beam encounters a sample in an electron microscope.   Redrawn from Williams and Carter \cite{williams_transmission_2008}.  }
 	\label{specimen_emmisions}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.3]{EELS_spectra.png}
+	\includegraphics[width=0.75\textwidth]{EELS_spectra.png}
 	\caption{Sample EELS spectra identifying the main features, the zero loss peak, plasmon peak and ionization edges with fine structure.   The intensities are on a log scale, and span approximately 6 orders of magnitude between the zero loss and the ionization edges.  }
 	\label{EELS_spectra}
 \end{figure}
@@ -85,7 +85,7 @@ The array of independent interaction mechanisms occuring in EELS opens the possi
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.2]{multiple_plasmons.png}
+	\includegraphics[width=0.75\textwidth]{multiple_plasmons.png}
 	\caption{Two spectra demonstrating the importance of thin samples and single scattering events. In the thicker sample, plural scattering results in multiple evenly spaced plasmon peaks with  intensities larger than the zero loss extending well past 100eV.  The high background from the plasmon peaks and the thicker sample drown out any structure due to ionization edges \cite{Egerton}. Taken from Egerton, 2011 \cite{Egerton}}
 	\label{multiple_plasmons}
 \end{figure}
@@ -101,7 +101,7 @@ These are the essential principles behind an EELS spectra.  In this work, we foc
 
 \begin{figure}
 	\centering
-	\includegraphics[scale=0.5]{Carbon_k_edges}
+	\includegraphics[width=0.75\textwidth]{Carbon_k_edges}
 	\caption{Carbon K edge taken at 30keV at McGill. The different crystal structures (amorphous, diamond and carbon nanotube) result in distinctly different ELNES which can be used for identification.   }
 	\label{carbon-k-edge}
 \end{figure}
@@ -125,7 +125,7 @@ As the force varies according to the velocity of the electrons, the magnetic pri
 
 \begin{figure}
  \centering
- \includegraphics[scale=0.4]{Expt_setup.png}
+ \includegraphics[width=0.75\textwidth]{Expt_setup.png}
  \caption{Experimental EELS setup, with the various magnetic lenses depicted in blue.  }
  \label{prism}
  
@@ -167,19 +167,19 @@ Where $E$ is the energy loss and $A$ and $r$ are fitting factors, typically dete
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[scale=0.5]{full_bg.png} 
+		\includegraphics[width=1\textwidth]{full_bg.png} 
 		\caption{}
 		\label{full_bg}
 	\end{subfigure}
-	\hfill
+	\hspace{-0.01cm}
 	
 	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[scale=0.5]{good_window.png} 
+		\includegraphics[width=1\textwidth]{good_window.png} 
 		\caption{}
 		\label{good_window}
 	\end{subfigure}
 	\begin{subfigure}{0.45\textwidth}
-		\includegraphics[scale=0.5]{bad_window.png} 
+		\includegraphics[width=1\textwidth]{bad_window.png} 
 		\caption{}
 		\label{bad_window}
 	\end{subfigure}
@@ -264,9 +264,9 @@ Where $k$ is the iteration number.  As with Fourier methods, the final spectra c
 
 
 \subsection{Other Experimental Techniques}
-EELS is by no means the only experimental technique available for the analysis of material microstructure, nor is it even the only electron microscopy technique available for the task. Other prevalent techniques include x-ray based analysis such as x ray absorption spectroscopy and energy dispersive spectroscopy.  We will take a moment to briefly describe these methods and compare them to EELS.
+EELS is by no means the only experimental technique available for the analysis of material microstructure, nor is it even the only electron microscopy technique available for the task. Other prevalent techniques include x-ray based analysis such as x-ray absorption spectroscopy and energy dispersive spectroscopy.  We will take a moment to briefly describe these methods and compare them to EELS.
 
-\subsubsection{X Ray Absorption Spectroscopy (XAS)}
+\subsubsection{X-ray Absorption Spectroscopy (XAS)}
 XAS operates on a similar principle to EELS.  Instead of probing the sample with an electron probe, a beam of x-rays is directed through the sample and the resulting energy losses in the output spectrum are binned as in EELS \cite{groot_high-resolution_2001}.  The difference in probe media does not effect the measured quantity which is the same as in EELS: the unoccupied density of states of the material \cite{groot_high-resolution_2001}.  Because of their similarities, parallels have been drawn between EELS and XAS when developing theories. XAS however is typically performed at far higher energies ($>$ 5 keV) and consequently has limited applicability to lithium \cite{maclaren_eels_2018}.  The largest benefit of XAS is it's superior energy resolution ($\sim$0.1 eV) when compared to EELS ($\sim$1 eV) allowing for more features in near edge structures to be identified\cite{Egerton, groot_high-resolution_2001}.  This benefit comes at a cost however, XAS needs to be performed in a synchrotron, making it far more costly and less accessible to perform than EELS
 
 
