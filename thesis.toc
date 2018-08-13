@@ -6,26 +6,26 @@
 \contentsline {section}{\numberline {2.1}Electron Energy Loss Spectroscopy}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Electron Microscopy}{4}{subsection.2.1.1}
 \contentsline {subsubsection}{Near Edge Structure}{9}{section*.11}
-\contentsline {subsection}{\numberline {2.1.2}EELS in Experiment}{11}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}EELS in Experiment}{10}{subsection.2.1.2}
 \contentsline {subsubsection}{TEM vs SEM EELS}{12}{section*.14}
 \contentsline {subsection}{\numberline {2.1.3}Lithium in EELS}{13}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Preprocessing}{14}{subsection.2.1.4}
 \contentsline {subsubsection}{Background Subtraction}{14}{section*.15}
-\contentsline {subsubsection}{Deconvolution}{15}{section*.17}
+\contentsline {subsubsection}{Deconvolution}{16}{section*.17}
 \contentsline {subsection}{\numberline {2.1.5}Other Experimental Techniques}{17}{subsection.2.1.5}
-\contentsline {subsubsection}{X-ray Absorption Spectroscopy (XAS)}{17}{section*.19}
+\contentsline {subsubsection}{X-ray Absorption Spectroscopy (XAS)}{19}{section*.19}
 \contentsline {subsubsection}{Energy Dispersive Spectroscopy (EDS)}{19}{section*.20}
-\contentsline {section}{\numberline {2.2}Density Functional Theory}{19}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Background}{20}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Formulation}{20}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.2}Density Functional Theory (DFT)}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}DFT Background}{20}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Formulation}{21}{subsection.2.2.2}
 \contentsline {subsubsection}{Exchange-Correlation Potential}{23}{section*.22}
 \contentsline {subsubsection}{Basis Sets}{24}{section*.23}
-\contentsline {subsection}{\numberline {2.2.3}WIEN2k}{26}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}WIEN2k}{27}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Quantum Theory of Atoms in Molecules}{27}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Lithium in DFT}{28}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}EELS Calculations}{28}{section.2.3}
+\contentsline {section}{\numberline {2.3}EELS Calculations}{30}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Time Dependent Density Functional Theory -TDDFT}{30}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Cross Section Approach}{31}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Cross Section Approach}{32}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Beth Salpeter Equations -BSE}{32}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Core Hole Approximation}{33}{subsection.2.3.4}
 \contentsline {chapter}{\numberline {3}Methods}{36}{chapter.3}
@@ -39,4 +39,4 @@
 \contentsline {section}{\numberline {4.4}Li-LiF Mixture}{45}{section.4.4}
 \contentsline {section}{\numberline {4.5}Discussion}{46}{section.4.5}
 \contentsline {chapter}{\numberline {5}Conclusion}{49}{chapter.5}
-\contentsline {chapter}{\numberline {A}Calculation Details}{50}{Appendix.a.A}
+\contentsline {chapter}{\numberline {A}Calculation Details}{51}{Appendix.a.A}
