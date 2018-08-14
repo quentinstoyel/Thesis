@@ -7,51 +7,44 @@ Database file #2: DFT.bib
 Database file #3: EELScalculation.bib
 Database file #4: introduction.bib
 Database file #5: methods.bib
-Repeated entry---line 2 of file methods.bib
- : @article{gao_theory_2008
- :                         ,
-I'm skipping whatever remains of this entry
-Warning--empty booktitle in SU_9000
-Warning--empty publisher in griffiths_em
-You've used 92 entries,
+You've used 88 entries,
             1791 wiz_defined-function locations,
-            980 strings with 20704 characters,
-and the built_in function-call counts, 22358 in all, are:
-= -- 1973
-> -- 1088
+            962 strings with 20250 characters,
+and the built_in function-call counts, 21571 in all, are:
+= -- 1902
+> -- 1064
 < -- 3
-+ -- 400
-- -- 308
-* -- 1840
-:= -- 3606
-add.period$ -- 281
-call.type$ -- 92
-change.case$ -- 84
++ -- 390
+- -- 302
+* -- 1781
+:= -- 3490
+add.period$ -- 270
+call.type$ -- 88
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 94
-duplicate$ -- 845
-empty$ -- 2139
-format.name$ -- 308
-if$ -- 4801
+cite$ -- 88
+duplicate$ -- 807
+empty$ -- 2051
+format.name$ -- 302
+if$ -- 4629
 int.to.chr$ -- 0
-int.to.str$ -- 92
-missing$ -- 95
-newline$ -- 463
-num.names$ -- 92
-pop$ -- 172
+int.to.str$ -- 88
+missing$ -- 91
+newline$ -- 444
+num.names$ -- 89
+pop$ -- 161
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 310
+skip$ -- 293
 stack$ -- 0
-substring$ -- 1829
-swap$ -- 107
+substring$ -- 1772
+swap$ -- 103
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 227
-width$ -- 94
-write$ -- 1009
-(There was 1 error message)
+warning$ -- 0
+while$ -- 218
+width$ -- 90
+write$ -- 971

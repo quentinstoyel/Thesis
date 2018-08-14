@@ -10,7 +10,7 @@ Having described the inner workings of EELS and DFT, the means to use the ground
 
 
 \subsection{Time Dependent Density Functional Theory -TDDFT}
-In TDDFT, the EELS spectrum is computed through the macroscopic dielectric function ($\epsilon_{\mathrm{M}}$). As is the case with many EELS calculations, we begin from Fermi's Golden Rule, and define matrix elements which determine the probability of an electron being driven to a new state by a propagator:
+In TDDFT, the EELS spectrum is computed through the macroscopic dielectric function ($\epsilon_{\mathrm{M}}$). The method is centred on Fermi's Golden Rule, which is used to define matrix elements, which determine the probability of an electron being driven to a new state by a propagator:
 
 \begin{equation}
 M_{nm\textbf{k}} = \mel{n\textbf{k}}{e^{-i(\textbf{q+G})\textbf{r}}}{n'\textbf{k+q}}
@@ -56,7 +56,7 @@ TDDFT is a suitable choice for low loss EELS.  For higher energy ionization edge
 		\label{telnes_eq}
 \end{equation}
 
-Where $a_0$ is the Bohr radius, $E$ the energy loss and $\gamma = \sqrt{1- \beta^2}$, the relativistic factor.  As in TDDFT, the approach can be modified to solve for XAS, by replacing the Rutherford cross section with the Thompson cross section in the prefactor and changing the propagator according to Eqn. \ref{x-prop}.
+Where $a_0$ is the Bohr radius, $E$ the energy loss and $\gamma = \sqrt{1- \beta^2}$, the relativistic factor.  As in TDDFT, the approach can be modified to solve for XAS, by replacing the Rutherford cross section with the Thompson cross section in the prefactor and changing the propagator according to Eq. \ref{x-prop}.\\
 
 
 
@@ -96,6 +96,7 @@ Where W is the screened Coulomb potential on the hole. By treating the hole crea
 
 \subsection{Core Hole Approximation} \label{Core Hole Approximation}
 The computational cost of the BSE method and the difficulties in handling excitonic effects in  single particle approaches has resulted in additional approximations being made to improve single particle results.  The most significant of these is the core hole approximation.  This approximation is centred on artificially exciting the atom in question to an excited one in order to improve the final states in EELS, $\bra{f}$.  Early implementations involved replacing the excited atom with the next element on the periodic table, called the Z+1 approach \cite{lee_new_1977}.  This method was mildly successful, however it lacks the flexibility to handle excitations from different shells, and has since been largely replaced with the core hole approximation \cite{hebert_practical_2007}.  The core hole approximation involves manually decreasing the occupancy of an excited state, and adding a charge to the background to conserve the electron number \cite{wien2k}. The effectiveness of the approximation has been mixed.  In some cases, including a core hole results in excellent agreement with experiment, whilst in others, ignoring a core hole produces more accurate results.   There have been a number of offered explanations based on the nature of the material: eg. insulators require a hole and metals do not.  These general rules have not been successful in predicting all cases and more involved techniques based on density of states maps have also been proposed \cite{mauchamp_core-hole_2009}.  In general however, spectra tend to fall in between the two extremes, which has led to \textit{ad hoc} approaches of including non integer core holes, so as to best fit experiment, see Fig \ref{core-hole-types} \cite{hebert_practical_2007, luitz_partial_2001, hebert_improvement_2003, slater_energy_1964}. This state of development has remained unchanged for the past 30 years and consistently led to unsatisfactory results \cite{ brydson_further_1988, hardcastle_robust_2017,bad_hole1,bad_hole2, bad_hole3, bad_hole4, bad_hole5, bad_hole6, bad_hole7, bad_hole8,bad_hole9, bad_hole10}. \\
+
 The treatment of core holes is particularly problematic in lithium as its core states are very shallow, with only a single other core electron to shield it.  The shallow shielded hole means that every lithium compound will exhibit some degree of core hole effects.  Consequently, in order to  calculate lithium ELNES, a more rigorous approach to core hole screening is required.  Developing a deterministic method of introducing non-integer core holes for this end is the focus of this work
 
 
@@ -118,8 +119,8 @@ The treatment of core holes is particularly problematic in lithium as its core s
 		\label{luitz_half}
 	\end{subfigure}
 	\centering
-	\caption{The three typical results of inserting a core hole. In (a) the core hole results in good agreement with experiment.  In (b) and (c), the core hole overestimates the excitonic effects, resulting in errors in peak intensity.  In (c), an \textit{ad hoc} fractional core hole is inserted resulting in good agreement at the cost of physicality. Results from \cite{hebert_improvement_2003} (a,b) and \cite{luitz_partial_2001} (c).}
-	\label{core-hole-types}
+	\caption{The three typical results of inserting a core hole. In (a) the core hole results in good agreement with experiment.  In (b) and (c), the core hole overestimates the excitonic effects, resulting in errors in peak intensity.  In (c), an \textit{ad hoc} fractional core hole is inserted resulting in good agreement at the cost of physicality. Results from Herbert \textit{et al}, 2003  (a,b) and Luitz \textit{et al}, 2001 (c)\cite{luitz_partial_2001, hebert_improvement_2003} .}
+	\label{core-hole-types}. 
 	
 \end{figure}
 

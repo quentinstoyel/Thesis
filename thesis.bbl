@@ -5,24 +5,6 @@ Naoki Nitta, Feixiang Wu, Jung~Tae Lee, and Gleb Yushin.
 \newblock Li-ion battery materials: present and future.
 \newblock {\em Materials Today}, 18(5):252--264, June 2015.
 
-\bibitem{gaines_future_2014}
-Linda Gaines.
-\newblock The future of automotive lithium-ion battery recycling: {Charting} a
-  sustainable course.
-\newblock {\em Sustainable Materials and Technologies}, 1-2:2--7, December
-  2014.
-
-\bibitem{doughty_general_2012}
-Daniel~H. Doughty and E.~Peter Roth.
-\newblock A {General} {Discussion} of {Li} {Ion} {Battery} {Safety}.
-\newblock {\em The Electrochemical Society Interface}, 21(2):37--44, January
-  2012.
-
-\bibitem{balakrishnan_safety_2006}
-P.~G. Balakrishnan, R.~Ramesh, and T.~Prem~Kumar.
-\newblock Safety mechanisms in lithium-ion batteries.
-\newblock {\em Journal of Power Sources}, 155(2):401--414, April 2006.
-
 \bibitem{etacheri_challenges_2011}
 Vinodkumar Etacheri, Rotem Marom, Ran Elazari, Gregory Salitra, and Doron
   Aurbach.
@@ -97,37 +79,7 @@ RF~Egerton.
 Takeshi Sunaoshi, Yoshihisa Orai, Hiroyuki Ito, Takeshi Ogashiwa, Toshihide
   Agemura, and Mitsuru Konno.
 \newblock 30 kv stem imaging with lattice resolution using a high resolution
-  cold fe-sem.
-\newblock 2012.
-
-\bibitem{ks_1965}
-W.~Kohn and L.~J. Sham.
-\newblock Self-{Consistent} {Equations} {Including} {Exchange} and
-  {Correlation} {Effects}.
-\newblock {\em Physical Review}, 140(4A):A1133--A1138, 1965.
-
-\bibitem{wien2k}
-K.~Schwarz, P.~Blaha, and G.~K.~H. Madsen.
-\newblock Electronic structure calculations of solids using the {WIEN}2k
-  package for material sciences.
-\newblock {\em Computer Physics Communications}, 147(1):71--76, 2002.
-
-\bibitem{elk}
-The {Elk} {FP}-{LAPW} {Code}.
-
-\bibitem{exciting}
-Andris Gulans, Stefan Kontur, Christian Meisenbichler, Dmitrii Nabok, Pasquale
-  Pavone, {Santiago Rigamonti}, Stephan Sagmeister, Ute Werner, and Claudia
-  Draxl.
-\newblock exciting: a full-potential all-electron package implementing
-  density-functional theory and many-body perturbation theory.
-\newblock {\em Journal of Physics: Condensed Matter}, 26(36):363202, 2014.
-
-\bibitem{vasp}
-Jürgen Hafner.
-\newblock Ab-initio simulations of materials using {VASP}: {Density}-functional
-  theory and beyond.
-\newblock {\em Journal of Computational Chemistry}, 29(13):2044--2078, 2009.
+  cold fe-sem, 2012.
 
 \bibitem{mauchamp_ab_2006}
 V.~Mauchamp, F.~Boucher, G.~Ouvrard, and P.~Moreau.
@@ -226,7 +178,7 @@ Helmut Kohl and Ludwig Reimer.
 \bibitem{griffiths_em}
 David~J Griffiths.
 \newblock {\em Introduction to electrodynamics}.
-\newblock 2013.
+\newblock Pearson, 2013.
 \newblock OCLC: 794711764.
 
 \bibitem{hachtel_exploring_2018}
@@ -287,7 +239,7 @@ Ian MacLaren, Kirsty~J. Annand, Colin Black, and Alan~J. Craven.
 \newblock {\em Microscopy}, 67(suppl\_1):i78--i85, 2018.
 
 \bibitem{DFT_codes}
-Codes - {NOMAD}, 2018.
+Codes - {NOMAD}, {https://www.nomad-coe.eu/externals/codes}, 2018.
 
 \bibitem{sholl_density_2009}
 David~S Sholl and Janice~A Steckel.
@@ -323,6 +275,12 @@ Jianmin Tao, John~P. Perdew, Viktor~N. Staroverov, and Gustavo~E. Scuseria.
   and {Solids}.
 \newblock {\em Physical Review Letters}, 91(14):146401, 2003.
 
+\bibitem{ks_1965}
+W.~Kohn and L.~J. Sham.
+\newblock Self-{Consistent} {Equations} {Including} {Exchange} and
+  {Correlation} {Effects}.
+\newblock {\em Physical Review}, 140(4A):A1133--A1138, 1965.
+
 \bibitem{perdew_wang}
 John~P. Perdew, Kieron Burke, and Yue Wang.
 \newblock Generalized gradient approximation for the exchange-correlation hole
@@ -357,6 +315,18 @@ Paolo Giannozzi and Baroni.
   quantum simulations of materials.
 \newblock {\em Journal of Physics: Condensed Matter}, 21(39):395502, 2009.
 
+\bibitem{vasp}
+Jürgen Hafner.
+\newblock Ab-initio simulations of materials using {VASP}: {Density}-functional
+  theory and beyond.
+\newblock {\em Journal of Computational Chemistry}, 29(13):2044--2078, 2009.
+
+\bibitem{wien2k}
+K.~Schwarz, P.~Blaha, and G.~K.~H. Madsen.
+\newblock Electronic structure calculations of solids using the {WIEN}2k
+  package for material sciences.
+\newblock {\em Computer Physics Communications}, 147(1):71--76, 2002.
+
 \bibitem{singh_planewaves_2006}
 David~J. Singh and Lars Nordström.
 \newblock {\em Planewaves, {Pseudopotentials}, and the {LAPW} {Method}}.
@@ -385,6 +355,14 @@ Malte Fugel, Jens Beckmann, Dylan Jayatilaka, Gerald~V. Gibbs, and Simon
 \newblock A {Variety} of {Bond} {Analysis} {Methods}, {One} {Answer}? {An}
   {Investigation} of the {Element}−{Oxygen} {Bond} of {Hydroxides} {HnXOH}.
 \newblock {\em Chemistry – A European Journal}, 24(23):6248--6261, 2018.
+
+\bibitem{exciting}
+Andris Gulans, Stefan Kontur, Christian Meisenbichler, Dmitrii Nabok, Pasquale
+  Pavone, {Santiago Rigamonti}, Stephan Sagmeister, Ute Werner, and Claudia
+  Draxl.
+\newblock exciting: a full-potential all-electron package implementing
+  density-functional theory and many-body perturbation theory.
+\newblock {\em Journal of Physics: Condensed Matter}, 26(36):363202, 2014.
 
 \bibitem{optic}
 Claudia Ambrosch-Draxl and Jorge~O. Sofo.

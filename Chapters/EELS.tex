@@ -35,7 +35,7 @@ Where $h$ is planck's constant, $m_0$, $e$ and $E$ are the rest mass, charge and
 \end{figure}
 
 
-In order to obtain images using electrons, electron microscopes use magnetic lenses to direct a highly focused beam of high energy electrons onto a sample, and collect the assorted types of signals resulting from the interaction, see Fig \ref{em_diagram}.\\
+In order to obtain images using electrons, electron microscopes use magnetic lenses to focus a beam of high energy electrons onto a sample, and collect the assorted types of signals resulting from the interaction, see Fig \ref{em_diagram}.\\
 
 
 \begin{figure}
@@ -52,11 +52,11 @@ In order to obtain images using electrons, electron microscopes use magnetic len
 	\label{em_diagram}
 \end{figure}
 
-The large number of different signals generated when the electron beam interacts with a sample, (Fig \ref{specimen_emmisions}), can be used to perform a multitude of types of analysis \cite{williams_transmission_2008}.  A full discussion of the analysis methods at the disposal of electron microscopes is beyond the scope of this work and has been well documented elsewhere \cite{goldstein_electron_2003,Egerton,williams_transmission_2008,reimer_electron_1998}.  Instead, this discussion is limited to electron energy loss spectroscopy (EELS).  EELS is an electron microscopy technique that analyzes the transmitted inelastically scattered electrons, Fig \ref{specimen_emmisions}\cite{Egerton}.  It is mainly an analytic technique, however it is also possible to perform imaging with EELS \cite{varela_stem-eels_2012}.  EELS consists of collecting electrons that have passed entirely through the sample and binning them according to how much energy each one has lost, resulting in a spectrum such as shown in Fig \ref{EELS_spectra}.  The numerous distinct features arise from the various mechanisms through which beam electrons can lose energy in the sample.  Each mechanism results in a particular feature in the spectrum, of which the main ones are described below:
+The large number of different signals generated when the electron beam interacts with a sample, (depicted in Fig \ref{specimen_emmisions}), can be used to perform a multitude of types of analysis \cite{williams_transmission_2008}.  A full discussion of the analysis methods at the disposal of electron microscopes is beyond the scope of this work and has been well documented elsewhere \cite{goldstein_electron_2003,Egerton,williams_transmission_2008,reimer_electron_1998}.  Instead, this discussion is limited to electron energy loss spectroscopy (EELS).  EELS is an electron microscopy technique that analyzes the transmitted inelastically scattered electrons, Fig \ref{specimen_emmisions}\cite{Egerton}.  It is mainly an analytic technique, however it is also possible to perform imaging with EELS \cite{varela_stem-eels_2012}.  EELS consists of collecting electrons that have passed entirely through the sample and binning them according to how much energy each one has lost, resulting in a spectrum such as shown in Fig \ref{EELS_spectra}.  The numerous distinct features arise from the various mechanisms through which beam electrons can lose energy in the sample.  Each mechanism results in a particular feature in the spectrum, of which the main ones are described below:
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\textwidth]{specimen_emmisions.png}
-	\caption{The numerous types of signals emitted when an electron beam encounters a sample in an electron microscope.   Redrawn from Williams and Carter \cite{williams_transmission_2008}.  }
+	\caption{The numerous types of signals emitted when an electron beam encounters a sample in an electron microscope.   Redrawn from Williams and Carter 2008 \cite{williams_transmission_2008}.  }
 	\label{specimen_emmisions}
 \end{figure}
 
@@ -97,7 +97,6 @@ The array of independent interaction mechanisms occuring in EELS opens the possi
 \subsubsection{Near Edge Structure}
 Ionization edges in EELS possess features extending up 50 eV beyond the onset of the edge, referred to as energy loss near edge structure (ELNES) \cite{Egerton}.   These features are a reflection of the unoccupied states in the conduction band that represent the final states available to sample electrons.  The band structure of the conduction band is largely dependent on the local bonds of the atom in question.  Because of this, ELNES can be used to investigate properties dependent on the local environment of each element.   Crystal structure is one such property, and ELNES can be used to distinguish different crystal structures of the same element such as carbon in graphite vs diamond, see Fig \ref{carbon-k-edge} \cite{hamon_elnes_2004}.  ELNES is also sensitive to impurities or dopants that would effect the band structure \cite{torrisi_atomic_2016}.  The large decay in intensity with increasing energy seen in Figure \ref{EELS_spectra}, limits the useful range ionization edges to those less than $\sim$2keV which corresponds to approximately the K edge of silicon (Z=14) \cite{reimer_transmission_2008}.  \\
 
-These are the essential principles behind an EELS spectra.  In this work, we focus largely on ELNES in lithium materials, and we will now discuss how EELS is performed experimentally.
 
 \begin{figure}
 	\centering
@@ -131,7 +130,7 @@ As the force varies according to the velocity of the electrons, the magnetic pri
  
 \end{figure}
 
-Where  $E$ is the energy of each electron after passing through the sample.  Spectra are obtained by mapping each location on the detector to a corresponding energy loss value. Images are produced by  rastering the beam over the sample and using the intensities of a specific energy loss value to create an image. 
+Where  $E$ is the energy of each electron after passing through the sample.  Spectra are obtained by mapping each location on the detector to a corresponding energy loss value. Images are produced by  rastering the beam over the sample and using the intensities of a specific energy loss value to create an image.\\ 
 
 The quality of EELS results depends numerous factors in the microscope.  Foremost among these is the quality of the electron beam.  In order to obtain accurate results with regards to the finer features, the beam electrons must have very similar energies before striking the sample, within a few eV.  The larger this spread, the worse the energy resolution on the sample which obscures features in ELNES.  The energy spread is largely dictated by the electron gun, with the choice for EELS being a field emission gun ($\delta E \sim 0.5-1eV$), as older style tungsten and LaB$_6$ guns are unsuitable for EELS with energy spreads greater than 2 eV \cite{reimer_transmission_2008}.  The energy resolution can be further improved to the order of $\sim$10meV through the use of monochromators \cite{hachtel_exploring_2018}.  This improved energy resolution however comes at the cost of beam current which is another essential parameter for performing EELS.  This is because sufficient signal needs to be collected to render the statistical $\sqrt{N}$ errors small enough for features to become discernible.  At higher energies, introducing a monochromators can results in a trade off between experimental error from the beam and statistical errors due to lack of counts.  Lower current also translates into longer acquisition times, which expose the sample to more beam damage.  In addition to the beam properties, EELS results also depend largely on the imaging mode being used in the electron microscope as is discussed below.
 
@@ -166,7 +165,7 @@ The smooth decaying background in EELS spectra needs to be removed in order to i
 
 Where $E$ is the energy loss and $A$ and $r$ are fitting factors, typically determined through a least squares procedure \cite{reimer_transmission_2008}.  This method has limitations due to different regions of the spectra decaying at different rates, with $r$ ranging from 2-6.5 \cite{reimer_transmission_2008}. A fit must therefore be performed for every feature being analyzed in a spectrum \cite{verbeeck_model_2004, egerton_inelastic_1975}.  A downside of this method is the dependency on the size and location of the fitting window which results in unstable fits, as shown in Fig \ref{bg_removal}.  Difficulty in removing the background is further complicated in situations when edges overlap or when attempting quantitative analysis.  Coupled with the instability of power law fitting, this has resulted in a number of alternate models, such as polynomials, being proposed for specific cases. The power law method however, remains the most prevalent \cite{verbeeck_model_2004, riedl_extraction_2006}.  
 
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=1\textwidth]{full_bg.png} 
@@ -211,7 +210,7 @@ Which can in turn be collapsed into an exponential:
 	j(\nu) = z(\nu)\mathrm{exp}[s(\nu)/I_0]
 \end{equation}
 
-This equation can then be solved for $s(\nu)$ and reverse Fourier transformed to obtain the single scattering spectra.  In order to avoid amplifying the noise in the original spectra,  represented by high frequency terms in Fourier space, the result must be broadened by a modifier.  Thus, deconvolution can improve the energy resolution of the spectra only to a certain extent.  
+This equation can then be solved for $s(\nu)$ and reverse Fourier transformed to obtain the single scattering spectra.  In order to avoid amplifying the noise in the original spectra,  represented by high frequency terms in Fourier space, the result must be broadened by a modifier.  Thus, deconvolution can improve the energy resolution of the spectra only to a certain extent.  \\
 
 More recently, Bayesian methods have found success as well, in particular the Richardson-Lucy technique \cite{richardson_lucy}. This technique is based on iterative methods initially developed in astronomy and used for the deconvolution of images, including those taken with the Hubble space telescope \cite{hubble}.  Similar to Fourier methods, the starting point is a convolution of the ideal spectra with the low loss, or point spread function ($R(E)$):
 
@@ -219,7 +218,7 @@ More recently, Bayesian methods have found success as well, in particular the Ri
 J(E) = R(E)\ast S(E)
 \end{equation}
 
-As an EELS spectra is inherently pixilated by the CCD, we can turn the convolution into a sum, defining the observed intensity at a pixel based on the intensity of the surrounding pixels: 
+As an EELS spectra is inherently pixilated by the CCD, the convolution can be transformed into a sum, defining the observed intensity at a pixel based on the intensity of the surrounding pixels: 
 
 \begin{equation}
 	J(i) = \sum_{j} P(i,j) S(j)
@@ -260,7 +259,7 @@ Where $k$ is the iteration number.  As with Fourier methods, the final spectra c
 	\begin{subfigure}{0.33 \textwidth}
 	\end{subfigure}
 
-	\caption{Effect of increasing iterations in Richardson-Lucy Algorithm.  Iterations increase left to right, starting from the unprocessed background removed spectra on the top left, followed by 5, 25,50, 100 iterations of deconvolution applied.  }
+	\caption{Effect of increasing iterations in Richardson-Lucy Algorithm.  Iterations increase left to right, starting from the unprocessed background removed spectra on the top left, followed by 5, 25, 50, 100 iterations of deconvolution applied.  }
 	\label{RL_iter}
 \end{figure}
 
