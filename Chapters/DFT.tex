@@ -10,10 +10,10 @@
  
 
 
-Many of the results from EELS have non-intuitive interpretations, particularly in the case of ELNES which relies primarily on qualitative comparisons between measured and database spectra.  Consequently, new materials require theoretical support to analyze results.  This support often comes from ab initio calculations, such as density functional theory (DFT).  This section  describes the basis of DFT and its various implementations, as well as the peculiarities of simulating lithium materials.
+Many of the results from EELS have non-intuitive interpretations, particularly in the case of ELNES which relies primarily on qualitative comparisons between measured and database spectra.  Consequently, new materials require theoretical support to analyze results.  This support often comes from \textit{ab initio} calculations, such as density functional theory (DFT).  This section  describes the basis of DFT and its various implementations, as well as the peculiarities of simulating lithium materials.
 
 \subsection{DFT Background}
-DFT is an ab initio method that requires only atomic positions as input and is independent of experimental support.  By solving a modified version of the Schrodinger equation, it is possible to obtain the ground state energy of the system, and from there determine a range of  properties, including EELS spectra. This almost direct treatment of quantum mechanics makes DFT one of the most accurate techniques of first principle simulations. However, the quadratic to cubic scaling of the method limits its applicability to small scale systems, typical size limitations shown in Fig \ref{scaling}.  DFT's accuracy and flexibility have resulted in the development of a large number (90+) of codes, both open source and commercial \cite{DFT_codes}.  
+DFT is an \textit{ab initio} method that requires only atomic positions as input and is independent of experimental support.  By solving a modified version of the Schrodinger equation, it is possible to obtain the ground state energy of the system, and from there determine a range of  properties, including EELS spectra. This almost direct treatment of quantum mechanics makes DFT one of the most accurate techniques of first principle simulations. However, the quadratic to cubic scaling of the method with the number of electrons, limits its applicability to small scale systems, typical size limitations shown in Fig \ref{scaling}.  DFT's accuracy and flexibility have resulted in the development of a large number (90+) of codes, both open source and commercial \cite{DFT_codes}.  
 
 \begin{figure}
 	\centering
@@ -46,7 +46,7 @@ Where $m_e$ is the mass of an electron, $N$ is the number of electrons, and $\te
 By changing the variables being solved for to the \textit{density} and not wavefunctions, the problem is reduced down to only three variables: the three coordinates of the density field.  The Hohenberg-Kohn theorems indicate that the observables can all be made into functionals of electron density and that any density other than the groundstate will result in a higher energy in the system \cite{parr_density_1983}.  The term functional is now defined as an object that acts like a function, except that it takes other functions as input instead of variables, eg:
 
 \begin{equation}
-F[f(x)] = f(x)^2 
+F[f(x)] = \int f(x) dx
 \end{equation}
 
  In DFT, the relevant functional is the energy which is a functional of the density: $E[n(\textbf{r})]$.  Using the Hohenberg-Kohn theorems, it is possible to work towards a more manageable equation for energy as a functional of density by breaking down the potentials: 
@@ -70,7 +70,7 @@ The Hartree potential represents the interaction of the electron in question (th
 	n_{\mathrm{KS}}(\textbf{r}) = 2 \sum_{i} \phi_i^*\phi_i
 	\label{KS_density}
 \end{equation}
-Where the two is to account for electron spin.  As the density is needed to calculate the wavefunctions and vice versa, a self consistent approach must be taken in order to obtain a valid result:  
+Where the factor of two is to account for electron spin.  As the density is needed to calculate the wavefunctions and vice versa, a self consistent approach must be taken in order to obtain a valid result:  
 
 \begin{enumerate}
 	\item Assume a starting density
@@ -84,7 +84,7 @@ This method is the starting point for DFT calculations, from which there are a n
 
 
 \subsubsection{Exchange-Correlation Potential}
-The exchange-correlation potential was introduced above, but not defined.  That is because there no easily solvable form for this term as it collects all of the unknown attributes not accounted for in the Kohn-Sham equations, including electron's being indistinguishable, the self interaction term, etc.   There have been a number of proposed potentials, many designed for specific situations the most common of which will be discussed here.  Like the potentials in the Kohn-Sham equations, the XC potential is defined as a functional of density.  The various potentials vary according to accuracy and computational cost.  The first attempt, originally proposed by Kohn and Sham in 1965 was the local density approximation (LDA) in which the XC potential depends only on the density \cite{tao_climbing_2003, ks_1965}: 
+The exchange-correlation potential was introduced above, but not defined.  That is because there no easily solvable form for this term as it collects all of the unknown attributes not accounted for in the Kohn-Sham equations, including electron's being indistinguishable, the self interaction term, etc.   There have been a number of proposed potentials, many designed for specific situations the most common of which will be discussed here.  Like the potentials in the Kohn-Sham equations, the XC potential is defined as a functional of density.  The various potentials vary according to accuracy and computational cost.  The first attempt, originally proposed by Kohn and Sham in 1965 was the local density approximation (LDA) in which the exchange and correlation potential depends only on the density \cite{tao_climbing_2003, ks_1965}: 
 
 \begin{equation}
 	E_{\mathrm{XC}}[n(\textbf{r})] = \int  n(\textbf{r}) \epsilon_{\mathrm{XC}}[n(\textbf{r})] d^3r
@@ -108,7 +108,7 @@ A second defining feature for various DFT methods is the choice of basis set for
 	\psi = u(\textbf{r}) e^{i\cdot \textbf{k}}
 \end{equation}
 
-Consequently, a natural basis choice for periodic boundary situations are plane waves, which are used in a number of DFT packages including VASP, Quantum Espresso, and Wien2k \cite{qe,vasp,wien2k}.  The periodic boundary method allows for accurate calculation of in infinite samples representative of bulk materials.  The computational limits then apply to the size of the unit cell, typically limited to at most a few hundred atoms \cite{mohr_linear_2018}.  These limits renders features such as defects and grain boundaries highly computationally expensive as they must be contained in a cell large enough to isolate them from their repeated images in adjacent cells. 
+Consequently, a natural basis choice for periodic boundary situations are plane waves, which are used in a number of DFT packages including VASP, Quantum Espresso, and Wien2k \cite{qe,vasp,wien2k}.  The periodic boundary method allows for accurate calculation of in infinite samples representative of bulk materials.  The computational limits then apply to the size of the unit cell, typically limited to at most a few hundred atoms \cite{mohr_linear_2018}.  These limits render features such as defects and grain boundaries computationally expensive as they must be contained in a cell large enough to isolate them from their repeated images in adjacent cells. 
 As large numbers of plane waves would be required to handle the fine features in the electron density close to nuclei, often an augmented plane wave (APW) technique is used.  APW lowers the computational cost by dividing the unit cell into two regions: interstitial space and atomic basins (sometimes referred to as muffin tins), illustrated schematically  in Fig \ref{MT} \cite{wien2k}. \\
 \begin{figure}
 	\centering
@@ -117,7 +117,7 @@ As large numbers of plane waves would be required to handle the fine features in
 	\label{MT}   
 \end{figure}
 
-The ability to divide electrons into two groups is due to the fact that the core electrons surrounding each atom are largely unaffected by the local environment as they are screened by the outer shells \cite{wien2k}. The choice of which basis set is used inside the muffin tins provides additional options distinguishing DFT codes.  One option is pseudopotentials, which are pre-generated densities for each element and can be varied to match the plane waves at the boundary \cite{singh_planewaves_2006}.  The pseudopotential method is used in a number of codes, amongst others, VASP and Quantum Espresso \cite{vasp,qe}.  Alternatively, spherical harmonics corresponding to the atomic orbitals can be used for increased accuracy \cite{griffiths}. This type of DFT is referred to as all-electron or full potential, as every electron is represented in the basis set, unlike the pseudopotential method where many are absorbed into the pre-calculated pseudopotential \cite{wien2k}. Fitting for all of the electrons in the sample comes at a computational cost, yet allows for more a accurate analysis of the properties dependent on core states, such as ELNES spectra in EELS.   \\
+The ability to divide electrons into two groups is due to the fact that the core electrons surrounding each atom are largely unaffected by the local environment as they are screened by the outer shells \cite{wien2k}. The choice of which basis set is used inside the muffin tins provides additional options distinguishing DFT codes.  One option is pseudopotentials, which are pre-generated densities for each element and can be varied to match the plane waves at the boundary \cite{singh_planewaves_2006}.  The pseudopotential method is used in a number of codes, amongst others, VASP and Quantum Espresso \cite{vasp,qe}.  Alternatively, spherical harmonics corresponding to the atomic orbitals can be used for increased accuracy \cite{griffiths}. This type of DFT is referred to as all-electron or full potential, as every electron is represented in the basis set, unlike the pseudopotential method where core electrons are absorbed into the pre-calculated pseudopotential \cite{wien2k}. Fitting for all of the electrons in the sample comes at a computational cost, yet allows for more a accurate analysis of the properties dependent on core states, such as ELNES spectra in EELS.   \\
  
  A flowchart demonstrating the various properties of some common DFT codes is illustrated in Fig \ref{dft-flowchart}.  The DFT code used primarily in this work is Wien2k and is presented in the following section.
 
@@ -145,7 +145,7 @@ Where $Y_{lm}(\hat{\textbf{r}})$ are the spherical harmonics and $u_l(r,E_l)$ ar
 
 
 \subsection{Quantum Theory of Atoms in Molecules} \label{bader-theory}
-Before continuing to the application of DFT to EELS,  a more direct application of DFT is briefly presented: defining atoms and bonds from the electron density. Initial work on this front was performed by Bader \cite{bader}. The electron density can be divided into regions, with each atomic basin  delimited by surfaces satisfying \cite{bader_quantum_1991}: 
+Before continuing to the application of DFT to EELS,  a more direct application of DFT is briefly presented: defining atoms and bonds from the electron density. Initial work on this front was performed by Bader, resulting in the field sometimes being referred to as Bader Theory \cite{bader}. The electron density can be divided into regions, with each atomic basin  delimited by surfaces satisfying \cite{bader_quantum_1991}: 
 
 
 \begin{equation}
@@ -158,7 +158,7 @@ That is, surfaces with no flux of electron density through them which can be pic
 \begin{figure}
 	\centering
 	\includegraphics[width=0.75\textwidth]{bader_topo_plot}
-	\caption{Density plot (left) and identification of atomic basin (right) in diborane atomic From Bader, 1998 \cite{bader}.}
+	\caption{Density plot (left) and identification of atomic basin (right) in a diborane molecule. From Bader, 1998 \cite{bader}.}
 	\label{topo_plot}
 \end{figure}
 

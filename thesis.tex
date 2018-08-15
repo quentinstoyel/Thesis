@@ -35,18 +35,21 @@
 \input{Additional_files/title_page.tex}
 
 
-
+\renewcommand{\thepage}{\roman{page}}% Roman numerals for page counter
+ 
+\addcontentsline{toc}{section}{Table of Contents}
 \tableofcontents
 
 
 
 
+
 \chapter*{Abstract}
-\renewcommand{\thepage}{\roman{page}}% Roman numerals for page counter
+
 
 \addcontentsline{toc}{section}{Abstract}
 
-A new method of calculating the magnitude of the core hole screening in the case of lithium materials is developed and implemented for the accurate simulation of Energy Loss Near Edge Structure (ELNES).  The method is used to verify the validity of performing electron energy loss spectroscopy at 30 keV to reduce beam damage.  ELNES are calculated for metallic lithium, $\mathrm{Li_2O}$, and LiF and marked improvements in agreement between calculation and experiment are observed. Superior quantitative and predictive abilities are also obtained with the new method.   The technique uses linear response theory to relate the electron density and the core hole shielding contribution.  This contribution is then implemented via a non integer core hole in final state rule density functional theory calculations.
+A new method of calculating the magnitude of the core hole screening in the case of lithium materials is developed and implemented for the accurate simulation of Energy Loss Near Edge Structure (ELNES).  The method is used to verify the validity of performing electron energy loss spectroscopy at 30 keV to reduce beam damage.  ELNES are calculated for metallic lithium, $\mathrm{Li_2O}$, and LiF and marked improvements in agreement between calculation and experiment are observed. Superior quantitative and predictive abilities are also obtained with the new method.   The technique uses linear response theory to relate the electron density to the core hole shielding contribution.  This contribution is then implemented via a non integer core hole in final state rule density functional theory calculations.
 \\
 
 \chapter*{Abr\'eg\'e}
@@ -54,16 +57,19 @@ A new method of calculating the magnitude of the core hole screening in the case
 \input{Additional_files/french_abstract.tex}
 
 
+
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{section}{Acknowledgements}
-Many people need acknowledgement for helping make this work possible.  Foremost amongst these are my supervisors,  Professor Raynald Gauvin and  Professor George P. Demopoulos for all their support, guidance, and valuable discussions.  Equally essential to this work are Fr\'ed\'eric Voisard and Nicolas Brodusch who provided all the experimental results needed to verify the theoretical ones presented here. I would also like to thank Motoki Nakamura  for taking the time to read and help edit my work and Fr\'ed\'eric Voisard for assistance in writing the French abstract. Acknowledgement is also due to the agencies who helped fund this work: NSERC and IREQ.  \\
+Many people need to be acknowledged for helping make this work possible.  Foremost are my supervisors,  Professor Raynald Gauvin and  Professor George P. Demopoulos for all their support, guidance, and valuable discussions.  Equally essential to this work are Fr\'ed\'eric Voisard and Nicolas Brodusch who provided all the experimental results needed to verify the theoretical ones presented here. I would also like to thank Motoki Nakamura  for taking the time to read and help edit my work and Fr\'ed\'eric Voisard for assistance in writing the French abstract. Acknowledgement is also due to the agencies who helped fund this work: NSERC and IREQ.  \\
 
-Support can come from a multitude of places in ways that are not always appreciated in the moment.  To this end, I would like to thank everyone who helped instill me with love and excitement for physics and science.  Whether it was in a classroom, a pub, or wandering the streets, those uttering the phrase ``Hey, that's an interesting problem," inspired me into making this work happen. Finally, I would like to thank my parents for knowing that this was my path well before I did, and supporting me every step of the way. 
-
-
+Support also came from a multitude of places in ways that were not always appreciated in the moment.  To this end, I would like to thank everyone who helped instill me with love and excitement for physics and science.  Whether it was in a classroom, a pub, or wandering the streets, those uttering the phrase ``Hey, that's an interesting problem," inspired me into making this work happen. Finally, I would like to thank my parents for knowing that this was my path well before I did, and supporting me every step of the way. 
 
 
 
+
+\chapter*{Contribution of Authors}
+\addcontentsline{toc}{section}{Contribution of Authors}
+\input{Additional_files/contributions.tex}
 
 
 

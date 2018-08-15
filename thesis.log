@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.6.11)  14 AUG 2018 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.6.11)  14 AUG 2018 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1505,7 +1505,7 @@ LaTeX Info: Redefining \nameref on input line 29.
 \openout3 = `thesis.out'.
 
  (./Additional_files/title_page.tex
-<Images/McGill_logo.png, id=148, 183.68625pt x 209.28188pt>
+<Images/McGill_logo.png, id=156, 183.68625pt x 209.28188pt>
 File: Images/McGill_logo.png Graphic file (type png)
 
 <use Images/McGill_logo.png>
@@ -1514,19 +1514,14 @@ Package pdftex.def Info: Images/McGill_logo.png used on input line 24.
  [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./Images/Mc
-Gill_logo.png>]) (./thesis.tocpdfTeX warning (ext4): destination with the same 
-identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.30 ... Hole Approximation}{32}{subsection.2.3.4}
-                                                   [1
+Gill_logo.png>]) (./thesis.toc [1
 
 ])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
@@ -1535,11 +1530,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
 ] (./Additional_files/french_abstract.tex) [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 [5
+
+] (./Additional_files/contributions.tex) [6
 
 ]
 Chapter 1.
@@ -1553,7 +1550,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<Images/ragone_plot.png, id=225, 882.29625pt x 522.95375pt>
+<Images/ragone_plot.png, id=246, 882.29625pt x 522.95375pt>
 File: Images/ragone_plot.png Graphic file (type png)
 
 <use Images/ragone_plot.png>
@@ -1581,12 +1578,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.31 
-      [2 <./Images/ragone_plot.png>]
+[2 <./Images/ragone_plot.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -1600,7 +1592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-<Images/method_scales.png, id=284, 960.58875pt x 783.92876pt>
+<Images/method_scales.png, id=305, 960.58875pt x 783.92876pt>
 File: Images/method_scales.png Graphic file (type png)
 
 <use Images/method_scales.png>
@@ -1612,27 +1604,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
  []
 
 [5 <./Images/method_scales.png>]
-<Images/SU_9000.png, id=298, 571.13374pt x 457.71pt>
+<Images/SU_9000.png, id=320, 571.13374pt x 457.71pt>
 File: Images/SU_9000.png Graphic file (type png)
  <use Images/SU_9000.png>
 Package pdftex.def Info: Images/SU_9000.png used on input line 43.
 (pdftex.def)             Requested size: 211.38832pt x 169.40591pt.
 
-<Images/EM_diagram.png, id=299, 619.56468pt x 531.48563pt>
+<Images/EM_diagram.png, id=321, 619.56468pt x 531.48563pt>
 File: Images/EM_diagram.png Graphic file (type png)
 
 <use Images/EM_diagram.png>
 Package pdftex.def Info: Images/EM_diagram.png used on input line 48.
 (pdftex.def)             Requested size: 211.38832pt x 181.33528pt.
 
-<Images/specimen_emmisions.png, id=310, 928.21782pt x 645.16031pt>
+<Images/specimen_emmisions.png, id=332, 928.21782pt x 645.16031pt>
 File: Images/specimen_emmisions.png Graphic file (type png)
 
 <use Images/specimen_emmisions.png>
 Package pdftex.def Info: Images/specimen_emmisions.png used on input line 58.
 (pdftex.def)             Requested size: 305.33789pt x 212.22429pt.
 
-<Images/EELS_spectra.png, id=313, 1005.00468pt x 663.98062pt>
+<Images/EELS_spectra.png, id=335, 1005.00468pt x 663.98062pt>
 File: Images/EELS_spectra.png Graphic file (type png)
 
 <use Images/EELS_spectra.png>
@@ -1644,7 +1636,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<Images/multiple_plasmons.png, id=346, 1639.12375pt x 872.25874pt>
+<Images/multiple_plasmons.png, id=367, 1639.12375pt x 872.25874pt>
 File: Images/multiple_plasmons.png Graphic file (type png)
 
 <use Images/multiple_plasmons.png>
@@ -1656,14 +1648,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
  []
 
 [9 <./Images/multiple_plasmons.png>]
-<Images/Carbon_k_edges.png, id=373, 578.16pt x 433.62pt>
+<Images/Carbon_k_edges.png, id=393, 578.16pt x 433.62pt>
 File: Images/Carbon_k_edges.png Graphic file (type png)
 
 <use Images/Carbon_k_edges.png>
 Package pdftex.def Info: Images/Carbon_k_edges.png used on input line 103.
 (pdftex.def)             Requested size: 352.31625pt x 264.23654pt.
  [10 <./Images/Carbon_k_edges.png>]
-<Images/Expt_setup.png, id=387, 874.01532pt x 701.62125pt>
+<Images/Expt_setup.png, id=404, 874.01532pt x 701.62125pt>
 File: Images/Expt_setup.png Graphic file (type png)
 
 <use Images/Expt_setup.png>
@@ -1679,20 +1671,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-[13] <Images/full_bg.png, id=421, 433.62pt x 289.08pt>
+[13] <Images/full_bg.png, id=441, 433.62pt x 289.08pt>
 File: Images/full_bg.png Graphic file (type png)
 
 <use Images/full_bg.png>
 Package pdftex.def Info: Images/full_bg.png used on input line 171.
 (pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
- <Images/good_window.png, id=422, 433.62pt x 289.08pt>
+ <Images/good_window.png, id=442, 433.62pt x 289.08pt>
 File: Images/good_window.png Graphic file (type png)
 
 <use Images/good_window.png>
 Package pdftex.def Info: Images/good_window.png used on input line 178.
 (pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
 
-<Images/bad_window.png, id=423, 433.62pt x 289.08pt>
+<Images/bad_window.png, id=443, 433.62pt x 289.08pt>
 File: Images/bad_window.png Graphic file (type png)
 
 <use Images/bad_window.png>
@@ -1704,7 +1696,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-[16] <Images//deconvolutions/0iter.png, id=458, 578.16pt x 433.62pt>
+[16] <Images//deconvolutions/0iter.png, id=479, 578.16pt x 433.62pt>
 File: Images//deconvolutions/0iter.png Graphic file (type png)
 
 <use Images//deconvolutions/0iter.png>
@@ -1716,7 +1708,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 238--239
 [][] 
  []
 
-<Images//deconvolutions/5iter.png, id=459, 578.16pt x 433.62pt>
+<Images//deconvolutions/5iter.png, id=480, 578.16pt x 433.62pt>
 File: Images//deconvolutions/5iter.png Graphic file (type png)
 
 <use Images//deconvolutions/5iter.png>
@@ -1728,7 +1720,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 242--243
 [][] 
  []
 
-<Images//deconvolutions/25iter.png, id=460, 578.16pt x 433.62pt>
+<Images//deconvolutions/25iter.png, id=481, 578.16pt x 433.62pt>
 File: Images//deconvolutions/25iter.png Graphic file (type png)
 
 <use Images//deconvolutions/25iter.png>
@@ -1740,7 +1732,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 246--247
 [][] 
  []
 
-<Images//deconvolutions/50iter.png, id=461, 578.16pt x 433.62pt>
+<Images//deconvolutions/50iter.png, id=482, 578.16pt x 433.62pt>
 File: Images//deconvolutions/50iter.png Graphic file (type png)
 
 <use Images//deconvolutions/50iter.png>
@@ -1752,7 +1744,7 @@ Overfull \hbox (24.20773pt too wide) in paragraph at lines 251--252
 [][] 
  []
 
-<Images//deconvolutions/100iter.png, id=462, 578.16pt x 433.62pt>
+<Images//deconvolutions/100iter.png, id=483, 578.16pt x 433.62pt>
 File: Images//deconvolutions/100iter.png Graphic file (type png)
 
 <use Images//deconvolutions/100iter.png>
@@ -1767,14 +1759,14 @@ Overfull \hbox (24.20773pt too wide) in paragraph at lines 256--257
 [17 <./Images//deconvolutions/0iter.png> <./Images//deconvolutions/5iter.png> <
 ./Images//deconvolutions/25iter.png> <./Images//deconvolutions/50iter.png> <./I
 mages//deconvolutions/100iter.png>] [18]) (./Chapters/DFT.tex
-<Images/method_scaling.png, id=493, 927.465pt x 621.82312pt>
+<Images/method_scaling.png, id=514, 927.465pt x 621.82312pt>
 File: Images/method_scaling.png Graphic file (type png)
 
 <use Images/method_scaling.png>
 Package pdftex.def Info: Images/method_scaling.png used on input line 20.
 (pdftex.def)             Requested size: 234.8775pt x 157.4669pt.
  [19] [20 <./Images/method_scaling.png>]
-[21] [22] [23] <Images/muffin_tins.png, id=568, 336.25626pt x 203.76125pt>
+[21] [22] [23] <Images/muffin_tins.png, id=588, 336.25626pt x 203.76125pt>
 File: Images/muffin_tins.png Graphic file (type png)
 
 <use Images/muffin_tins.png>
@@ -1785,21 +1777,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-[24] <Images/DFT_flowchart.png, id=590, 769.37437pt x 732.48656pt>
+[24] <Images/DFT_flowchart.png, id=611, 769.37437pt x 732.48656pt>
 File: Images/DFT_flowchart.png Graphic file (type png)
 
 <use Images/DFT_flowchart.png>
 Package pdftex.def Info: Images/DFT_flowchart.png used on input line 126.
 (pdftex.def)             Requested size: 230.81409pt x 219.74765pt.
  [25 <./Images/muffin_tins.png>] [26 <./Images/DFT_flowchart.png>]
-<Images/bader_topo_plot.png, id=618, 663.47874pt x 265.99374pt>
+<Images/bader_topo_plot.png, id=638, 663.47874pt x 265.99374pt>
 File: Images/bader_topo_plot.png Graphic file (type png)
 
 <use Images/bader_topo_plot.png>
 Package pdftex.def Info: Images/bader_topo_plot.png used on input line 160.
 (pdftex.def)             Requested size: 352.31625pt x 141.24794pt.
  [27 <./Images/bader_topo_plot.png>]
-<Images/atomic_orbital_size.png, id=635, 1026.83624pt x 795.97375pt>
+<Images/atomic_orbital_size.png, id=655, 1026.83624pt x 795.97375pt>
 File: Images/atomic_orbital_size.png Graphic file (type png)
 
 <use Images/atomic_orbital_size.png>
@@ -1817,21 +1809,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[32] <Images/hebert_ch_si_good.png, id=708, 1104.125pt x 783.92876pt>
+[32] <Images/hebert_ch_si_good.png, id=727, 1104.125pt x 783.92876pt>
 File: Images/hebert_ch_si_good.png Graphic file (type png)
 
 <use Images/hebert_ch_si_good.png>
 Package pdftex.def Info: Images/hebert_ch_si_good.png used on input line 105.
 (pdftex.def)             Requested size: 211.38832pt x 150.08438pt.
 
-<Images/hebert_ch_mg.png, id=709, 1222.5675pt x 820.06375pt>
+<Images/hebert_ch_mg.png, id=728, 1222.5675pt x 820.06375pt>
 File: Images/hebert_ch_mg.png Graphic file (type png)
 
 <use Images/hebert_ch_mg.png>
 Package pdftex.def Info: Images/hebert_ch_mg.png used on input line 111.
 (pdftex.def)             Requested size: 211.38832pt x 141.78648pt.
 
-<Images/luitz_cu_half.png, id=710, 1104.125pt x 777.90625pt>
+<Images/luitz_cu_half.png, id=729, 1104.125pt x 777.90625pt>
 File: Images/luitz_cu_half.png Graphic file (type png)
 
 <use Images/luitz_cu_half.png>
@@ -1859,7 +1851,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<Images/Li2Ocontour_plot.png, id=779, 1599.72656pt x 1529.715pt>
+<Images/Li2Ocontour_plot.png, id=799, 1599.72656pt x 1529.715pt>
 File: Images/Li2Ocontour_plot.png Graphic file (type png)
 
 <use Images/Li2Ocontour_plot.png>
@@ -1873,7 +1865,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 [39
 
 ] [40 <./Images/Li2Ocontour_plot.png>]
-<Images/Li2O_three.png, id=796, 642.4pt x 482.80376pt>
+<Images/Li2O_three.png, id=816, 642.4pt x 482.80376pt>
 File: Images/Li2O_three.png Graphic file (type png)
 
 <use Images/Li2O_three.png>
@@ -1885,14 +1877,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
  []
 
 [41 <./Images/Li2O_three.png>]
-<Images/Li_contours.png, id=805, 1099.10625pt x 628.3475pt>
+<Images/Li_contours.png, id=825, 1099.10625pt x 628.3475pt>
 File: Images/Li_contours.png Graphic file (type png)
 
 <use Images/Li_contours.png>
 Package pdftex.def Info: Images/Li_contours.png used on input line 55.
 (pdftex.def)             Requested size: 352.31625pt x 201.41087pt.
 
-<Images/Li_two.png, id=806, 880.28876pt x 639.38875pt>
+<Images/Li_two.png, id=826, 880.28876pt x 639.38875pt>
 File: Images/Li_two.png Graphic file (type png)
  <use Images/Li_two.png>
 Package pdftex.def Info: Images/Li_two.png used on input line 66.
@@ -1902,7 +1894,7 @@ Overfull \hbox (21.14012pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-<Images/Li_comparisson.png, id=807, 770.88pt x 578.16pt>
+<Images/Li_comparisson.png, id=827, 770.88pt x 578.16pt>
 File: Images/Li_comparisson.png Graphic file (type png)
 
 <use Images/Li_comparisson.png>
@@ -1914,21 +1906,21 @@ Overfull \hbox (21.14012pt too wide) in paragraph at lines 70--71
  []
 
 [42 <./Images/Li_contours.png>] [43 <./Images/Li_two.png> <./Images/Li_comparis
-son.png>] <Images/LiF_countours.png, id=829, 1262.7175pt x 657.45625pt>
+son.png>] <Images/LiF_countours.png, id=849, 1262.7175pt x 657.45625pt>
 File: Images/LiF_countours.png Graphic file (type png)
 
 <use Images/LiF_countours.png>
 Package pdftex.def Info: Images/LiF_countours.png used on input line 85.
 (pdftex.def)             Requested size: 469.75502pt x 244.58925pt.
 
-<Images/LiF_colour.png, id=830, 578.16pt x 433.62pt>
+<Images/LiF_colour.png, id=850, 578.16pt x 433.62pt>
 File: Images/LiF_colour.png Graphic file (type png)
 
 <use Images/LiF_colour.png>
 Package pdftex.def Info: Images/LiF_colour.png used on input line 92.
 (pdftex.def)             Requested size: 264.2372pt x 198.1774pt.
  [44 <./Images/LiF_countours.png>]
-<Images/Li-Lif_colour.png, id=838, 862.22125pt x 655.44875pt>
+<Images/Li-Lif_colour.png, id=858, 862.22125pt x 655.44875pt>
 File: Images/Li-Lif_colour.png Graphic file (type png)
 
 <use Images/Li-Lif_colour.png>
@@ -1939,7 +1931,7 @@ Overfull \hbox (21.14012pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
-<Images/Li-Lif_colour_unscreened.png, id=839, 770.88pt x 578.16pt>
+<Images/Li-Lif_colour_unscreened.png, id=859, 770.88pt x 578.16pt>
 File: Images/Li-Lif_colour_unscreened.png Graphic file (type png)
 
 <use Images/Li-Lif_colour_unscreened.png>
@@ -2001,14 +1993,8 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¸ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¸ in font cmr12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
- [53]
+[53]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -2026,7 +2012,7 @@ Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no ¼ in font cmti12!
 
-Underfull \hbox (badness 1147) in paragraph at lines 262--265
+Underfull \hbox (badness 1147) in paragraph at lines 260--263
 []\OT1/cmr/m/n/12 P. Ho-hen-berg and W. Kohn.  In-ho-mo-ge-neous elec-tron gas.
   \OT1/cmr/m/it/12 Phys-i-cal Re-view\OT1/cmr/m/n/12 ,
  []
@@ -2050,7 +2036,7 @@ Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no “ in font cmti12!
 
-Underfull \hbox (badness 1242) in paragraph at lines 353--358
+Underfull \hbox (badness 1242) in paragraph at lines 351--356
 []\OT1/cmr/m/n/12 Malte Fugel, Jens Beck-mann, Dy-lan Jay-ati-laka, Ger-ald V. 
 Gibbs, and Si-mon
  []
@@ -2072,34 +2058,30 @@ Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
-Missing character: There is no Î in font cmr12!
-Missing character: There is no ± in font cmr12!
  [60])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
  [61]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 76BBD55D6EF7BAEA51E1BEDAF5158CDB;2384.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
+(rerunfilecheck)             Checksum: C93CAABDA54F1B0150A704BFEF7388B3;2525.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 16372 strings out of 493064
- 285698 string characters out of 6138159
- 346590 words of memory out of 5000000
- 19449 multiletter control sequences out of 15000+600000
+ 16362 strings out of 493064
+ 285505 string characters out of 6138159
+ 347750 words of memory out of 5000000
+ 19435 multiletter control sequences out of 15000+600000
  10779 words of font info for 38 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 42i,11n,44p,10459b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,44p,10459b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -2116,10 +2098,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (67 pages, 3617291 bytes).
+Output written on thesis.pdf (68 pages, 3618112 bytes).
 PDF statistics:
- 1050 PDF objects out of 1200 (max. 8388607)
- 890 compressed objects within 9 object streams
- 276 named destinations out of 1000 (max. 500000)
- 470 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1072 PDF objects out of 1200 (max. 8388607)
+ 910 compressed objects within 10 object streams
+ 280 named destinations out of 1000 (max. 500000)
+ 486 words of extra memory for PDF output out of 10000 (max. 10000000)
 
