@@ -30,17 +30,18 @@
 \contentsline {subsection}{\numberline {2.3.2}Cross Section Approach}{31}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Beth Salpeter Equations (BSE)}{31}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Core Hole Approximation}{32}{subsection.2.3.4}
-\contentsline {chapter}{\numberline {3}Methods}{35}{chapter.3}
-\contentsline {section}{\numberline {3.1}Improvement to Core Hole Shielding Calculations}{35}{section.3.1}
-\contentsline {section}{\numberline {3.2}Implementation}{38}{section.3.2}
-\contentsline {section}{\numberline {3.3}Calculation and Experimental Details}{38}{section.3.3}
-\contentsline {chapter}{\numberline {4}Results and Discussion}{39}{chapter.4}
-\contentsline {section}{\numberline {4.1}Lithium Oxide}{39}{section.4.1}
-\contentsline {section}{\numberline {4.2}Metallic Lithium}{41}{section.4.2}
-\contentsline {section}{\numberline {4.3}Lithium Fluoride}{43}{section.4.3}
-\contentsline {section}{\numberline {4.4}Li-LiF Mixture}{44}{section.4.4}
-\contentsline {section}{\numberline {4.5}Discussion}{45}{section.4.5}
-\contentsline {chapter}{\numberline {5}Conclusion}{48}{chapter.5}
-\contentsline {chapter}{\numberline {A}Calculation Details}{50}{Appendix.a.A}
-\contentsline {section}{\numberline {A.1}Crystal Structures}{50}{section.a.A.1}
-\contentsline {section}{\numberline {A.2}DFT Parameters}{51}{section.a.A.2}
+\contentsline {subsubsection}{DOS approach}{33}{section*.29}
+\contentsline {chapter}{\numberline {3}Methods}{36}{chapter.3}
+\contentsline {section}{\numberline {3.1}Improvement to Core Hole Shielding Calculations}{36}{section.3.1}
+\contentsline {section}{\numberline {3.2}Implementation}{39}{section.3.2}
+\contentsline {section}{\numberline {3.3}Calculation and Experimental Details}{39}{section.3.3}
+\contentsline {chapter}{\numberline {4}Results and Discussion}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}Lithium Oxide}{40}{section.4.1}
+\contentsline {section}{\numberline {4.2}Metallic Lithium}{42}{section.4.2}
+\contentsline {section}{\numberline {4.3}Lithium Fluoride}{44}{section.4.3}
+\contentsline {section}{\numberline {4.4}Li-LiF Mixture}{45}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{46}{section.4.5}
+\contentsline {chapter}{\numberline {5}Conclusion}{49}{chapter.5}
+\contentsline {chapter}{\numberline {A}Calculation Details}{51}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Crystal Structures}{51}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}DFT Parameters}{52}{section.a.A.2}
