@@ -47,7 +47,7 @@ Where the basin defining the integration limits is defined by Bader theory as de
 \label{chi_naught}
 \end{equation}
 
-Further assuming that the polarization is constant through changes in shielding potential, the shielding term can be reintroduced by perturbing the right hand side of Eq. \ref{chi_naught} to obtain: 
+The polarization further assumed as constant through changes in shielding potential, verified by checking that $\Delta n _{\mathrm{basin}}$ vs $V_{\mathrm{CH}}$ is linear, see Fig \ref{linearity}. The shielding term can then be reintroduced by perturbing the right hand side of Eq. \ref{chi_naught} to obtain: 
 
 
 \begin{equation}
@@ -62,13 +62,20 @@ Which can be reduced to:
 
 Equation \ref{final_eq} connects the screening due to valence electrons to a change in electron density, a rapidly calculable quantity.  The screening potential is given in ``units" of the core hole potential which allows the screening to be accounted for by modulating the occupancy of the core hole state.  Additionally, while perturbed from the no screening case in Eq. \ref{pertubation}, it should be noted that this argument holds when approached from the full screening case.  This indicates that these approximations are valid over the entire range of screening cases ($\delta V_{\mathrm{v}} = 0 \to V_{\mathrm{CH}}$).  The implementation of this theory in EELS calculations is discussed below.  
 
-\section{Implementation} \label{implementation}
-To calculate and implement the shielding term in Eq. \ref{final_eq}, a series of calculations are performed.  First, a standard DFT calculation is executed with no core hole, followed by one including a full core hole. Depending on cell size, the full core hole calculation is performed using a supercell so as to isolate individual core holes in the periodic boundaries. For both calculations, the electron occupancy inside the lithium atomic basin is calculated and used to calculate the screening potential according to Eq. \ref{final_eq}.  This returns a decimal value between 0 and 1 which is subtracted from the magnitude of the hole.  A third calculation is then performed with using this non integer ``shielded" hole, again using supercells as necessary.  
+\begin{figure}
+	\centering
+	\includegraphics[width=0.55\textwidth]{linearity.png}
+	\caption{Effect  of varying the core hole potential on atomic basin population, for LiF and LiBr.  Solid lines represent the case of constant $\chi^0_{\mathrm{basin}}$}
+	\label{linearity}
+	
+\end{figure}
 
-\section{Calculation and Experimental Details} \label{calc_section}
+\section{Implementation} \label{implementation}
+To calculate and implement the shielding term in Eq. \ref{final_eq}, a series of calculations are performed.  First, a standard DFT calculation is executed with no core hole and the DOS is calculated to verify that a core hole is indeed necessary.  If so, a full core hole is performed. Depending on cell size, the full core hole calculation is performed using a supercell so as to isolate individual core holes in the periodic boundaries. For both calculations, the electron occupancy inside the lithium atomic basin is calculated and used to calculate the screening potential according to Eq. \ref{final_eq}.  This returns a decimal value between 0 and 1 which is subtracted from the magnitude of the hole.  A third calculation is then performed with using this non integer ``shielded" hole, again using supercells as necessary.  
+
+\section{Calculation Details} \label{calc_section}
 Before discussing specific cases, it should be noted that all calculations were run in a manner to account for the peculiarities of lithium in DFT. In particular, atomic sphere radii on the lithium were maximized to minimize core leakage and monopole effects were verified to be negligible \cite{mauchamp_ab_2006}.  The standard DFT convergence tests (K points, RKmax) were also performed and all cells were relaxed according to volume.  All supercells were performed in non conventional symmetries ( eg.\textit{P1} ) so as to only produce a single core hole atom per cell and avoid any interaction between core holes. The final spectra are also converged based on supercell size.  Density calculations are preformed using Critic2 \cite{critic2}.   Detailed calculation and crystal parameters can be found in Appendix \ref{calc_details}. \\
 
 
-
-All of the experimental results were obtained at McGill on a Hitachi SU9000 field emission SEM.  EELS spectra were acquired at 30 keV to minimize the beam damage to the lithium materials. The energy resolution was measured on the ZLP as 0.7 eV.  The collection angle and convergence angle were taken as 5.0 mrad and 1.8 mrad respectively.  All spectra had their backgrounds removed through a power law fit (see Section \ref{bg_section}) and were deconvoluted using the Richardson-Lucy algorithm (also Section \ref{deconvolution}).
-
+\section{Experimental Details} \label{expt_methods}
+All of the experimental results were obtained at McGill on a Hitachi SU9000 field emission SEM.  EELS spectra were acquired at 30 keV to minimize the beam damage to the lithium materials. The energy resolution was measured on the ZLP as 0.7 eV.  The collection angle and convergence angle were taken as 5.0 mrad and 1.8 mrad respectively.  All spectra had their backgrounds removed through a power law fit (see Section \ref{bg_section}) and were deconvoluted using the Richardson-Lucy algorithm (also Section \ref{deconvolution}).   Powdered LiF samples were obtained from Sigma-Aldrich ($\ge$99.99\% purity) and were drop cast onto a carbon grid.  Metallic lithium spectra were collected from crystals that were observed to grow in the vicinity of the electron beam, as reported by Liu \textit{et al}, \cite{liu_preparation_1986}.

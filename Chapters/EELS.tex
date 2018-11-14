@@ -138,10 +138,45 @@ The quality of EELS results depends numerous factors in the microscope.  Foremos
 \subsubsection{TEM vs SEM EELS}
 There are two main branches of electron microscopy: scanning electron microscopy (SEM) and transmission electron microscopy (TEM).  TEM typically operates with beam energies between 100-300 keV designed to penetrate through thin samples, while SEM operates between 1-30 keV targeted towards analyzing bulk samples.  Each method has its own advantages.  The thin samples in TEM's result in a minimal interaction volume, far higher spatial resolution and have the ability to image individual atoms \cite{hansen_atomic-resolution_2001}. SEM's are optimized to scan the surfaces of samples and the large interaction volumes allow them to analyze bulk properties.  SEM is also a more economical and flexible tool as it has far fewer sample requirements.   EELS has been conventionally performed in TEM's as it requires the beam to pass through the sample and higher beam energies allow for thicker samples. Recent advances however have allowed EELS to be performed using an SEM with accelerating voltages of 30 keV \cite{SU_9000}.  As in a TEM, EELS in an SEM at 30keV requires thin samples, but offers the advantage of reducing the beam damage which has been essential for investigating lithium materials. 
 
+\subsection{Beam Damage}
+As the various technological restraints of electron microscopes improve, the limiting factor in probing materials shifts increasingly towards dosage limits.  The various electron beam sample interactions that occur can damage materials in a multitude of ways.  These can include, charging, heating, sputtering (mass loss) and crystal deformation.  The resulting damage impacts results, decreases signal, and limits sample use.  Mass loss and crystal deformation are most relevant to EELS as they reduce signal and disrupt the local symmetry that is measured in the ELNES.  These effects are caused largely by radiolysis and knock-on damage.  
+
+\subsubsection{Knock On Damage}
+Knock on damage results from a beam electron transferring enough energy to a nucleus in the sample to displace it from its lattice site.  The effect arises from high angle elastic scattering as the energy transferred for this interaction is defined by: 
+
+\begin{equation}
+E = E_{\mathrm{max}} \mathrm{sin}^2 (\theta/2)
+\end{equation}
+
+with $E_{\mathrm{max}}$ depends on the beam energy and the atomic mass, as:
+
+\begin{equation}
+E_{\mathrm{max}} \approx E_{\mathrm{0}}(E_{\mathrm{0}} + 2M_{\mathrm{0}}c^2) / (Mc^2)
+\label{E_max_eq}
+\end{equation}
+ 
+Because $E_{\mathrm{max}}$ is inversely proportional to atomic mass, lithium materials are particularly sensitive to knock on damage, see Fig \ref{E_max_plot}.  As can be seen in the plot, in TEM conditions (100+ keV), $E_{\mathrm{max}}$ is considerable (30+ eV) for lithium, well above the energy required to cause lithium diffusion ( $\sim$ 10eV) \cite{van_der_ven_first-principles_2001}.
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{./Images/beam_energy_vs_max_transfer.png}
+\caption{Plot relating $E_{\mathrm{max}}$ to beam energy for a variety of elements, as calculated in Eq. \ref{E_max_eq}.  Taken from Egerton \cite{egerton_basic_2010}.}
+\label{E_max_plot}
+\end{figure}
+
+
+%low E, sputtering
+
+One means of reducing knock on damage is thus to perform EELS at lower operating voltages, which reduces $E_{\mathrm{max}}$. Lower beam energy also increases the cross section of elastic scattering for lithium, according to the Mott cross section.  For heavier elements, it is possible to drop $E_{\mathrm{max}}$ below a threshold energy and eliminate knock on damage, however even at 30keV, $E_{\mathrm{max}}$ is great enough to damage lithium containing specimens.  
+
+\subsubsection{Radiolysis}
+Radiolysis refers to the breaking of atomic bonds, ionizing atoms and resulting in diffusion and loss of crystal structure.  Organic materials with low electron conductivity are highly susceptible to radiolysis, especially as it can remove highly mobile hydrogen atoms from hydrocarbons.  Metallic samples are less affected as the free electrons can screen the resulting charge discrepancies long enough for atoms to reform the bonds.   Lithium materials are also vulnerable to radiolysis due to their non conductive nature and lithium's high mobility.  Particularly affected are lithium halogens such as lithium fluoride (LiF) \cite{egerton_electron_1987}. In these materials, radiolysis from F-centres and H-centres, separating the elements and allowing the fluorine to diffuse from the material \cite{egerton_electron_1987}.  Radiolysis is dependent on temperature and using a cryogenic sample holder is one option of limiting, or at least slowing down this effect by impeding diffusion.  
+
+
+
 
 
 \subsection{Lithium in EELS}
-Lithium materials present a number of challenges to EELS analysis.  Lithium ion battery materials are in general semiconductors with band gaps of varying sizes. Coupled with lithium's highly mobile nature, lithium materials are highly sensitive to electron beam damage.  When performing analysis, damage results from the charge buildup when an electron beam passes through a sample.  In electron conductive samples (eg. metals), this charge can be dissipated to some extent, however in materials with a band gap (eg. insulators, battery cathodes), the charge can displace lithium ions and break down the crystal structure.  Lithium's high mobility also makes it vulnerable to knock on damage.  This effect occurs when an electron interacts inelastically with an atom's nucleus and results in sufficient momentum transfer to displace it from its lattice site.  Lithium is particularly vulnerable to this interaction because it requires only a small amount of energy ($ \sim 0.2-3$eV) to displace it through a crystal \cite{kang_factors_2006}.  Lithium's sensitivity to the beam make EELS's short acquisition times, on the order of seconds, well suited for its analysis. Recent developments enabling EELS at 30keV have made it applicable to a new range of lithium materials.\\  
+Lithium materials present a number of challenges to EELS analysis.  Lithium ion battery materials are in general semiconductors with band gaps of varying sizes. Coupled with lithium's highly mobile nature, lithium materials are highly sensitive to both knock on and radiolysis damage.  Lithium's high mobility also makes it vulnerable to knock on damage.   Lithium is particularly vulnerable to this interaction because it requires only a small amount of energy ($ \sim 0.2-3$eV) to displace it through a crystal \cite{kang_factors_2006}.  Lithium's sensitivity to the beam make EELS's short acquisition times, on the order of seconds, well suited for its analysis. Recent developments enabling EELS at 30keV have made it applicable to a new range of lithium materials.\\  
 
 Beyond the experimental essentials, EELS analysis of lithium materials is further complicated by lithium's only ionization edge being located around 55eV.  55eV is at the boundary of what is considered reasonable for analysis as it lies close to the plasmon peak. The decay of the plasmon peak complicates background subtraction and makes it highly vulnerable to sample thickness and plural scattering.  This energy range also often results in overlap between the lithium K-edge and the $\mathrm{M_{2 / 3}}$ and $\mathrm{M_4}$ edges of transition metals. In particular, the edges of Mn, Fe and Ni, all fall between 40-70eV.  As these elements are key components to cathode materials, they can require further steps for analysis to be possible.
 

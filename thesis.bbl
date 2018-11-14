@@ -185,6 +185,16 @@ Jordan~A. Hachtel, Andrew~R. Lupini, and Juan~Carlos Idrobo.
   spectroscopy in the infrared regime.
 \newblock {\em Scientific Reports}, 8(1):5637, April 2018.
 
+\bibitem{egerton_basic_2010}
+R.~F. Egerton, R.~McLeod, F.~Wang, and M.~Malac.
+\newblock Basic questions related to electron-induced sputtering in the {TEM}.
+\newblock {\em Ultramicroscopy}, 110(8):991--997, July 2010.
+
+\bibitem{egerton_electron_1987}
+R.~F. Egerton, P.~A. Crozier, and P.~Rice.
+\newblock Electron energy-loss spectroscopy and chemical change.
+\newblock {\em Ultramicroscopy}, 23(3):305--312, January 1987.
+
 \bibitem{kang_factors_2006}
 Kisuk Kang and Gerbrand Ceder.
 \newblock Factors that affect {Li} mobility in layered lithium transition metal
@@ -399,32 +409,28 @@ P.~A. Lee and G.~Beni.
   crystals.
 \newblock {\em Physical Review B}, 15(6):2862--2883, 1977.
 
-\bibitem{mauchamp_core-hole_2009}
-Vincent Mauchamp, Michel Jaouen, and Peter Schattschneider.
-\newblock Core-hole effect in the one-particle approximation revisited from
-  density functional theory.
-\newblock {\em Physical Review B}, 79(23):235106, 2009.
-
 \bibitem{luitz_partial_2001}
 J.~Luitz, M.~Maier, C.~Hébert, P.~Schattschneider, P.~Blaha, K.~Schwarz, and
   B.~Jouffrey.
 \newblock Partial core hole screening in the {Cu} {L}3 edge.
 \newblock {\em The European Physical Journal B}, 21(3):363--367, 2001.
 
-\bibitem{hebert_improvement_2003}
-C.~Hebert, J.~Luitz, and P.~Schattschneider.
-\newblock Improvement of energy loss near edge structure calculation using
-  {Wien}2k.
-\newblock {\em Micron}, 34(3-5):219--225, 2003.
-\newblock WOS:000184846600012.
+\bibitem{mauchamp_core-hole_2009}
+Vincent Mauchamp, Michel Jaouen, and Peter Schattschneider.
+\newblock Core-hole effect in the one-particle approximation revisited from
+  density functional theory.
+\newblock {\em Physical Review B}, 79(23):235106, 2009.
 
-\bibitem{slater_energy_1964}
-J.~C. Slater.
-\newblock Energy {Band} {Calculations} by the {Augmented} {Plane} {Wave}
-  {Method}**{The} research reported in this paper has been assisted by the
-  {National} {Science} {Foundation} and the {Office} of {Naval} {Research}, as
-  well as by the {Army}, {Navy}, and {Air} {Force}.
-\newblock {\em Advances in Quantum Chemistry}, 1:35--58, January 1964.
+\bibitem{gao_theory_2008}
+Shang-Peng Gao, Chris~J. Pickard, Mike~C. Payne, Jing Zhu, and Jun Yuan.
+\newblock Theory of core-hole effects in 1s core-level spectroscopy of the
+  first-row elements.
+\newblock {\em Physical Review B}, 77(11):115122, 2008.
+
+\bibitem{soininen_scheme_2001}
+J.~A. Soininen and Eric~L. Shirley.
+\newblock Scheme to calculate core hole--electron interactions in solids.
+\newblock {\em Physical Review B}, 64(16):165112, 2001.
 
 \bibitem{brydson_further_1988}
 R.~Brydson, J.~Bruley, and J.~M. Thomas.
@@ -503,6 +509,13 @@ Shang-Peng Gao, Chris~J. Pickard, Alexander Perlov, and Victor Milman.
   pseudopotential method.
 \newblock {\em Journal of Physics: Condensed Matter}, 21(10):104203, 2009.
 
+\bibitem{hebert_improvement_2003}
+C.~Hebert, J.~Luitz, and P.~Schattschneider.
+\newblock Improvement of energy loss near edge structure calculation using
+  {Wien}2k.
+\newblock {\em Micron}, 34(3-5):219--225, 2003.
+\newblock WOS:000184846600012.
+
 \bibitem{jorissen2007ab}
 Kevin Jorissen.
 \newblock {\em The ab initio calculation of relativistic electron energy loss
@@ -520,17 +533,22 @@ E.~L. Shirley, J.~A. Soininen, and J.~J. Rehr.
 \newblock Modeling core-hole screening in core-excitation spectroscopies.
 \newblock {\em Physica Scripta}, 2005(T115):31, 2005.
 
+\bibitem{liu_preparation_1986}
+Dang-Rong Liu, H.~E.~George Rommal, and David~B. Williams.
+\newblock Preparation of lithium specimens for transmission electron
+  microscopy.
+\newblock {\em Journal of Electron Microscopy Technique}, 4(4):381--383, 1986.
+
 \bibitem{rez_theory_2008}
 Peter Rez and David~A. Muller.
 \newblock The {Theory} and {Interpretation} of {Electron} {Energy} {Loss}
   {Near}-{Edge} {Fine} {Structure}.
 \newblock {\em Annual Review of Materials Research}, 38(1):535--558, 2008.
 
-\bibitem{gao_theory_2008}
-Shang-Peng Gao, Chris~J. Pickard, Mike~C. Payne, Jing Zhu, and Jun Yuan.
-\newblock Theory of core-hole effects in 1s core-level spectroscopy of the
-  first-row elements.
-\newblock {\em Physical Review B}, 77(11):115122, 2008.
+\bibitem{lru_electron-energy-loss_1986}
+Dang-Rong Lru and David~B. Williams.
+\newblock The electron-energy-loss spectrum of lithium metal.
+\newblock {\em Philosophical Magazine B}, 53(6):L123--L128, June 1986.
 
 \bibitem{hubbard_electron_1963}
 J.~Hubbard.

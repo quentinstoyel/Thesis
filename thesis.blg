@@ -7,44 +7,44 @@ Database file #2: DFT.bib
 Database file #3: EELScalculation.bib
 Database file #4: introduction.bib
 Database file #5: methods.bib
-You've used 88 entries,
+You've used 92 entries,
             1791 wiz_defined-function locations,
-            962 strings with 20130 characters,
-and the built_in function-call counts, 21571 in all, are:
-= -- 1902
-> -- 1064
+            984 strings with 20630 characters,
+and the built_in function-call counts, 22624 in all, are:
+= -- 1998
+> -- 1112
 < -- 3
-+ -- 390
-- -- 302
-* -- 1781
-:= -- 3490
-add.period$ -- 270
-call.type$ -- 88
-change.case$ -- 80
++ -- 407
+- -- 315
+* -- 1879
+:= -- 3655
+add.period$ -- 282
+call.type$ -- 92
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 88
-duplicate$ -- 807
-empty$ -- 2051
-format.name$ -- 302
-if$ -- 4629
+cite$ -- 92
+duplicate$ -- 843
+empty$ -- 2151
+format.name$ -- 315
+if$ -- 4854
 int.to.chr$ -- 0
-int.to.str$ -- 88
-missing$ -- 91
-newline$ -- 444
-num.names$ -- 89
-pop$ -- 161
+int.to.str$ -- 92
+missing$ -- 95
+newline$ -- 464
+num.names$ -- 93
+pop$ -- 165
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 293
+skip$ -- 307
 stack$ -- 0
-substring$ -- 1772
-swap$ -- 103
+substring$ -- 1877
+swap$ -- 107
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 218
-width$ -- 90
-write$ -- 971
+while$ -- 229
+width$ -- 94
+write$ -- 1015
