@@ -43,7 +43,7 @@ Where $m_e$ is the mass of an electron, $N$ is the number of electrons, and $\te
 	\item The electron density which minimizes the overall energy corresponds to the real ground state electron density.  
 \end{itemize}
 
-By changing the variables being solved for to the \textit{density} and not wavefunctions, the problem is reduced down to only three variables: the three coordinates of the density field.  The Hohenberg-Kohn theorems indicate that the observables can all be made into functionals of electron density and that any density other than the groundstate will result in a higher energy in the system \cite{parr_density_1983}.  The term functional is now defined as an object that acts like a function, except that it takes other functions as input instead of variables, eg:
+By changing the variables being solved for to the \textit{density} and not wavefunctions, the problem is reduced down to only three variables: the three coordinates of the density field.  The Hohenberg-Kohn theorems indicate that the observables can all be made into functionals of electron density and that any density other than the groundstate will result in a higher energy in the system \cite{parr_density_1983}.  The term functional is defined as an object that acts similar to a function, except that it takes other functions as input instead of variables, eg:
 
 \begin{equation}
 F[f(x)] = \int f(x) dx
@@ -54,7 +54,7 @@ F[f(x)] = \int f(x) dx
 -\frac{\hbar}{2m_e} \sum_{i} \int \psi_i^* \nabla^2\psi_id^3r + \int V(\textbf{r})n(\textbf{r})d^3r + \frac{e^2}{2} \int \int \frac{n(\textbf{r})n(\textbf{r}')}{|r-r'|}d^3r d^3r' + E_{\mathrm{nuclei}} + E_{\mathrm{XC}} = E[n(\textbf{r})]
 \end{equation}
 
-Where the second term is the energy from the electron density-nuclei interaction, the third term is the electron density-electron density Coulomb interaction and $E_{\mathrm{nuclei}}$ is the contribution from nucleus-nucleus interaction.  The final term, $E_{XC}$ is the exchange and correlation term, where all of the quantum features of the electrons are grouped the result of basing the analysis in terms of density. This equation cannot be directly solved from first principles by itself as a means is needed to obtain the electron density.  On this front, the Kohn -Sham equations are introduced which assume that the electrons can be decoupled into single particle equations: 
+Where the second term is the energy from the electron density-nuclei interaction, the third term is the electron density-electron density Coulomb interaction and $E_{\mathrm{nuclei}}$ is the contribution from nucleus-nucleus interaction.  The final term, $E_{XC}$ is the exchange and correlation term, where all of the quantum features of the electrons are grouped the result of basing the analysis in terms of density. This equation cannot be directly solved from first principles by itself as a means is needed to obtain the electron density.  On this front, the Kohn -Sham equations are introduced, which assume that the electrons can be decoupled into single particle equations: 
 
 \begin{equation}
     \bigg[T_i + V(\textbf{r}) + V_{\mathrm{H}}(\textbf{r}) + V_{\mathrm{XC}}(\textbf{r})\bigg] \phi_i(\textbf{r}) = \epsilon_i \phi_i(\textbf{r})
@@ -76,15 +76,15 @@ Where the factor of two is to account for electron spin.  As the density is need
 	\item Assume a starting density
 	\item Use the initial density to calculate the Hartree potential and use it to solve the Kohn-Sham equations for the wavefunctions
 	\item Calculate a new density using Eq. \ref{KS_density}.
-	\item Compare the new density to the initial, update the initial density. 
+	\item Compare the new density to the initial and update the initial density. 
 	\item Repeat steps 2-4 until the density converges and the energy is minimized. This density then represents the groundstate for the system.
 \end{enumerate}
 
-This method is the starting point for DFT calculations, from which there are a number of  variations with regarding how to proceed with these steps.  Amongst these, the treatment of the exchange-correlation potential and choice of basis for the wavefunctions separate the various methods common in codes.  
+This method is the starting point for DFT calculations, from which there are a number of  variations with regarding how to proceed with these steps.  Amongst these, the treatment of the exchange-correlation potential and choice of basis for the wavefunctions separate the various methods common in DFT packages.  
 
 
 \subsubsection{Exchange-Correlation Potential}
-The exchange-correlation potential was introduced above, but not defined.  That is because there no easily solvable form for this term as it collects all of the unknown attributes not accounted for in the Kohn-Sham equations, including electron's being indistinguishable, the self interaction term, etc.   There have been a number of proposed potentials, many designed for specific situations the most common of which will be discussed here.  Like the potentials in the Kohn-Sham equations, the XC potential is defined as a functional of density.  The various potentials vary according to accuracy and computational cost.  The first attempt, originally proposed by Kohn and Sham in 1965 was the local density approximation (LDA) in which the exchange and correlation potential depends only on the density \cite{tao_climbing_2003, ks_1965}: 
+The exchange-correlation potential was introduced above, but not explicitly defined.  That is because there no easily solvable form, for this term as it collects all of the unknown attributes not accounted for in the Kohn-Sham equations.  These include accounting for electron's being indistinguishable, the self interaction term, etc.   There have been a number of proposed potentials, many designed for specific situations the most common of which will be discussed here.  Like the potentials in the Kohn-Sham equations, the XC potential is defined as a functional of density.  The various potentials vary according to accuracy and computational cost.  The first attempt, originally proposed by Kohn and Sham in 1965 was the local density approximation (LDA) in which the exchange and correlation potential depends only on the density \cite{tao_climbing_2003, ks_1965}: 
 
 \begin{equation}
 	E_{\mathrm{XC}}[n(\textbf{r})] = \int  n(\textbf{r}) \epsilon_{\mathrm{XC}}[n(\textbf{r})] d^3r
@@ -98,7 +98,7 @@ E_{\mathrm{XC}}[n(\textbf{r})] = \int  n(\textbf{r}) \epsilon_{\mathrm{XC}}[n(\t
 \end{equation}
 
 
-Other parameters can also be taken into consideration, such as the potential energy (meta GGA) or empirical factors (hybrid functionals) \cite{tao_climbing_2003, bj_pot}.  Depending on the desired property and available computing power, an appropriate functional should be chosen for each case.
+Other parameters can also be taken into consideration, such as the potential energy (meta GGA), empirical factors, or mixing with the exact Hartree-Fock (hybrid functionals) \cite{tao_climbing_2003, bj_pot}.  Depending on the desired property and available computing power, an appropriate functional must be chosen for each case.
 
 
 \subsubsection{Basis Sets}
@@ -108,18 +108,18 @@ A second defining feature for various DFT methods is the choice of basis set for
 	\psi = u(\textbf{r}) e^{i\cdot \textbf{k}}
 \end{equation}
 
-Consequently, a natural basis choice for periodic boundary situations are plane waves, which are used in a number of DFT packages including VASP, Quantum Espresso, and Wien2k \cite{qe,vasp,wien2k}.  The periodic boundary method allows for accurate calculation of in infinite samples representative of bulk materials.  The computational limits then apply to the size of the unit cell, typically limited to at most a few hundred atoms \cite{mohr_linear_2018}.  These limits render features such as defects and grain boundaries computationally expensive as they must be contained in a cell large enough to isolate them from their repeated images in adjacent cells. 
-As large numbers of plane waves would be required to handle the fine features in the electron density close to nuclei, often an augmented plane wave (APW) technique is used.  APW lowers the computational cost by dividing the unit cell into two regions: interstitial space and atomic basins (sometimes referred to as muffin tins), illustrated schematically  in Fig \ref{MT} \cite{wien2k}. \\
+Consequently, a natural basis choice for periodic boundary situations are plane waves, which are used in a number of DFT packages including VASP, Quantum Espresso, and WIEN2k \cite{qe,vasp,wien2k}.  The periodic boundary method allows for accurate calculation of in infinite samples, representative of bulk materials.  The computational limits then apply to the size of the unit cell, typically limited to at most a few hundred atoms \cite{mohr_linear_2018}.  These limits render features such as defects and grain boundaries computationally expensive as they must be contained in a cell large enough to isolate them from their repeated images in adjacent cells. 
+As large numbers of plane waves would be required to handle the fine features in the electron density close to nuclei, often an augmented plane wave (APW) technique is used.  APW lowers the computational cost by dividing the unit cell into two regions: interstitial space and atomic basins (sometimes referred to as muffin tins), illustrated  in Fig \ref{MT} \cite{wien2k}. \\
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{muffin_tins.png}
-	\caption{The two regions in an augmented plane wave approach.  (I) Atomic Basins modelled with Psudopotentials or atomic orbitals and (II) interstitial space modelled with a plane wave basis set.  Taken from Schwarz \textit{et al}, 2002 \cite{wien2k}. }
+	\caption{The two regions in an augmented plane wave approach.  (I) Atomic Basins modelled with Psudopotentials or atomic orbitals and (II) interstitial space modelled with a plane wave basis set.  Taken from Schwarz, 2002 \cite{wien2k}. }
 	\label{MT}   
 \end{figure}
 
-The ability to divide electrons into two groups is due to the fact that the core electrons surrounding each atom are largely unaffected by the local environment as they are screened by the outer shells \cite{wien2k}. The choice of which basis set is used inside the muffin tins provides additional options distinguishing DFT codes.  One option is pseudopotentials, which are pre-generated densities for each element and can be varied to match the plane waves at the boundary \cite{singh_planewaves_2006}.  The pseudopotential method is used in a number of codes, amongst others, VASP and Quantum Espresso \cite{vasp,qe}.  Alternatively, spherical harmonics corresponding to the atomic orbitals can be used for increased accuracy \cite{griffiths}. This type of DFT is referred to as all-electron or full potential, as every electron is represented in the basis set, unlike the pseudopotential method where core electrons are absorbed into the pre-calculated pseudopotential \cite{wien2k}. Fitting for all of the electrons in the sample comes at a computational cost, yet allows for more a accurate analysis of the properties dependent on core states, such as ELNES spectra in EELS.   \\
+The ability to divide electrons into two groups is valid as the core electrons surrounding each atom are largely isolated from the local environment by the outer shells \cite{wien2k}. The choice of which basis set is used inside the muffin tins provides additional options distinguishing DFT codes.  One option is pseudopotentials, which are pre-generated densities for each element and can be varied to match the plane waves at the boundary \cite{singh_planewaves_2006}.  The pseudopotential method is used in programs such as VASP and Quantum Espresso \cite{vasp,qe}.  Alternatively, spherical harmonics corresponding to the atomic orbitals can be used for increased accuracy \cite{griffiths}. This type of DFT is referred to as all-electron or full potential, as every electron is represented in the basis set, unlike the pseudopotential method where core electrons are absorbed into the pre-calculated pseudopotential \cite{wien2k}. Fitting for all of the electrons in the sample comes at a computational cost, yet allows for more a accurate analysis of the properties dependent on core states, such as ELNES spectra in EELS.   \\
  
- A flowchart demonstrating the various properties of some common DFT codes is illustrated in Fig \ref{dft-flowchart}.  The DFT code used primarily in this work is Wien2k and is presented in the following section.
+ A flowchart demonstrating the various properties of some common DFT codes is illustrated in Fig \ref{dft-flowchart}.  The DFT code used primarily in this work is WIEN2k and is presented in the following section.
 
 \begin{figure}
 	\centering
@@ -140,7 +140,7 @@ WIEN2k is an all electron code that uses a linearized augmented plane wave (LAPW
 	\end{cases}
 \end{equation}
 
-Where $Y_{lm}(\hat{\textbf{r}})$ are the spherical harmonics and $u_l(r,E_l)$ are the solutions to the radial Schr\"odinger equation.  The coefficients $A_{lm,\textbf{k}_n}$ and $B_{lm,\textbf{k}_n}$ are set to match the value and slope of the plane waves at the boundary \cite{wien2k}.  The use of an all electron code is essential for computing EELS accurately as it allows for a more flexible treatment of the core electrons not granted in pseudopotential codes. 
+Where \textit{n, l}, and \textit{m} are the principle, azimuthal and magnetic quantum numbers respectively, $Y_{lm}(\hat{\textbf{r}})$ are the spherical harmonics and $u_l(r,E_l)$ are the solutions to the radial Schr\"odinger equation.  The coefficients $A_{lm,\textbf{k}_n}$ and $B_{lm,\textbf{k}_n}$ are set to match the value and slope of the plane waves at the boundary \cite{wien2k}.  The use of an all electron code is essential for computing EELS accurately as it allows for a more flexible treatment of the core electrons not granted in pseudopotential codes. 
  
 
 

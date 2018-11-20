@@ -23,7 +23,7 @@ Where n is the refractive index and d is the smallest distance between two disce
 \begin{equation}
  \lambda = \frac{h}{\sqrt{2 m_0 e E}}
 \end{equation}
-Where $h$ is Planck's constant, $m_0$, $e$ and $E$ are the rest mass, charge and energy of an electron.  In an electron microscope, electrons are accelerated to energies in the order of 1-100 keV giving them wavelengths in the range from 1-100 pm ($1\mathrm{pm}=10^{-12}$m), far  smaller than the distances between atoms ($\sim$0.5 nm) \cite{morales_laser_1998}.  Electron microscopes can therefore achieve a far lower theoretical diffraction limit  and are in fact currently limited by the technological constraints of the electron  lenses \cite{goldstein_electron_2003}.  This high resolution has made electron microscopy a key part of investigating material microstructure and is compared to other methods  in Fig \ref{method_scales} \cite{inkson_2_2016}. \\
+Where $h$ is Planck's constant, $m_0$, $e$ and $E$ are the rest mass, charge and energy of an electron.  In an electron microscope, electrons are accelerated to energies in the order of 1-100 keV, giving them wavelengths in the range from 1-100 pm ($1\mathrm{pm}=10^{-12}$m), far  smaller than the distances between atoms ($\sim$0.5 nm) \cite{morales_laser_1998}.  Electron microscopes can therefore achieve a far lower theoretical diffraction limit  and are in fact currently limited by the technological constraints of the electron  lenses \cite{goldstein_electron_2003}.  This high resolution has made electron microscopy a key part of investigating material microstructure and is compared to other methods  in Fig \ref{method_scales} \cite{inkson_2_2016}. \\
 
 
 \begin{figure}
@@ -48,11 +48,11 @@ In order to obtain images using electrons, electron microscopes use magnetic len
 	\includegraphics[width=1\textwidth]{EM_diagram}
 	\caption{}
 \end{subfigure}
-	\caption{Example of an electron microscope (a) and working principles behind data acquisition (b). }
+	\caption{Example of an electron microscope (a) and working principles behind data acquisition (b) in an electron microscope. }
 	\label{em_diagram}
 \end{figure}
 
-The large number of different signals generated when the electron beam interacts with a sample, (depicted in Fig \ref{specimen_emmisions}), can be used to perform a multitude of types of analysis \cite{williams_transmission_2008}.  A full discussion of the analysis methods at the disposal of electron microscopes is beyond the scope of this work and has been well documented elsewhere \cite{goldstein_electron_2003,Egerton,williams_transmission_2008,reimer_electron_1998}.  Instead, this discussion is limited to electron energy loss spectroscopy (EELS).  EELS is an electron microscopy technique that analyzes the transmitted inelastically scattered electrons, Fig \ref{specimen_emmisions}\cite{Egerton}.  It is mainly an analytic technique, however it is also possible to perform imaging with EELS \cite{varela_stem-eels_2012}.  EELS consists of collecting electrons that have passed entirely through the sample and binning them according to how much energy each one has lost, resulting in a spectrum such as shown in Fig \ref{EELS_spectra}.  The numerous distinct features arise from the various mechanisms through which beam electrons can lose energy in the sample.  Each mechanism results in a particular feature in the spectrum, of which the main ones are described below:
+The large number of different signals generated when the electron beam interacts with a sample, (depicted in Fig \ref{specimen_emmisions}), can be used to perform a multitude of types of analysis \cite{williams_transmission_2008}.  A full discussion of the analysis methods at the disposal of electron microscopes is beyond the scope of this work and is well documented elsewhere \cite{goldstein_electron_2003,Egerton,williams_transmission_2008,reimer_electron_1998}.  Instead, this discussion is limited to electron energy loss spectroscopy (EELS).  EELS is an electron microscopy technique that analyzes the transmitted inelastically scattered electrons, Fig \ref{specimen_emmisions}\cite{Egerton}.  It is mainly an analytic technique, however it is also possible to perform imaging with EELS \cite{varela_stem-eels_2012}.  EELS consists of collecting electrons that have passed entirely through the sample and binning them according to how much energy each one has lost, resulting in a spectrum such as shown in Fig \ref{EELS_spectra}.  The numerous distinct features arise from the various mechanisms through which beam electrons can lose energy in the sample.  Each interaction mechanism results in a particular feature in the spectrum, of which the main ones are described below:
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\textwidth]{specimen_emmisions.png}
@@ -70,18 +70,25 @@ The large number of different signals generated when the electron beam interacts
 \begin{itemize}
 	\item \textbf{Zero Loss Peak (ZLP):} The majority of the electrons in EELS pass through the specimen without experiencing an inelastic interaction, and retain their initial energy.  The width of the ZLP defines the resolution of the spectrum and is due to energy spreading as the beam passes through the electron lenses \cite{colliex_illustrated_1985}.  For thin samples, the ZLP is also the most intense feature on a spectrum \cite{Egerton}.  
 	
-	\item  \textbf{Background:} Beam electrons can excite loosely bound electrons close to the Fermi level into the unoccupied conduction band.  Due to the large number of possible transitions and the fact that high energy events are less favourable, this results in a smoothly decaying background \cite{Egerton}.
+	\item  \textbf{Background:} Beam electrons can excite loosely bound sample electrons close to the Fermi level into the unoccupied conduction band, see Fig \ref{eels_dos}.  Due to the large number of possible transitions and the fact that high energy events are less favourable, this results in a smoothly decaying background \cite{Egerton}.
 	
 	\item \textbf{Plasmon Peak:}  The electron beam can excite multiple atoms in a solid collectively, creating a wavelike oscillation in the electron cloud of the solid \cite{Egerton}.  These are called plasmon excitations and result in a peak appearing between 5eV-30eV \cite{Egerton}.  The shape and intensity of the plasmon peak is dependent on the bond strength of the material and can be used to probe properties such as thickness and surface topology \cite{malis_eels_1988,nelayah_mapping_2007}. 
 	
-	\item \textbf{Ionization Edges:} Beam electrons can excite core electrons in a sample to the conduction band.  As an atom's core states are in general, isolated from its surroundings, the ``edges" for each element will occur at specific energy locations, independent of sample, analogous to characteristic x-rays \cite{Egerton}. These can be used to determine sample composition \cite{Egerton}.  
+	\item \textbf{Ionization Edges:} Beam electrons can excite core electrons in a sample to the conduction band, see Fig \ref{eels_dos}.  Core states are largely isolated from their surroundings and have a consistent energy relative to the fermi level.  As a result, the ``edges" for each element will occur at specific energy locations, independent of sample, analogous to characteristic x-rays \cite{Egerton}. These can be used to determine sample composition \cite{Egerton}.  
 	
 	
 	
 \end{itemize}
  
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{eels_dos.png}
+	\caption{Schematic of excitation events leading to the features in an EELS spectrum.   }
+	\label{eels_dos}
+\end{figure}
 
-The array of independent interaction mechanisms occuring in EELS opens the possibility of beam electrons undergoing multiple inelastic events in the sample, referred to as plural scattering.  In order for meaningful data to be extracted from a spectra, plural scattering must be minimized \cite{Egerton}. This is achieved by using samples thinner or at least comparable to the path length of the beam electrons \cite{Egerton}.  If samples are too thick, duplicate plasmon peaks appear which  drown out the relatively weaker ionization edges see Fig \ref{multiple_plasmons}.   Consequently, samples must be made thin enough to analyze the more sensitive parts of EELS spectra, amongst others near edge structure. \\
+
+The array of independent interaction mechanisms occuring in EELS opens the possibility of beam electrons undergoing multiple inelastic events in the sample, referred to as plural scattering.  In order for meaningful data to be extracted from a spectra, plural scattering must be minimized \cite{Egerton}. This is achieved by using samples thinner or at least comparable to the path length of the beam electrons \cite{Egerton}.  If samples are too thick, duplicate plasmon peaks appear which  drown out the relatively weaker ionization edges, see Fig \ref{multiple_plasmons}.   Consequently, samples must be made thin enough to analyze the more sensitive parts of EELS spectra, amongst others near edge structure. \\
 
 \begin{figure}
 	\centering
@@ -95,7 +102,7 @@ The array of independent interaction mechanisms occuring in EELS opens the possi
 
 
 \subsubsection{Near Edge Structure}
-Ionization edges in EELS possess features extending up 50 eV beyond the onset of the edge, referred to as energy loss near edge structure (ELNES) \cite{Egerton}.   These features are a reflection of the unoccupied states in the conduction band that represent the final states available to sample electrons.  The band structure of the conduction band is largely dependent on the local bonds of the atom in question.  Because of this, ELNES can be used to investigate properties dependent on the local environment of each element.   Crystal structure is one such property, and ELNES can be used to distinguish different crystal structures of the same element such as carbon in graphite vs diamond, see Fig \ref{carbon-k-edge} \cite{hamon_elnes_2004}.  ELNES is also sensitive to impurities or dopants that would effect the band structure \cite{torrisi_atomic_2016}.  The large decay in intensity with increasing energy seen in Figure \ref{EELS_spectra}, limits the useful range ionization edges to those less than $\sim$2keV which corresponds to approximately the K edge of silicon (Z=14) \cite{reimer_transmission_2008}.  The relatively small intensity of ELNES make their analysis highly dependent on the experimental setup, which is discussed in the following section.  \\
+Ionization edges in EELS possess features extending up 50 eV beyond the onset of the edge, referred to as energy loss near edge structure (ELNES) \cite{Egerton}.   These features are a reflection of the unoccupied states in the conduction band that represent the final states available to sample electrons, see Fig \ref{eels_dos}.  The band structure of the conduction band is largely dependent on the local bonds of the atom in question.  Because of this, ELNES can be used to investigate properties dependent on the local environment of each element.   Properties include crystal structure, strain, identifying dopants, etc\cite{torrisi_atomic_2016}.  An example of using ELNES is distinguishing different crystal structures of the same element such as carbon in graphite vs diamond, see Fig \ref{carbon-k-edge} \cite{hamon_elnes_2004}.     The large decay in intensity with increasing energy seen in Figure \ref{EELS_spectra}, limits the useful range ionization edges to those less than $\sim$2keV which corresponds to approximately the K edge of silicon (Z=14) \cite{reimer_transmission_2008}. Heavier elements can be analyzed in EELs by investigating L and M edges.   The relatively small intensity of ELNES make their analysis highly dependent on the experimental setup, which is discussed in the following section.  \\
 
 
 \begin{figure}
@@ -108,7 +115,7 @@ Ionization edges in EELS possess features extending up 50 eV beyond the onset of
 
 \subsection{EELS in Experiment}
 
-In order to collect EELS spectra, electrons must pass entirely through the sample, making EELS a technique for transmission electron microscopes (TEM's)\cite{Egerton}. In order to collect these transmitted electrons and divide them according to energy, a magnetic prism is placed below the specimen to redirect the electrons into a detector,  Fig \ref{prism}.  Inside the magnetic prism, there is a $\mathrm{\textbf{B}}$ field perpendicular to the beam direction which exposes the transmitted electrons to a Lorentz force (bold text indicates vector quantities) \cite{griffiths_em}: 
+In order to collect EELS spectra, electrons must pass entirely through the sample, making EELS a transmission electron microscope(TEM) technique\cite{Egerton}. In order to collect these transmitted electrons and divide them according to energy, a magnetic prism is placed below the specimen to redirect the electrons into a detector,  Fig \ref{prism}.  Inside the magnetic prism, there is a $\mathrm{\textbf{B}}$ field perpendicular to the beam direction which exposes the transmitted electrons to a Lorentz force (bold text indicates vector quantities) \cite{griffiths_em}: 
 
 
 \begin{equation}
@@ -130,25 +137,25 @@ As the force varies according to the velocity of the electrons, the magnetic pri
  
 \end{figure}
 
-Where  $E$ is the energy of each electron after passing through the sample.  Spectra are obtained by mapping each location on the detector to a corresponding energy loss value. Images are produced by  rastering the beam over the sample and using the intensities of a specific energy loss value to create an image.\\ 
+Where  r is the radius of curvature, and $E$ is the energy of each electron after passing through the sample.  Spectra are obtained by mapping each location on the detector to a corresponding energy loss value. Images are produced by  rastering the beam over the sample and using the intensities of a specific energy loss value to create an image.\\ 
 
-The quality of EELS results depends numerous factors in the microscope.  Foremost among these are properties of the electron beam.  In order to obtain accurate results with regards to the finer features, the beam electrons must have very similar energies before striking the sample, within a few eV.  The larger this spread ($ \delta E $), the worse the energy resolution on the sample which obscures features in ELNES.  The energy spread is largely dictated by the electron gun, with the choice for EELS being a field emission gun ($\delta E \sim 0.5-1eV$), as older style tungsten and LaB$_6$ guns are unsuitable for EELS with energy spreads greater than 2 eV \cite{reimer_transmission_2008}.  The energy resolution can be further improved to the order of $\sim$10meV through the use of monochromators \cite{hachtel_exploring_2018}.  This improved energy resolution however comes at the cost of beam current which is another essential parameter for performing EELS.  This is because sufficient signal needs to be collected to render the statistical $\sqrt{N}$ errors small enough for features to become discernible.  At higher energies, introducing a monochromators can results in a trade off between experimental error from the beam and statistical errors due to lack of counts.  Lower current also translates into longer acquisition times, which expose the sample to more beam damage.  In addition to the beam properties, EELS results also depend largely on the imaging mode being used in the electron microscope as is discussed below.
+The quality of EELS results depends numerous factors in the microscope.  Foremost among these are properties of the electron beam.  In order to obtain accurate results with regards to the finer features, the beam electrons must have very similar energies before striking the sample, within a range of a few eV.  The larger this spread ($ \delta E $), the worse the energy resolution on the sample which obscures features in ELNES.  The energy spread is largely dictated by the electron gun, with the choice for EELS being a field emission gun ($\delta E \sim 0.5-1eV$), as older style tungsten and LaB$_6$ guns are unsuitable for EELS where $\delta E > 2 $ eV \cite{reimer_transmission_2008}.  The energy resolution can be further improved to the order of $\sim$10 meV through the use of monochromators \cite{hachtel_exploring_2018}.  This improved energy resolution however comes at the cost of beam current which is another essential parameter for performing EELS.  This is because sufficient signal needs to be collected to render the statistical $\sqrt{N}$ noise small enough for features to become discernible.  For high energy loss, introducing a monochromator can result in a trade off between experimental error from the beam and statistical errors due to lack of counts.  Lower current also translates into longer acquisition times, which expose the sample to more beam damage.  In addition to the beam properties, EELS results also depend largely on the imaging mode being used in the electron microscope as is discussed below.
 
 
 \subsubsection{TEM vs SEM EELS}
 There are two main branches of electron microscopy: scanning electron microscopy (SEM) and transmission electron microscopy (TEM).  TEM typically operates with beam energies between 100-300 keV designed to penetrate through thin samples, while SEM operates between 1-30 keV targeted towards analyzing bulk samples.  Each method has its own advantages.  The thin samples in TEM's result in a minimal interaction volume, far higher spatial resolution and have the ability to image individual atoms \cite{hansen_atomic-resolution_2001}. SEM's are optimized to scan the surfaces of samples and the large interaction volumes allow them to analyze bulk properties.  SEM is also a more economical and flexible tool as it has far fewer sample requirements.   EELS has been conventionally performed in TEM's as it requires the beam to pass through the sample and higher beam energies allow for thicker samples. Recent advances however have allowed EELS to be performed using an SEM with accelerating voltages of 30 keV \cite{SU_9000}.  As in a TEM, EELS in an SEM at 30keV requires thin samples, but offers the advantage of reducing the beam damage which has been essential for investigating lithium materials. 
 
 \subsection{Beam Damage}
-As the various technological restraints of electron microscopes improve, the limiting factor in probing materials shifts increasingly towards dosage limits.  The various electron beam sample interactions that occur can damage materials in a multitude of ways.  These can include, charging, heating, sputtering (mass loss) and crystal deformation.  The resulting damage impacts results, decreases signal, and limits sample use.  Mass loss and crystal deformation are most relevant to EELS as they reduce signal and disrupt the local symmetry that is measured in the ELNES.  These effects are caused largely by radiolysis and knock-on damage.  
+As the various technological restraints of electron microscopes improve, the limiting factor in probing materials shifts increasingly towards dosage limits \cite{reimer_transmission_2008}.  The various electron beam sample interactions that occur can damage materials in a multitude of ways.  These can include, charging, heating, sputtering (mass loss) and crystal deformation \cite{reimer_transmission_2008}.  The resulting damage impacts results, decreases signal, and limits sample use.  Mass loss and crystal deformation are most relevant to EELS as they reduce signal and disrupt the local symmetry that is measured in the ELNES.  These effects are caused largely by knock-on and radiolysis damage.  
 
 \subsubsection{Knock On Damage}
-Knock on damage results from a beam electron transferring enough energy to a nucleus in the sample to displace it from its lattice site.  The effect arises from high angle elastic scattering as the energy transferred for this interaction is defined by: 
+Knock on damage results from a beam electron transferring enough energy to a nucleus in the sample to displace it from its lattice site.  The effect arises from high angle elastic scattering as the energy transferred for this interaction is defined by \cite{egerton_radiation_2004}: 
 
 \begin{equation}
 E = E_{\mathrm{max}} \mathrm{sin}^2 (\theta/2)
 \end{equation}
 
-with $E_{\mathrm{max}}$ depends on the beam energy and the atomic mass, as:
+Where $E_{\mathrm{max}}$ depends on the beam energy and the atomic mass, as:
 
 \begin{equation}
 E_{\mathrm{max}} \approx E_{\mathrm{0}}(E_{\mathrm{0}} + 2M_{\mathrm{0}}c^2) / (Mc^2)
@@ -159,32 +166,32 @@ Because $E_{\mathrm{max}}$ is inversely proportional to atomic mass, lithium mat
 \begin{figure}
 \centering
 \includegraphics[width=0.75\textwidth]{./Images/beam_energy_vs_max_transfer.png}
-\caption{Plot relating $E_{\mathrm{max}}$ to beam energy for a variety of elements, as calculated in Eq. \ref{E_max_eq}.  Taken from Egerton \cite{egerton_basic_2010}.}
+\caption{Plot relating $E_{\mathrm{max}}$ to beam energy for a variety of elements, as calculated in Eq. \ref{E_max_eq}.  Taken from Egerton, 2010 \cite{egerton_basic_2010}.}
 \label{E_max_plot}
 \end{figure}
 
 
 %low E, sputtering
 
-One means of reducing knock on damage is thus to perform EELS at lower operating voltages, which reduces $E_{\mathrm{max}}$. Lower beam energy also increases the cross section of elastic scattering for lithium, according to the Mott cross section.  For heavier elements, it is possible to drop $E_{\mathrm{max}}$ below a threshold energy and eliminate knock on damage, however even at 30keV, $E_{\mathrm{max}}$ is great enough to damage lithium containing specimens.  
+One means of reducing knock on damage is to perform EELS at lower operating voltages, which reduces $E_{\mathrm{max}}$ and the probability of displacing an atom. At these beam energies, it is possible to drop $E_{\mathrm{max}}$ below a threshold energy and eliminate knock on damage for heavier elements. However even at 30keV, $E_{\mathrm{max}}$ is large enough to damage lithium containing specimens \cite{van_der_ven_first-principles_2001}.  
 
 \subsubsection{Radiolysis}
-Radiolysis refers to the breaking of atomic bonds, ionizing atoms and resulting in diffusion and loss of crystal structure.  Organic materials with low electron conductivity are highly susceptible to radiolysis, especially as it can remove highly mobile hydrogen atoms from hydrocarbons.  Metallic samples are less affected as the free electrons can screen the resulting charge discrepancies long enough for atoms to reform the bonds.   Lithium materials are also vulnerable to radiolysis due to their non conductive nature and lithium's high mobility.  Particularly affected are lithium halogens such as lithium fluoride (LiF) \cite{egerton_electron_1987}. In these materials, radiolysis from F-centres and H-centres, separating the elements and allowing the fluorine to diffuse from the material \cite{egerton_electron_1987}.  Radiolysis is dependent on temperature and using a cryogenic sample holder is one option of limiting, or at least slowing down this effect by impeding diffusion.  
+Radiolysis refers to the breaking of atomic bonds, which ionizes atoms and results in diffusion and loss of crystal structure.  Organic materials with low electron conductivity are highly susceptible to radiolysis, especially as it removes highly mobile hydrogen atoms from hydrocarbons.  Metallic samples are less affected as the free electrons can screen the resulting charge discrepancies long enough for atoms to reform the bonds.   Lithium materials are vulnerable to radiolysis due to their non conductive nature and lithium's high mobility.  Particularly affected are strong insulators such as the lithium halogens \cite{egerton_electron_1987}. In these materials, radiolysis forms F-centres and H-centres, separating the elements and allowing the halogens to diffuse from the material \cite{egerton_electron_1987}.  Radiolysis is dependent on temperature and using a cryogenic sample holder is one option of limiting this effect by impeding diffusion.  
 
 
 
 
 
 \subsection{Lithium in EELS}
-Lithium materials present a number of challenges to EELS analysis.  Lithium ion battery materials are in general semiconductors with band gaps of varying sizes. Coupled with lithium's highly mobile nature, lithium materials are highly sensitive to both knock on and radiolysis damage.  Lithium's high mobility also makes it vulnerable to knock on damage.   Lithium is particularly vulnerable to this interaction because it requires only a small amount of energy ($ \sim 0.2-3$eV) to displace it through a crystal \cite{kang_factors_2006}.  Lithium's sensitivity to the beam make EELS's short acquisition times, on the order of seconds, well suited for its analysis. Recent developments enabling EELS at 30keV have made it applicable to a new range of lithium materials.\\  
+Lithium materials present a number of challenges to EELS analysis.  Lithium ion battery materials are in general semiconductors with band gaps of varying sizes and high lithium conductivity. Both of these properties make these materials more vulnerable to beam damage. Lithium diffusion is particularly problematic because it requires only a small amount of energy ($ \sim 0.2-3$eV) to displace it through a crystal \cite{kang_factors_2006}.  Lithium's sensitivity to the beam make EELS's short acquisition times, on the order of seconds, well suited for its analysis.\\  
 
-Beyond the experimental essentials, EELS analysis of lithium materials is further complicated by lithium's only ionization edge being located around 55eV.  55eV is at the boundary of what is considered reasonable for analysis as it lies close to the plasmon peak. The decay of the plasmon peak complicates background subtraction and makes it highly vulnerable to sample thickness and plural scattering.  This energy range also often results in overlap between the lithium K-edge and the $\mathrm{M_{2 / 3}}$ and $\mathrm{M_4}$ edges of transition metals. In particular, the edges of Mn, Fe and Ni, all fall between 40-70eV.  As these elements are key components to cathode materials, they can require further steps for analysis to be possible.
+Beyond the experimental essentials, EELS analysis of lithium materials is complicated by lithium's only ionization edge being located around 55eV.  55eV is at the boundary of what is considered reasonable for analysis as it lies close to the plasmon peak. The decay of the plasmon peak complicates background subtraction and makes it highly vulnerable to sample thickness and plural scattering.  This energy range also often results in overlap between the lithium K edge and the $\mathrm{M_{2 / 3}}$ and $\mathrm{M_4}$ edges of transition metals. In particular, the edges of Mn, Fe and Ni, all fall between 40-70eV.  As these elements are key components to cathode materials, they can require further steps for analysis to be possible.
 
 
 
 \subsection{Preprocessing}
 
-There are two key steps to be performed upon acquiring an ELNES spectra before it can be used for meaningful conclusions, background subtraction and deconvolution. 
+There are two key steps to be performed upon acquiring an ELNES spectra before it can be used for meaningful analysis, background subtraction and deconvolution. 
 
 
 
@@ -224,7 +231,7 @@ Where $E$ is the energy loss and $A$ and $r$ are fitting factors, typically dete
 \end{figure}
 
 \subsubsection{Deconvolution} \label{deconvolution}
-Despite significant improvements in experimental equipment, there is still a degree of energy spread on beam electrons, typically in the range of $\sim$0.5-3eV.  This energy spread results in the observed ELNES on a spectra to be a convolution between the ``actual" ELNES and the ZLP.  Additionally, the probability plural scattering must also be addressed, as the low loss region of the spectrum is convoluted into the output spectra.  In order to recover the single scattering spectrum, the output must undergo deconvolution.  A number of techniques can be adopted for this purpose which can be split into either Fourier or Bayesian methods.   Fourier techniques rely on describing the signal as a number of convolutions:
+Despite significant improvements in experimental equipment, there is still a degree of energy spread on beam electrons, typically in the range of $\sim$0.5-3eV.  This energy spread results in the observed ELNES on a spectra to be a convolution between the ``actual" ELNES and the ZLP.  Additionally, the probability of plural scattering must also be addressed, as the low loss region of the spectrum is convoluted into the output spectra.  In order to recover the single scattering spectrum, the output must undergo deconvolution.  A number of techniques can be adopted for this purpose which can be split into either Fourier or Bayesian methods.   Fourier techniques rely on describing the signal as a number of convolutions:
 
 \begin{equation}
  	J(E) = Z(E))\ast[\delta(E) + \frac{S(E)}{I_0} +  \frac{S(E) \ast S(E)}{2! I_0}   + ...]
@@ -232,7 +239,7 @@ Despite significant improvements in experimental equipment, there is still a deg
 
 
 
-Where J(E) is the obtained spectra, Z(E) is the zero loss peak, S(E) is the single scattering spectra, and I$_0$ is the integrated intensity of the zero loss.  The double scattering term is the convolution of the two single scattering terms, weighted by the decreased probability according to Poisson statistics.   Taking a Fourier transform of this turns all of the convolutions into products: 
+Where $\delta(E)$ is a delta function,  J(E) is the obtained spectra, Z(E) is the zero loss peak, S(E) is the single scattering spectra, and I$_0$ is the integrated intensity of the zero loss.  The double scattering term is the convolution of the two single scattering terms, weighted by the decreased probability according to Poisson statistics.   Taking a Fourier transform turns all of the convolutions into products( lower case indicates Fourier transform): 
 
 \begin{equation}
 	j(\nu) = z(\nu) \left(1+\frac{s(\nu)}{I_0}+   \frac{s^2(\nu)}{2! I_0}+ \frac{s^3(\nu)}{3! I_0} + ...\right)
@@ -245,7 +252,7 @@ Which can in turn be collapsed into an exponential:
 	j(\nu) = z(\nu)\mathrm{exp}[s(\nu)/I_0]
 \end{equation}
 
-This equation can then be solved for $s(\nu)$ and reverse Fourier transformed to obtain the single scattering spectra.  In order to avoid amplifying the noise in the original spectra,  represented by high frequency terms in Fourier space, the result must be broadened by a modifier.  Thus, deconvolution can improve the energy resolution of the spectra only to a certain extent.  \\
+This equation can then be solved for $s(\nu)$ and reverse Fourier transformed to obtain the single scattering spectra \cite{egerton_fourier_1985}.  In order to avoid amplifying the noise in the original spectra,  represented by high frequency terms in Fourier space, the result must be broadened by a modifier.  Thus, deconvolution can improve the energy resolution of the spectra only to a certain extent.  \\
 
 More recently, Bayesian methods have found success as well, in particular the Richardson-Lucy technique \cite{richardson_lucy}. This technique is based on iterative methods initially developed in astronomy and used for the deconvolution of images, including those taken with the Hubble space telescope \cite{hubble}.  Similar to Fourier methods, the starting point is a convolution of the ideal spectra with the low loss, or point spread function ($R(E)$):
 

@@ -153,18 +153,18 @@ Jaysen Nelayah, Mathieu Kociak, Odile Stéphan, F.~Javier García~de Abajo,
 \newblock Mapping surface plasmons on a single metallic nanoparticle.
 \newblock {\em Nature Physics}, 3(5):348--353, 2007.
 
+\bibitem{torrisi_atomic_2016}
+G.~Torrisi, A.~Di Mauro, M.~Scuderi, G.~Nicotra, and G.~Impellizzeri.
+\newblock Atomic layer deposition of {ZnO}/{TiO} 2 multilayers: towards the
+  understanding of {Ti}-doping in {ZnO} thin films.
+\newblock {\em RSC Advances}, 6(91):88886--88895, 2016.
+
 \bibitem{hamon_elnes_2004}
 Ann-Lenaig Hamon, Jo~Verbeeck, Dominique Schryvers, Jan Benedikt, and Richard
   M. C. M. v~d Sanden.
 \newblock {ELNES} study of carbon {K-edge} spectra of plasma deposited carbon
   films.
 \newblock {\em Journal of Materials Chemistry}, 14(13):2030--2035, 2004.
-
-\bibitem{torrisi_atomic_2016}
-G.~Torrisi, A.~Di Mauro, M.~Scuderi, G.~Nicotra, and G.~Impellizzeri.
-\newblock Atomic layer deposition of {ZnO}/{TiO} 2 multilayers: towards the
-  understanding of {Ti}-doping in {ZnO} thin films.
-\newblock {\em RSC Advances}, 6(91):88886--88895, 2016.
 
 \bibitem{reimer_transmission_2008}
 Helmut Kohl and Ludwig Reimer.
@@ -184,6 +184,11 @@ Jordan~A. Hachtel, Andrew~R. Lupini, and Juan~Carlos Idrobo.
 \newblock Exploring the capabilities of monochromated electron energy loss
   spectroscopy in the infrared regime.
 \newblock {\em Scientific Reports}, 8(1):5637, April 2018.
+
+\bibitem{egerton_radiation_2004}
+R.~F. Egerton, P.~Li, and M.~Malac.
+\newblock Radiation damage in the {TEM} and {SEM}.
+\newblock {\em Micron}, 35(6):399--409, August 2004.
 
 \bibitem{egerton_basic_2010}
 R.~F. Egerton, R.~McLeod, F.~Wang, and M.~Malac.
@@ -222,6 +227,11 @@ T.~Riedl, T.~Gemming, and K.~Wetzig.
 \newblock Extraction of {EELS} white-line intensities of manganese compounds:
   {Methods}, accuracy, and valence sensitivity.
 \newblock {\em Ultramicroscopy}, 106(4):284--291, March 2006.
+
+\bibitem{egerton_fourier_1985}
+R.~F. Egerton, B.~G. Williams, and T.~G. Sparrow.
+\newblock Fourier deconvolution of electron energy-loss spectra.
+\newblock {\em Proc. R. Soc. Lond. A}, 398(1815):395--404, April 1985.
 
 \bibitem{richardson_lucy}
 A.~Gloter, A.~Douiri, M.~Tencé, and C.~Colliex.
