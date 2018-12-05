@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.9.12)  20 NOV 2018 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.9.12)  21 NOV 2018 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1529,24 +1529,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--54
 ] (./Additional_files/french_abstract.tex
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no § in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
 
 Overfull \hbox (0.62216pt too wide) in paragraph at lines 4--5
 \OT1/cmr/m/n/12 La spec-tro-scopie par perte d'^^Senergie des ^^Selectrons (EEL
@@ -1679,15 +1661,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-<Images/Carbon_k_edges.png, id=403, 578.16pt x 433.62pt>
+[9 <./Images/eels_dos.png>]
+<Images/Carbon_k_edges.png, id=412, 578.16pt x 433.62pt>
 File: Images/Carbon_k_edges.png Graphic file (type png)
 
 <use Images/Carbon_k_edges.png>
 Package pdftex.def Info: Images/Carbon_k_edges.png used on input line 110.
-(pdftex.def)             Requested size: 352.31625pt x 264.23654pt.
- [9 <./Images/eels_dos.png>] [10 <./Images/multiple_plasmons.png>] [11 <./Image
-s/Carbon_k_edges.png>]
-<Images/Expt_setup.png, id=429, 874.01532pt x 701.62125pt>
+(pdftex.def)             Requested size: 258.36668pt x 193.77081pt.
+ [10 <./Images/multiple_plasmons.png>]
+<Images/Expt_setup.png, id=424, 874.01532pt x 701.62125pt>
 File: Images/Expt_setup.png Graphic file (type png)
 
 <use Images/Expt_setup.png>
@@ -1698,7 +1680,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-[12 <./Images/Expt_setup.png>] [13]
+[11 <./Images/Carbon_k_edges.png>] [12 <./Images/Expt_setup.png>] [13]
 <./Images/beam_energy_vs_max_transfer.png, id=453, 852.18375pt x 617.30624pt>
 File: ./Images/beam_energy_vs_max_transfer.png Graphic file (type png)
 
@@ -1706,38 +1688,37 @@ File: ./Images/beam_energy_vs_max_transfer.png Graphic file (type png)
 Package pdftex.def Info: ./Images/beam_energy_vs_max_transfer.png used on input
  line 168.
 (pdftex.def)             Requested size: 352.31625pt x 255.21654pt.
- [14]
+ [14 <./Images/beam_energy_vs_max_transfer.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[15 <./Images/beam_energy_vs_max_transfer.png>] [16]
-<Images/full_bg.png, id=495, 433.62pt x 289.08pt>
+[15] [16] <Images/full_bg.png, id=499, 433.62pt x 289.08pt>
 File: Images/full_bg.png Graphic file (type png)
- <use Images/full_bg.png>
+
+<use Images/full_bg.png>
 Package pdftex.def Info: Images/full_bg.png used on input line 213.
 (pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
-
-<Images/good_window.png, id=496, 433.62pt x 289.08pt>
+ <Images/good_window.png, id=500, 433.62pt x 289.08pt>
 File: Images/good_window.png Graphic file (type png)
 
 <use Images/good_window.png>
 Package pdftex.def Info: Images/good_window.png used on input line 220.
 (pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
 
-<Images/bad_window.png, id=497, 433.62pt x 289.08pt>
+<Images/bad_window.png, id=501, 433.62pt x 289.08pt>
 File: Images/bad_window.png Graphic file (type png)
 
 <use Images/bad_window.png>
 Package pdftex.def Info: Images/bad_window.png used on input line 225.
 (pdftex.def)             Requested size: 211.38832pt x 140.92703pt.
- [17] [18 <./Images/full_bg.png> <./Images/good_window.png> <./Images/bad_windo
-w.png>]
+ [17 <./Images/full_bg.png> <./Images/good_window.png> <./Images/bad_window.png
+>]
 Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
-[19] <Images//deconvolutions/0iter.png, id=533, 578.16pt x 433.62pt>
+[18] <Images//deconvolutions/0iter.png, id=529, 578.16pt x 433.62pt>
 File: Images//deconvolutions/0iter.png Graphic file (type png)
 
 <use Images//deconvolutions/0iter.png>
@@ -1749,7 +1730,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 280--281
 [][] 
  []
 
-<Images//deconvolutions/5iter.png, id=534, 578.16pt x 433.62pt>
+<Images//deconvolutions/5iter.png, id=530, 578.16pt x 433.62pt>
 File: Images//deconvolutions/5iter.png Graphic file (type png)
 
 <use Images//deconvolutions/5iter.png>
@@ -1761,7 +1742,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 284--285
 [][] 
  []
 
-<Images//deconvolutions/25iter.png, id=535, 578.16pt x 433.62pt>
+<Images//deconvolutions/25iter.png, id=531, 578.16pt x 433.62pt>
 File: Images//deconvolutions/25iter.png Graphic file (type png)
 
 <use Images//deconvolutions/25iter.png>
@@ -1773,7 +1754,7 @@ Overfull \hbox (38.2998pt too wide) in paragraph at lines 288--289
 [][] 
  []
 
-<Images//deconvolutions/50iter.png, id=536, 578.16pt x 433.62pt>
+<Images//deconvolutions/50iter.png, id=532, 578.16pt x 433.62pt>
 File: Images//deconvolutions/50iter.png Graphic file (type png)
 
 <use Images//deconvolutions/50iter.png>
@@ -1785,7 +1766,7 @@ Overfull \hbox (24.20773pt too wide) in paragraph at lines 293--294
 [][] 
  []
 
-<Images//deconvolutions/100iter.png, id=537, 578.16pt x 433.62pt>
+<Images//deconvolutions/100iter.png, id=533, 578.16pt x 433.62pt>
 File: Images//deconvolutions/100iter.png Graphic file (type png)
 
 <use Images//deconvolutions/100iter.png>
@@ -1797,50 +1778,52 @@ Overfull \hbox (24.20773pt too wide) in paragraph at lines 298--299
 [][] 
  []
 
-[20 <./Images//deconvolutions/0iter.png> <./Images//deconvolutions/5iter.png> <
-./Images//deconvolutions/25iter.png> <./Images//deconvolutions/50iter.png> <./I
-mages//deconvolutions/100iter.png>] [21]) (./Chapters/DFT.tex
-<Images/method_scaling.png, id=567, 927.465pt x 621.82312pt>
+[19] [20 <./Images//deconvolutions/0iter.png> <./Images//deconvolutions/5iter.p
+ng> <./Images//deconvolutions/25iter.png> <./Images//deconvolutions/50iter.png>
+ <./Images//deconvolutions/100iter.png>]) (./Chapters/DFT.tex [21]
+<Images/method_scaling.png, id=568, 927.465pt x 621.82312pt>
 File: Images/method_scaling.png Graphic file (type png)
 
 <use Images/method_scaling.png>
 Package pdftex.def Info: Images/method_scaling.png used on input line 20.
 (pdftex.def)             Requested size: 234.8775pt x 157.4669pt.
- [22] [23 <./Images/method_scaling.png>]
-[24] [25] [26] <Images/muffin_tins.png, id=642, 336.25626pt x 203.76125pt>
+ [22 <./Images/method_scaling.png>] [23]
+[24] [25] <Images/muffin_tins.png, id=633, 336.25626pt x 203.76125pt>
 File: Images/muffin_tins.png Graphic file (type png)
 
 <use Images/muffin_tins.png>
 Package pdftex.def Info: Images/muffin_tins.png used on input line 115.
 (pdftex.def)             Requested size: 234.8775pt x 142.3303pt.
-
+ [26]
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-[27] <Images/DFT_flowchart.png, id=665, 769.37437pt x 732.48656pt>
+[27 <./Images/muffin_tins.png>]
+<Images/DFT_flowchart.png, id=666, 769.37437pt x 732.48656pt>
 File: Images/DFT_flowchart.png Graphic file (type png)
 
 <use Images/DFT_flowchart.png>
 Package pdftex.def Info: Images/DFT_flowchart.png used on input line 126.
 (pdftex.def)             Requested size: 230.81409pt x 219.74765pt.
- [28 <./Images/muffin_tins.png>] [29 <./Images/DFT_flowchart.png>]
-<Images/bader_topo_plot.png, id=691, 663.47874pt x 265.99374pt>
+ [28 <./Images/DFT_flowchart.png>]
+<Images/bader_topo_plot.png, id=683, 663.47874pt x 265.99374pt>
 File: Images/bader_topo_plot.png Graphic file (type png)
 
 <use Images/bader_topo_plot.png>
 Package pdftex.def Info: Images/bader_topo_plot.png used on input line 160.
 (pdftex.def)             Requested size: 352.31625pt x 141.24794pt.
- [30 <./Images/bader_topo_plot.png>]
-<Images/atomic_orbital_size.png, id=709, 1026.83624pt x 795.97375pt>
+ [29]
+<Images/atomic_orbital_size.png, id=703, 1026.83624pt x 795.97375pt>
 File: Images/atomic_orbital_size.png Graphic file (type png)
 
 <use Images/atomic_orbital_size.png>
 Package pdftex.def Info: Images/atomic_orbital_size.png used on input line 171.
 
 (pdftex.def)             Requested size: 352.31625pt x 273.1052pt.
-) (./Chapters/EELScalculations.tex [31 <./Images/atomic_orbital_size.png>] [32]
- [33]
+) (./Chapters/EELScalculations.tex [30 <./Images/bader_topo_plot.png>] [31 <./I
+mages/atomic_orbital_size.png>] [32]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -2083,7 +2066,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
 [54]
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
@@ -2202,7 +2195,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
 Here is how much of TeX's memory you used:
  16468 strings out of 494941
  287832 string characters out of 6180918
- 341647 words of memory out of 5000000
+ 342647 words of memory out of 5000000
  19265 multiletter control sequences out of 15000+600000
  10779 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2223,7 +2216,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (77 pages, 4199842 bytes).
+Output written on thesis.pdf (77 pages, 4199685 bytes).
 PDF statistics:
  1195 PDF objects out of 1200 (max. 8388607)
  1004 compressed objects within 11 object streams
